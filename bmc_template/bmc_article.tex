@@ -176,12 +176,11 @@
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-\parttitle{Background} 
-Incorporating microbial ecological roles in microbiome association analyses can increase Microbiomes exhibit a high degree of variation in taxonomic composition between individuals while maintaining relatively stable functional profiles, which suggests that microbes found to be differentially abundant might not correspond to shifts in functional outcomes in a one-to-one fashion. Therefore, incorporating microbial ecological roles in population-level microbiome association analyses can increase the interpretability of results and uncover the underlying mechanistic interactions between the microbiome and its host. These roles can be obtained at the species level via trait databases, which aggregates experimentally determined microbial features from both automatic and hand-curated sources. When applied to amplicon sequencing data sets, we can obtain functional information without certain assumptions in metagenomic prediction methods such as the phylogenetic conservation of traits. Here, we evaluate leveraging trait databases to construct relevant functionally driven taxon sets and then test for enrichment using taxonomic compositions with set-based methods. Using publicly available microbiome sequencing data sets from patients with inflammatory bowel disease, we assessed these taxonomically enriched functional traits on two aspects: first, do they provide biologically meaningful results when compared against corresponding pathway profiles from metagenomic data sets; and second, do they confer additional predictive power on disease classification tasks when assessed against taxonomic relative abundances and PICRUSt2 predicted pathway abundances.   
+\parttitle{Background} Set-based pathway analysis is a powerful tool that allows researchers to summarize complex genomic variables in the form of biologically interpretable sets. Since the microbiome is characterized by a high degree of inter-individual variability in taxonomic compositions, applying enrichment methods using on functionally driven taxon sets can increase both the reproducibility and interpretability of microbiome association studies. However, there is still an open question of which knowledge base utilize for set construction. Here, we evaluate microbial trait databases, which aggregates experimentally determined microbial phenotypes, as a potential avenue for meaningful construction of taxon sets.  
 
+\parttitle{Methods} Using publicly available microbiome sequencing data sets (both 16S rRNA gene sequencing and whole-genome sequencing), we assessed these trait-based sets on three aspects: first, do they cover the diversity of microbes obtained from a typical data set; second, do they confer additional predictive power on disease prediction tasks when assessed against measured pathway abundances and PICRUSt2 prediction; third, for sets that are found to be enriched, are pathways corresponding to the trait also have increased abundances.     
 
-\parttitle{Results}
-Text for this section.
+\parttitle{Results}  
 \parttitle{Conclusions}
 
 \end{abstract}
@@ -242,7 +241,8 @@ Text for this section.
 \section*{Introduction}
 
 \section*{Methods}
-\subsection*{Constructing the trait database}
+\subsection*{Constructing the trait database}  
+We utilized pre-compiled trait databases from previous publications, Madin et al. \cite{madin2020synthesis} and Weissman et al \cite{weissman2021exploring} 
 
 \section*{Results}
 
