@@ -46,7 +46,6 @@
 \documentclass{bmcart}
 
 %%% Load packages
-\usepackage{hyperref}
 \usepackage{array}
 \usepackage{amsthm,amsmath}
 %\RequirePackage[numbers]{natbib}
@@ -93,7 +92,7 @@
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Evaluating trait-based analyses for microbiome relative abundance data}
+\title{Evaluating trait-based sets for taxonomic enrichment analysis in microbiome data sets}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -177,11 +176,14 @@
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-\parttitle{First part title} %if any
-Text for this section.
+\parttitle{Background} 
+Incorporating microbial ecological roles in microbiome association analyses can increase Microbiomes exhibit a high degree of variation in taxonomic composition between individuals while maintaining relatively stable functional profiles, which suggests that microbes found to be differentially abundant might not correspond to shifts in functional outcomes in a one-to-one fashion. Therefore, incorporating microbial ecological roles in population-level microbiome association analyses can increase the interpretability of results and uncover the underlying mechanistic interactions between the microbiome and its host. These roles can be obtained at the species level via trait databases, which aggregates experimentally determined microbial features from both automatic and hand-curated sources. When applied to amplicon sequencing data sets, we can obtain functional information without certain assumptions in metagenomic prediction methods such as the phylogenetic conservation of traits. Here, we evaluate leveraging trait databases to construct relevant functionally driven taxon sets and then test for enrichment using taxonomic compositions with set-based methods. Using publicly available microbiome sequencing data sets from patients with inflammatory bowel disease, we assessed these taxonomically enriched functional traits on two aspects: first, do they provide biologically meaningful results when compared against corresponding pathway profiles from metagenomic data sets; and second, do they confer additional predictive power on disease classification tasks when assessed against taxonomic relative abundances and PICRUSt2 predicted pathway abundances.   
 
-\parttitle{Second part title} %if any
+
+\parttitle{Results}
 Text for this section.
+\parttitle{Conclusions}
+
 \end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -193,9 +195,9 @@ Text for this section.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{keyword}
-\kwd{sample}
-\kwd{article}
-\kwd{author}
+\kwd{microbiome}
+\kwd{enrichment analysis}
+\kwd{trait database}
 \end{keyword}
 
 % MSC classifications codes, if any
@@ -237,32 +239,14 @@ Text for this section.
 %% Background %%
 %%
 
+\section*{Introduction}
+
 \section*{Methods}
 \subsection*{Constructing the trait database}
-\begin{table}[h!]
-\caption{Sample table title. This is where the description of the table should go}
-  \begin{tabular}{|p{0.2\textwidth}|p{0.5\textwidth}|p{0.3\textwidth}|}
-    \hline
-    Name & Description & Source \\ \hline
-    ProTraits & & \url{http://protraits.irb.hr/data.html} \\ \hline
-    MediaDB & & \url{https://mediadb.systemsbiology.net/} \\ \hline
-    Microbe Directory &  & \url{https://github.com/microbe-directory/microbe-directory}\\ \hline
-    JGI GOLD & & \url{https://gold.jgi.doe.gov/index}\\ \hline
-    FAPROTAX & & \url{https://pages.uoregon.edu/slouca/LoucaLab/archive/FAPROTAX/lib/php/index.php} \\ \hline
-    BacDive & & \url{https://bacdive.dsmz.de/} \\ \hline
-  \end{tabular}
-\end{table}
 
-\begin{equation}\label{eqexpmuts}
-\begin{aligned}[b]
-&      E\bigl[Z_1(vT_x)\bigr]\\
-&\quad      = \frac{\mu}{r}\log x
-\int_0^{v\wedge1}x^{1-u}x^{({\lambda_1}/{r})(v-u)}\,du .
-\end{aligned}
-\end{equation}
-%
-Thus we observe that this expected value is finite for all $v>0$ (also see \cite{koon,xjon,marg,schn,koha,issnic}).
+\section*{Results}
 
+\section*{Discussion}
 
 \section*{Appendix}
 Text for this section\ldots
