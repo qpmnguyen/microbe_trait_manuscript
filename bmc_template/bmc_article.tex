@@ -92,7 +92,7 @@
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\title{Evaluating trait-based sets for taxonomic enrichment analysis in microbiome data sets}
+\title{Evaluating trait-based sets for taxonomic enrichment analysis applied to human microbiome data sets}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -176,9 +176,9 @@
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-\parttitle{Background} Set-based pathway analysis is a powerful tool that allows researchers to summarize complex genomic variables in the form of biologically interpretable sets. Since the microbiome is characterized by a high degree of inter-individual variability in taxonomic compositions, applying enrichment methods using on functionally driven taxon sets can increase both the reproducibility and interpretability of microbiome association studies. However, there is still an open question of which knowledge base utilize for set construction. Here, we evaluate microbial trait databases, which aggregates experimentally determined microbial phenotypes, as a potential avenue for meaningful construction of taxon sets.  
+\parttitle{Background} Set-based pathway analysis is a powerful tool that allows researchers to summarize complex genomic variables in the form of biologically interpretable sets. Since the microbiome is characterized by a high degree of inter-individual variability in taxonomic compositions, applying enrichment methods using on functionally driven taxon sets can increase both the reproducibility and interpretability of microbiome association studies. However, there is still an open question of which knowledge base to utilize for set construction. Here, we evaluate microbial trait databases, which aggregates experimentally determined microbial phenotypes, as a potential avenue for meaningful construction of taxon sets.  
 
-\parttitle{Methods} Using publicly available microbiome sequencing data sets (both 16S rRNA gene sequencing and whole-genome sequencing), we assessed these trait-based sets on three aspects: first, do they cover the diversity of microbes obtained from a typical data set; second, do they confer additional predictive power on disease prediction tasks when assessed against measured pathway abundances and PICRUSt2 prediction; third, for sets that are found to be enriched, are pathways corresponding to the trait also have increased abundances.     
+\parttitle{Methods} Using publicly available microbiome sequencing data sets (both 16S rRNA gene metabarcoding and whole-genome metagenomics), we assessed these trait-based sets on three aspects: first, do they cover the diversity of microbes obtained from a typical data set; second, do they confer additional predictive power on disease prediction tasks when assessed against measured pathway abundances and PICRUSt2 prediction; third, for sets that are found to be enriched, are pathways corresponding to the trait also have increased abundances.     
 
 \parttitle{Results}  
 \parttitle{Conclusions}
@@ -237,12 +237,36 @@
 %%%%%%%%%%%%%%%%
 %% Background %%
 %%
-
 \section*{Introduction}
 
-\section*{Methods}
-\subsection*{Constructing the trait database}  
-We utilized pre-compiled trait databases from previous publications, Madin et al. \cite{madin2020synthesis} and Weissman et al \cite{weissman2021exploring} 
+\section*{Material and methods}
+\subsection*{Trait database}  
+
+We utilized pre-compiled trait databases from previous publications, Madin et al. \cite{madin2020synthesis} and Weissman et al \cite{weissman2021exploring}. Madin et al. was chosen since it is the most  comprehensive compilation of microbial (bacteria and archaea) physiological traits based on existing sources to date. On the other hand, Weissman et al. provides a novel human microbiome specific curation based on the latest version of Bergey's manual. We combined both databases into a joint knowledge base and constructed sets for each available categorical trait. Additionally for the Madin et al. database, we updated data entries sourced from GOLD \cite{mukherjee2021genomes} due to the fact that compared to other compiled sources, GOLD is continuously updated via community submissions.  
+
+\noindent All traits are defined at the species level via NCBI identifiers. However, due to restrictions for 16S rRNA gene sequencing data sets to resolve beyond the genus level \cite{johnson2019evaluation}, we also assigned traits to each genera based on a two-step process: 
+\begin{itemize}
+    \item A hypergeometric test to ascertain whether the genera is underrepresented in the database based on the total number of species assigned to that genera in NCBI Taxonomy \cite{schoch2020ncbi} compared to our trait database. If a genera is underrepresented in our database, the trait is not assigned to the genera. Specifically we assessed $P(X \leq x)$ at $\alpha = 0.05$ where $X \sim Hypergeometric(k, N, K)$, with $x$ as the total number of species assigned to that genera in the database, $k$ as the total number of species in the database, $N$ as the total number of species in NCBI Taxonomy, and $K$ as the total number of species assigned to the genera in NCBI Taxonomy.
+    \item For all genera that are well represented in the database, we then assessed the proportion of species under that genera has the trait. If over 95\% of species have the trait, then the trait is assigned to the genera. 
+\end{itemize}
+
+\subsection*{Data sets}  
+We evaluated trait-based sets on publicly available 16S rRNA gene metabarcoding and whole-genome metagenomic data sets. 
+
+\noindent To assess trait annotation coverage, we utilized data from the Human Microbiome Project (HMP) \cite{
+
+
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsection*{Comparison approaches}  
+
+\subsection*{Coverage analysis}  
+
+\subsection*{Prediction analysis}  
+
+\subsection*{Concordance analysis}
 
 \section*{Results}
 
