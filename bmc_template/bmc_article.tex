@@ -54,7 +54,7 @@
 \usepackage[utf8]{inputenc} %unicode support
 %\usepackage[applemac]{inputenc} %applemac support if unicode package fails
 %\usepackage[latin1]{inputenc} %UNIX support if unicode package fails
-
+\usepackage{graphicx}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                             %%
 %%  If you wish to display your graphics for   %%
@@ -70,8 +70,9 @@
 %%                                             %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\def\includegraphic{}
-\def\includegraphics{}
+%%%%% UN COMMENT BEFORE SUBMISSION
+%\def\includegraphic{}
+%\def\includegraphics{}
 
 %%% Put your definitions there:
 \startlocaldefs
@@ -291,6 +292,13 @@ We also want to evaluate whether trait-based features can add information for mi
 \subsection*{Trait-based taxonomic sets}
 
 \subsection*{Database coverage}
+
+\begin{figure}[!h]
+\includegraphics[width=\linewidth]{bmc_template/figures/coverage_16s.png}
+\caption{Trait annotation coverage across different body sites for the HMP 16S rRNA metabarcoding data. Panel \textbf{(A)} illustrates the proportion of present taxa per sample annotated to at least one trait. Panel \textbf{(B)} }
+\label{fig:1}
+\end{figure}
+
 
 \subsection*{Concordance with external sources}  
 
