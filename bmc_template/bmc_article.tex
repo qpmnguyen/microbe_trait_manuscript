@@ -179,9 +179,10 @@
 \begin{abstract} % abstract
 \parttitle{Background} Set-based pathway analysis is a powerful tool that allows researchers to summarize complex genomic variables in the form of biologically interpretable sets. Since the microbiome is characterized by a high degree of inter-individual variability in taxonomic compositions, applying enrichment methods using on functionally driven taxon sets can increase both the reproducibility and interpretability of microbiome association studies. However, there is still an open question of which knowledge base to utilize for set construction. Here, we evaluate microbial trait databases, which aggregates experimentally determined microbial phenotypes, as a potential avenue for meaningful construction of taxon sets.  
 
-\parttitle{Methods} Using publicly available microbiome sequencing data sets (both 16S rRNA gene metabarcoding and whole-genome metagenomics), we assessed these trait-based sets on three aspects: first, do they cover the diversity of microbes obtained from a typical data set; second, do they confer additional predictive power on disease prediction tasks when assessed against measured pathway abundances and PICRUSt2 prediction; third, for sets that are found to be enriched, are pathways corresponding to the trait also have increased abundances.     
+\parttitle{Methods} Using publicly available microbiome sequencing data sets (both 16S rRNA gene metabarcoding and whole-genome metagenomics), we assessed these trait-based sets on three aspects: first, do they cover the diversity of microbes obtained from a typical data set, and second, do they confer additional predictive power on disease prediction tasks when assessed against measured pathway abundances and PICRUSt2 prediction.   
+%third, for sets that are found to be enriched, are pathways corresponding to the trait also have increased abundances.     
 
-\parttitle{Results}  
+\parttitle{Results} 
 \parttitle{Conclusions}
 
 \end{abstract}
@@ -240,6 +241,12 @@
 %%
 \section*{Introduction}
 
+Advancements in high-throughout sequencing technologies have allowed researchers to characterize the identity and functional potential of a large proportion of microorganisms in human-associated microbiomes. This has enabled efficient study of the link between health outcomes and the microbiota without reliance on currently limited culture-based approaches \cite{lagier2016culture}. As such, there has been an increase in microbiome profiling studies, primarily aiming towards identifying specific microbes that are differentially abundant across healthy controls and diseased individuals \cite{zhang2019advancing}. However, such analyses face unique computational and statistical challenges \cite{li2019statistical}, which includes addressing the burden of multiple testing and providing meaningful biological interpretations.  
+
+\noindent This issue of understanding obtained results in the broader context of biological processes mirrors that of other high-throughput data sets. One approach that has proven to be fruitful in human genomic studies is gene set testing (or pathway analysis) which focuses on analyzing the coordinated expression of groups of genes (termed gene sets) \cite{maleki2020gene}. Since these gene sets are usually defined in terms of biological annotations \cite{liberzon2015molecular}, results are often more interpretable and more powered compared to a gene-centric approach \cite{goeman2007analzying}.   
+
+
+
 \section*{Material and methods}
 
 All analyses were performed in the R programming language (version 4.1.2) \cite{rcoreteam2021language} and the Python programming language (version 3.10.4). All graphics were generated using \texttt{ggplot2}, \texttt{ggsci}, \texttt{patchwork}. Tabular data manipulation was performed using \texttt{pandas} for python, and \texttt{tidyverse} suite of packages for R. Additional packages utilized include: \texttt{BiocSet}, \texttt{taxizedb}, \texttt{phyloseq}, \texttt{TreeSummarizedExperiment}. For enrichment analyses, we leveraged the CBEA \cite{nguyen2021cbea} method (version 1.0.1) developed prior by our lab. All analyses were performed using the \texttt{snakemake} workflow \cite{missing}. All reproducible code and intermediate analysis products can be found on GitHub (qpmnguyen/microbe\_set\_trait).  
@@ -260,7 +267,7 @@ We utilized pre-compiled trait databases from previous publications: Madin et al
 
 \noindent All processed databases and resulting taxonomic sets can be found on GitHub in the analysis repository. 
 
-\subsection*{Evaluation data sets}  \label{data sources}. 
+\subsection*{Evaluation data sets}  \label{data sources} 
 We evaluated trait-based sets on publicly available 16S rRNA gene metabarcoding and whole-genome metagenomic data sets. For study-specific metabarcoding data sets, we obtained data directly from associated European Nucleotide Archive (ENA) repositories and re-processed raw sequence files into amplicon sequence variant (ASV) tables using the \texttt{dada2} QIIME 2 (version 2022.2) plugin \cite{callahan2016dada2, boylen2019reproducible}. Taxonomic classification was performed using a pre-trained weighted naive bayes model \cite{missing} using the SILVA NR 99 database version 138 \cite{quast2013silva} available via QIIME 2. For all our metagenomic data sets, we downloaded taxonomic and pathway abundance tables directly from the \texttt{curatedMetagenomicData} R package \cite{pasolli2017accessible} (2021-10-19 snapshot), which processed the data via the \texttt{bioBakery} \cite{beghini2021integrating} metagenomic data processing pipeline by the package authors. Data from the Human Microbiome Project (HMP) was obtained using the \texttt{HMP16SData} \cite{schiffer2019hmp16sdata} (for metabarcoding data) and \texttt{curatedMetagenomicData} \cite{pasolli2017accessible} (for metagenomic data) R packages.   
  
 \noindent To assess trait annotation coverage, we utilized data from both Phase I and II of the HMP \cite{consortium2012structure} as it contains surveys for multiple human-associated environments from healthy subjects. For predictive and concordance analyses, we focused on colorectal cancer (CRC) and inflammatory bowel disease (IBD) as study conditions. Both CRC and IBD are well represented across both metabarcoding and metagenomic data sets, allowing compariative comparisons across sequencing methodology. Furthermore, these conditions are also under active study within the microbiome literature, which improves the ability to interpret the biological significance of the results. For CRC, we utilized data from Zeller et al. \cite{zeller2014potential}, Feng et al. \cite{feng2015gut}, Gupta et al. \cite{gupta2019association}, Hannigan et al. \cite{hannigan2018diagnostic}, Thomas et al. \cite{thomas2019metagenomic}, Vogtmann et al. \cite{vogtmann2016colorectal}, Wirbel et al. \cite{wirbel2019metaanalysis}, Yachida et al. \cite{yachida2019metagenomic}, and Yu et al. \cite{yu2017metagenomica}. 
@@ -299,24 +306,32 @@ We also want to evaluate whether trait-based features can add information for mi
 \subsection*{Database coverage}
 
 \begin{figure}[!h]
-\includegraphics[width=0.99\linewidth]{bmc_template/figures/coverage_wgs.png}
+\includegraphics[width=0.99\linewidth]{figures/coverage_wgs.png}
 \caption{Trait annotation coverage across different body sites for the HMP data set profiled using whole genome shotgun sequencing. Panel \textbf{(A)} illustrates the proportion of present taxa per sample annotated to at least one trait. Panel \textbf{(B)} illustrates the proportion of reads assigned to taxa annotated to at least one trait which accounts for taxa relative abundances. Each plot facet represents different trait categories that were evaluated}
 \label{fig:1}
 \end{figure}
 
 \begin{figure}[!h]
-\includegraphics[width=0.99\linewidth]{bmc_template/figures/coverage_by_trait_agg.png}
+\includegraphics[width=0.99\linewidth]{figures/coverage_by_joint_agg.png}
 \caption{Trait annotation coverage across different body sites for the HMP data set profiled using whole genome shotgun sequencing. Panel \textbf{(A)} illustrates the proportion of present taxa per sample annotated to at least one trait. Panel \textbf{(B)} illustrates the proportion of reads assigned to taxa annotated to at least one trait which accounts for taxa relative abundances. Each plot facet represents different trait categories that were evaluated}
-\label{fig:1}
+\label{fig:2}
 \end{figure}
 
-\subsection*{Predictive analysis}. 
+\subsection*{Predictive analysis} 
 
 \begin{figure}[!h]
-\includegraphics[width=0.99\linewidth]{bmc_template/figures/pred_performance.png}
+\includegraphics[width=0.99\linewidth]{figures/pred_performance.png}
 \caption{Trait annotation coverage across different body sites for the HMP data set profiled using whole genome shotgun sequencing. Panel \textbf{(A)} illustrates the proportion of present taxa per sample annotated to at least one trait. Panel \textbf{(B)} illustrates the proportion of reads assigned to taxa annotated to at least one trait which accounts for taxa relative abundances. Each plot facet represents different trait categories that were evaluated}
-\label{fig:1}
+\label{fig:3}
 \end{figure}
+
+\begin{figure}[!h]
+\includegraphics[width=0.99\linewidth]{figures/feat_importance_wgs.png}
+\caption{Trait annotation coverage across different body sites for the HMP data set profiled using whole genome shotgun sequencing. Panel \textbf{(A)} illustrates the proportion of present taxa per sample annotated to at least one trait. Panel \textbf{(B)} illustrates the proportion of reads assigned to taxa annotated to at least one trait which accounts for taxa relative abundances. Each plot facet represents different trait categories that were evaluated}
+\label{fig:4}
+\end{figure}
+
+
 
 \subsection*{Concordance with external sources}  
 
@@ -332,7 +347,7 @@ Text for this section\ldots
 %% Backmatter begins here                   %%
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\clearpage
 \begin{backmatter}
 
 \section*{Acknowledgements}%% if any
@@ -409,14 +424,14 @@ Text for this section\ldots
 %%
 %% Do not use \listoffigures as most will included as separate files
 
-\section*{Figures}
-  \begin{figure}[h!]
-  \caption{Sample figure title}
-\end{figure}
+%\section*{Figures}
+%  \begin{figure}[h!]
+%  \caption{Sample figure title}
+%\end{figure}
 
-\begin{figure}[h!]
-  \caption{Sample figure title}
-\end{figure}
+%\begin{figure}[h!]
+%  \caption{Sample figure title}
+%\end{figure}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                               %%
