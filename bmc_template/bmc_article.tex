@@ -298,13 +298,31 @@ In addition to coverage stratified by trait categories and body sites, we also g
 
 We also want to evaluate whether trait-based features can add information for microbiome-based disease prediction compared to other data inputs. Here, we generated sample-level enrichment scores for each trait using \texttt{CBEA} and utilized them as inputs to a standard random forest model \cite{breiman2001random}. Model fitting was done using \texttt{scikit-learn} \cite{scikit-learn} where all parameters were set as default with the exception of the total number of trees per ensemble (500) and the total number of features considered per split (equal to the square root of the total number of features). Similar to our concordance analyses, we compared model performance using trait enrichment scores against measured and PICRUSt2 predicted pathway abundances (for metagenomic and metabarcoding data sets, respectively).
 
-Model performance was measured using the area under the receiver operating characteristic curve (AUROC) and Brier scores. These metrics and associated confidence intervals were obtained by fitting and evaluating the model via a 10-fold cross-validation procedure. To obtain calibrated predictive probabilities for Brier scores, we applied Platt's method (using \texttt{CalibratedClassifierCV}) with 5-fold cross validation nested within the training fold and used the ensemble model to generate test set probabilities \cite{Platt99probabilisticoutputs}.
+Model performance was measured using the area under the receiver operating characteristic curve (AUROC) and Brier scores. These metrics and associated confidence intervals were obtained by fitting and evaluating the model via a 10-fold cross-validation procedure. To obtain calibrated predictive probabilities for Brier scores, we applied Platt's method (using \texttt{CalibratedClassifierCV}) with 5-fold cross-validation nested within the training fold and used the ensemble model to generate test set probabilities \cite{Platt99probabilisticoutputs}.
 
-In order to identify which features are important to the disease prediction process, for each input type we re-split the entire data set into train/test splits (80\% training data). We then refitted our calibrated random forest model on the training set as described above. Since our final model is an ensemble of calibrated random forest classifiers, we obtained feature importance values (based on mean decrease in impurity) as the average across all calibrated cross validation folds ($N = 10$).    
+In order to identify which features are important to the disease prediction process, for each input type we re-split the entire data set into train/test splits (80\% training data). We then refitted our calibrated random forest model on the training set as described above. Since our final model is an ensemble of calibrated random forest classifiers, we obtained feature importance values (based on the mean decrease in impurity) as the average across all calibrated cross-validation folds ($N = 10$).    
 
 \section*{Results}
 
 \subsection*{Trait-based taxonomic sets}
+
+Our combined trait database
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{rlrrr}
+  \hline
+ & name & total\_traits & n\_species & n\_genus \\ 
+  \hline
+1 & cell\_shape &   2 & 11.00 & 8.00 \\ 
+  2 & metabolism &   6 & 215.00 & 97.00 \\ 
+  3 & motility &   4 & 11.00 & 8.00 \\ 
+  4 & pathways &   5 & 12.00 & 11.00 \\ 
+  5 & sporulation &   2 & 5.00 & 5.00 \\ 
+  6 & substrate &   7 & 7.00 & 7.00 \\ 
+   \hline
+\end{tabular}
+\end{table}
 
 \subsection*{Database coverage}
 
