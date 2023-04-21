@@ -1,0 +1,4294 @@
+%% BioMed_Central_Bib_Style_v1.01
+
+\begin{thebibliography}{71}
+% BibTex style file: bmc-mathphys.bst (version 2.1), 2014-07-24
+\ifx \bisbn   \undefined \def \bisbn  #1{ISBN #1}\fi
+\ifx \binits  \undefined \def \binits#1{#1}\fi
+\ifx \bauthor  \undefined \def \bauthor#1{#1}\fi
+\ifx \batitle  \undefined \def \batitle#1{#1}\fi
+\ifx \bjtitle  \undefined \def \bjtitle#1{#1}\fi
+\ifx \bvolume  \undefined \def \bvolume#1{\textbf{#1}}\fi
+\ifx \byear  \undefined \def \byear#1{#1}\fi
+\ifx \bissue  \undefined \def \bissue#1{#1}\fi
+\ifx \bfpage  \undefined \def \bfpage#1{#1}\fi
+\ifx \blpage  \undefined \def \blpage #1{#1}\fi
+\ifx \burl  \undefined \def \burl#1{\textsf{#1}}\fi
+\ifx \doiurl  \undefined \def \doiurl#1{\textsf{#1}}\fi
+\ifx \betal  \undefined \def \betal{\textit{et al.}}\fi
+\ifx \binstitute  \undefined \def \binstitute#1{#1}\fi
+\ifx \binstitutionaled  \undefined \def \binstitutionaled#1{#1}\fi
+\ifx \bctitle  \undefined \def \bctitle#1{#1}\fi
+\ifx \beditor  \undefined \def \beditor#1{#1}\fi
+\ifx \bpublisher  \undefined \def \bpublisher#1{#1}\fi
+\ifx \bbtitle  \undefined \def \bbtitle#1{#1}\fi
+\ifx \bedition  \undefined \def \bedition#1{#1}\fi
+\ifx \bseriesno  \undefined \def \bseriesno#1{#1}\fi
+\ifx \blocation  \undefined \def \blocation#1{#1}\fi
+\ifx \bsertitle  \undefined \def \bsertitle#1{#1}\fi
+\ifx \bsnm \undefined \def \bsnm#1{#1}\fi
+\ifx \bsuffix \undefined \def \bsuffix#1{#1}\fi
+\ifx \bparticle \undefined \def \bparticle#1{#1}\fi
+\ifx \barticle \undefined \def \barticle#1{#1}\fi
+\ifx \bconfdate \undefined \def \bconfdate #1{#1}\fi
+\ifx \botherref \undefined \def \botherref #1{#1}\fi
+\ifx \url \undefined \def \url#1{\textsf{#1}}\fi
+\ifx \bchapter \undefined \def \bchapter#1{#1}\fi
+\ifx \bbook \undefined \def \bbook#1{#1}\fi
+\ifx \bcomment \undefined \def \bcomment#1{#1}\fi
+\ifx \oauthor \undefined \def \oauthor#1{#1}\fi
+\ifx \citeauthoryear \undefined \def \citeauthoryear#1{#1}\fi
+\ifx \endbibitem  \undefined \def \endbibitem {}\fi
+\ifx \bconflocation  \undefined \def \bconflocation#1{#1}\fi
+\ifx \arxivurl  \undefined \def \arxivurl#1{\textsf{#1}}\fi
+\csname PreBibitemsHook\endcsname
+
+%%% 1
+\bibitem{lagier2016culture}
+\begin{barticle}
+\bauthor{\bsnm{Lagier}, \binits{J.-C.}},
+\bauthor{\bsnm{Khelaifia}, \binits{S.}},
+\bauthor{\bsnm{Alou}, \binits{M.T.}},
+\bauthor{\bsnm{Ndongo}, \binits{S.}},
+\bauthor{\bsnm{Dione}, \binits{N.}},
+\bauthor{\bsnm{Hugon}, \binits{P.}},
+\bauthor{\bsnm{Caputo}, \binits{A.}},
+\bauthor{\bsnm{Cadoret}, \binits{F.}},
+\bauthor{\bsnm{Traore}, \binits{S.I.}},
+\bauthor{\bsnm{Seck}, \binits{E.H.}},
+\bauthor{\bsnm{Dubourg}, \binits{G.}},
+\bauthor{\bsnm{Durand}, \binits{G.}},
+\bauthor{\bsnm{Mourembou}, \binits{G.}},
+\bauthor{\bsnm{Guilhot}, \binits{E.}},
+\bauthor{\bsnm{Togo}, \binits{A.}},
+\bauthor{\bsnm{Bellali}, \binits{S.}},
+\bauthor{\bsnm{Bachar}, \binits{D.}},
+\bauthor{\bsnm{Cassir}, \binits{N.}},
+\bauthor{\bsnm{Bittar}, \binits{F.}},
+\bauthor{\bsnm{Delerce}, \binits{J.}},
+\bauthor{\bsnm{Mailhe}, \binits{M.}},
+\bauthor{\bsnm{Ricaboni}, \binits{D.}},
+\bauthor{\bsnm{Bilen}, \binits{M.}},
+\bauthor{\bsnm{Dangui~Nieko}, \binits{N.P.M.}},
+\bauthor{\bsnm{Dia~Badiane}, \binits{N.M.}},
+\bauthor{\bsnm{Valles}, \binits{C.}},
+\bauthor{\bsnm{Mouelhi}, \binits{D.}},
+\bauthor{\bsnm{Diop}, \binits{K.}},
+\bauthor{\bsnm{Million}, \binits{M.}},
+\bauthor{\bsnm{Musso}, \binits{D.}},
+\bauthor{\bsnm{Abrah{\~a}o}, \binits{J.}},
+\bauthor{\bsnm{Azhar}, \binits{E.I.}},
+\bauthor{\bsnm{Bibi}, \binits{F.}},
+\bauthor{\bsnm{Yasir}, \binits{M.}},
+\bauthor{\bsnm{Diallo}, \binits{A.}},
+\bauthor{\bsnm{Sokhna}, \binits{C.}},
+\bauthor{\bsnm{Djossou}, \binits{F.}},
+\bauthor{\bsnm{Vitton}, \binits{V.}},
+\bauthor{\bsnm{Robert}, \binits{C.}},
+\bauthor{\bsnm{Rolain}, \binits{J.M.}},
+\bauthor{\bsnm{La~Scola}, \binits{B.}},
+\bauthor{\bsnm{Fournier}, \binits{P.-E.}},
+\bauthor{\bsnm{Levasseur}, \binits{A.}},
+\bauthor{\bsnm{Raoult}, \binits{D.}}:
+\batitle{Culture of previously uncultured members of the human gut microbiota
+  by culturomics}.
+\bjtitle{Nat Microbiol}
+\bvolume{1}(\bissue{12}),
+\bfpage{16203}
+(\byear{2016}).
+doi:\doiurl{10.1038/nmicrobiol.2016.203}
+\end{barticle}
+\endbibitem
+
+%%% 2
+\bibitem{zhang2019advancing}
+\begin{barticle}
+\bauthor{\bsnm{Zhang}, \binits{X.}},
+\bauthor{\bsnm{Li}, \binits{L.}},
+\bauthor{\bsnm{Butcher}, \binits{J.}},
+\bauthor{\bsnm{Stintzi}, \binits{A.}},
+\bauthor{\bsnm{Figeys}, \binits{D.}}:
+\batitle{Advancing functional and translational microbiome research using
+  meta-omics approaches}.
+\bjtitle{Microbiome}
+\bvolume{7}(\bissue{1}),
+\bfpage{154}
+(\byear{2019}).
+doi:\doiurl{10.1186/s40168-019-0767-6}
+\end{barticle}
+\endbibitem
+
+%%% 3
+\bibitem{li2019statistical}
+\begin{bchapter}
+\bauthor{\bsnm{Li}, \binits{H.}}:
+\bctitle{Statistical and {{Computational Methods}} in {{Microbiome}} and
+  {{Metagenomics}}}.
+In: \beditor{\bsnm{Balding}, \binits{D.}},
+\beditor{\bsnm{Moltke}, \binits{I.}},
+\beditor{\bsnm{Marioni}, \binits{J.}} (eds.)
+\bbtitle{Handbook of {{Statistical Genomics}}},
+\bedition{1}st edn.,
+pp. \bfpage{977}--\blpage{550}.
+\bpublisher{{Wiley}}, \blocation{???}
+(\byear{2019}).
+doi:\doiurl{10.1002/9781119487845.ch35}
+\end{bchapter}
+\endbibitem
+
+%%% 4
+\bibitem{maleki2020gene}
+\begin{barticle}
+\bauthor{\bsnm{Maleki}, \binits{F.}},
+\bauthor{\bsnm{Ovens}, \binits{K.}},
+\bauthor{\bsnm{Hogan}, \binits{D.J.}},
+\bauthor{\bsnm{Kusalik}, \binits{A.J.}}:
+\batitle{Gene {{Set Analysis}}: {{Challenges}}, {{Opportunities}}, and {{Future
+  Research}}}.
+\bjtitle{Front. Genet.}
+\bvolume{11},
+\bfpage{654}
+(\byear{2020}).
+doi:\doiurl{10.3389/fgene.2020.00654}
+\end{barticle}
+\endbibitem
+
+%%% 5
+\bibitem{goeman2007analyzing}
+\begin{barticle}
+\bauthor{\bsnm{Goeman}, \binits{J.J.}},
+\bauthor{\bsnm{B{\"u}hlmann}, \binits{P.}}:
+\batitle{Analyzing gene expression data in terms of gene sets: Methodological
+  issues}.
+\bjtitle{Bioinformatics}
+\bvolume{23}(\bissue{8}),
+\bfpage{980}--\blpage{987}
+(\byear{2007}).
+doi:\doiurl{10.1093/bioinformatics/btm051}
+\end{barticle}
+\endbibitem
+
+%%% 6
+\bibitem{liberzon2015molecular}
+\begin{barticle}
+\bauthor{\bsnm{Liberzon}, \binits{A.}},
+\bauthor{\bsnm{Birger}, \binits{C.}},
+\bauthor{\bsnm{Thorvaldsd{\'o}ttir}, \binits{H.}},
+\bauthor{\bsnm{Ghandi}, \binits{M.}},
+\bauthor{\bsnm{Mesirov}, \binits{J.P.}},
+\bauthor{\bsnm{Tamayo}, \binits{P.}}:
+\batitle{The {{Molecular Signatures Database Hallmark Gene Set Collection}}}.
+\bjtitle{Cell Systems}
+\bvolume{1}(\bissue{6}),
+\bfpage{417}--\blpage{425}
+(\byear{2015}).
+doi:\doiurl{10.1016/j.cels.2015.12.004}
+\end{barticle}
+\endbibitem
+
+%%% 7
+\bibitem{nguyen2022cbea}
+\begin{barticle}
+\bauthor{\bsnm{Nguyen}, \binits{Q.P.}},
+\bauthor{\bsnm{Hoen}, \binits{A.G.}},
+\bauthor{\bsnm{Frost}, \binits{H.R.}}:
+\batitle{Cbea: Competitive balances for taxonomic enrichment analysis}.
+\bjtitle{PLoS Computational Biology}
+\bvolume{18}(\bissue{5}),
+\bfpage{1010091}
+(\byear{2022})
+\end{barticle}
+\endbibitem
+
+%%% 8
+\bibitem{kou2020microbeset}
+\begin{barticle}
+\bauthor{\bsnm{Kou}, \binits{Y.}},
+\bauthor{\bsnm{Xu}, \binits{X.}},
+\bauthor{\bsnm{Zhu}, \binits{Z.}},
+\bauthor{\bsnm{Dai}, \binits{L.}},
+\bauthor{\bsnm{Tan}, \binits{Y.}}:
+\batitle{Microbe-set enrichment analysis facilitates functional interpretation
+  of microbiome profiling data}.
+\bjtitle{Sci Rep}
+\bvolume{10}(\bissue{1}),
+\bfpage{21466}
+(\byear{2020}).
+doi:\doiurl{10.1038/s41598-020-78511-y}
+\end{barticle}
+\endbibitem
+
+%%% 9
+\bibitem{wu2021guildbased}
+\begin{barticle}
+\bauthor{\bsnm{Wu}, \binits{G.}},
+\bauthor{\bsnm{Zhao}, \binits{N.}},
+\bauthor{\bsnm{Zhang}, \binits{C.}},
+\bauthor{\bsnm{Lam}, \binits{Y.Y.}},
+\bauthor{\bsnm{Zhao}, \binits{L.}}:
+\batitle{Guild-based analysis for understanding gut microbiome in human health
+  and diseases}.
+\bjtitle{Genome Med}
+\bvolume{13}(\bissue{1}),
+\bfpage{22}
+(\byear{2021}).
+doi:\doiurl{10.1186/s13073-021-00840-y}
+\end{barticle}
+\endbibitem
+
+%%% 10
+\bibitem{gevers2014treatmentnaive}
+\begin{barticle}
+\bauthor{\bsnm{Gevers}, \binits{D.}},
+\bauthor{\bsnm{Kugathasan}, \binits{S.}},
+\bauthor{\bsnm{Denson}, \binits{L.A.}},
+\bauthor{\bsnm{{V{\'a}zquez-Baeza}}, \binits{Y.}},
+\bauthor{\bsnm{Van~Treuren}, \binits{W.}},
+\bauthor{\bsnm{Ren}, \binits{B.}},
+\bauthor{\bsnm{Schwager}, \binits{E.}},
+\bauthor{\bsnm{Knights}, \binits{D.}},
+\bauthor{\bsnm{Song}, \binits{S.J.}},
+\bauthor{\bsnm{Yassour}, \binits{M.}},
+\bauthor{\bsnm{Morgan}, \binits{X.C.}},
+\bauthor{\bsnm{Kostic}, \binits{A.D.}},
+\bauthor{\bsnm{Luo}, \binits{C.}},
+\bauthor{\bsnm{Gonz{\'a}lez}, \binits{A.}},
+\bauthor{\bsnm{McDonald}, \binits{D.}},
+\bauthor{\bsnm{Haberman}, \binits{Y.}},
+\bauthor{\bsnm{Walters}, \binits{T.}},
+\bauthor{\bsnm{Baker}, \binits{S.}},
+\bauthor{\bsnm{Rosh}, \binits{J.}},
+\bauthor{\bsnm{Stephens}, \binits{M.}},
+\bauthor{\bsnm{Heyman}, \binits{M.}},
+\bauthor{\bsnm{Markowitz}, \binits{J.}},
+\bauthor{\bsnm{Baldassano}, \binits{R.}},
+\bauthor{\bsnm{Griffiths}, \binits{A.}},
+\bauthor{\bsnm{Sylvester}, \binits{F.}},
+\bauthor{\bsnm{Mack}, \binits{D.}},
+\bauthor{\bsnm{Kim}, \binits{S.}},
+\bauthor{\bsnm{Crandall}, \binits{W.}},
+\bauthor{\bsnm{Hyams}, \binits{J.}},
+\bauthor{\bsnm{Huttenhower}, \binits{C.}},
+\bauthor{\bsnm{Knight}, \binits{R.}},
+\bauthor{\bsnm{Xavier}, \binits{R.J.}}:
+\batitle{The {{Treatment-Naive Microbiome}} in {{New-Onset Crohn}}'s
+  {{Disease}}}.
+\bjtitle{Cell Host \& Microbe}
+\bvolume{15}(\bissue{3}),
+\bfpage{382}--\blpage{392}
+(\byear{2014}).
+doi:\doiurl{10.1016/j.chom.2014.02.005}
+\end{barticle}
+\endbibitem
+
+%%% 11
+\bibitem{berg2020microbiome}
+\begin{barticle}
+\bauthor{\bsnm{Berg}, \binits{G.}},
+\bauthor{\bsnm{Rybakova}, \binits{D.}},
+\bauthor{\bsnm{Fischer}, \binits{D.}},
+\bauthor{\bsnm{Cernava}, \binits{T.}},
+\bauthor{\bsnm{Verg{\`e}s}, \binits{M.-C.C.}},
+\bauthor{\bsnm{Charles}, \binits{T.}},
+\bauthor{\bsnm{Chen}, \binits{X.}},
+\bauthor{\bsnm{Cocolin}, \binits{L.}},
+\bauthor{\bsnm{Eversole}, \binits{K.}},
+\bauthor{\bsnm{Corral}, \binits{G.H.}},
+\bauthor{\bsnm{Kazou}, \binits{M.}},
+\bauthor{\bsnm{Kinkel}, \binits{L.}},
+\bauthor{\bsnm{Lange}, \binits{L.}},
+\bauthor{\bsnm{Lima}, \binits{N.}},
+\bauthor{\bsnm{Loy}, \binits{A.}},
+\bauthor{\bsnm{Macklin}, \binits{J.A.}},
+\bauthor{\bsnm{Maguin}, \binits{E.}},
+\bauthor{\bsnm{Mauchline}, \binits{T.}},
+\bauthor{\bsnm{McClure}, \binits{R.}},
+\bauthor{\bsnm{Mitter}, \binits{B.}},
+\bauthor{\bsnm{Ryan}, \binits{M.}},
+\bauthor{\bsnm{Sarand}, \binits{I.}},
+\bauthor{\bsnm{Smidt}, \binits{H.}},
+\bauthor{\bsnm{Schelkle}, \binits{B.}},
+\bauthor{\bsnm{Roume}, \binits{H.}},
+\bauthor{\bsnm{Kiran}, \binits{G.S.}},
+\bauthor{\bsnm{Selvin}, \binits{J.}},
+\bauthor{\bparticle{de} \bsnm{Souza}, \binits{R.S.C.}},
+\bauthor{\bsnm{{van Overbeek}}, \binits{L.}},
+\bauthor{\bsnm{Singh}, \binits{B.K.}},
+\bauthor{\bsnm{Wagner}, \binits{M.}},
+\bauthor{\bsnm{Walsh}, \binits{A.}},
+\bauthor{\bsnm{Sessitsch}, \binits{A.}},
+\bauthor{\bsnm{Schloter}, \binits{M.}}:
+\batitle{Microbiome definition re-visited: Old concepts and new challenges}.
+\bjtitle{Microbiome}
+\bvolume{8}(\bissue{1}),
+\bfpage{103}
+(\byear{2020}).
+doi:\doiurl{10.1186/s40168-020-00875-0}
+\end{barticle}
+\endbibitem
+
+%%% 12
+\bibitem{durack2019gut}
+\begin{barticle}
+\bauthor{\bsnm{Durack}, \binits{J.}},
+\bauthor{\bsnm{Lynch}, \binits{S.V.}}:
+\batitle{The gut microbiome: {{Relationships}} with disease and opportunities
+  for therapy}.
+\bjtitle{J Exp Med}
+\bvolume{216}(\bissue{1}),
+\bfpage{20}--\blpage{40}
+(\byear{2019}).
+doi:\doiurl{10.1084/jem.20180448}
+\end{barticle}
+\endbibitem
+
+%%% 13
+\bibitem{faust2012microbial}
+\begin{barticle}
+\bauthor{\bsnm{Faust}, \binits{K.}},
+\bauthor{\bsnm{Raes}, \binits{J.}}:
+\batitle{Microbial interactions: From networks to models}.
+\bjtitle{Nat Rev Microbiol}
+\bvolume{10}(\bissue{8}),
+\bfpage{538}--\blpage{550}
+(\byear{2012}).
+doi:\doiurl{10.1038/nrmicro2832}
+\end{barticle}
+\endbibitem
+
+%%% 14
+\bibitem{janssens2018disbiome}
+\begin{barticle}
+\bauthor{\bsnm{Janssens}, \binits{Y.}},
+\bauthor{\bsnm{Nielandt}, \binits{J.}},
+\bauthor{\bsnm{Bronselaer}, \binits{A.}},
+\bauthor{\bsnm{Debunne}, \binits{N.}},
+\bauthor{\bsnm{Verbeke}, \binits{F.}},
+\bauthor{\bsnm{Wynendaele}, \binits{E.}},
+\bauthor{\bsnm{Van~Immerseel}, \binits{F.}},
+\bauthor{\bsnm{Vandewynckel}, \binits{Y.-P.}},
+\bauthor{\bsnm{De~Tr{\'e}}, \binits{G.}},
+\bauthor{\bsnm{De~Spiegeleer}, \binits{B.}}:
+\batitle{Disbiome database: Linking the microbiome to disease}.
+\bjtitle{BMC Microbiol}
+\bvolume{18}(\bissue{1}),
+\bfpage{50}
+(\byear{2018}).
+doi:\doiurl{10.1186/s12866-018-1197-5}
+\end{barticle}
+\endbibitem
+
+%%% 15
+\bibitem{weissman2021exploring}
+\begin{barticle}
+\bauthor{\bsnm{Weissman}, \binits{J.L.}},
+\bauthor{\bsnm{Dogra}, \binits{S.}},
+\bauthor{\bsnm{Javadi}, \binits{K.}},
+\bauthor{\bsnm{Bolten}, \binits{S.}},
+\bauthor{\bsnm{Flint}, \binits{R.}},
+\bauthor{\bsnm{Davati}, \binits{C.}},
+\bauthor{\bsnm{Beattie}, \binits{J.}},
+\bauthor{\bsnm{Dixit}, \binits{K.}},
+\bauthor{\bsnm{Peesay}, \binits{T.}},
+\bauthor{\bsnm{Awan}, \binits{S.}},
+\bauthor{\bsnm{Thielen}, \binits{P.}},
+\bauthor{\bsnm{Breitwieser}, \binits{F.}},
+\bauthor{\bsnm{Johnson}, \binits{P.L.F.}},
+\bauthor{\bsnm{Karig}, \binits{D.}},
+\bauthor{\bsnm{Fagan}, \binits{W.F.}},
+\bauthor{\bsnm{Bewick}, \binits{S.}}:
+\batitle{Exploring the functional composition of the human microbiome using a
+  hand-curated microbial trait database}.
+\bjtitle{BMC Bioinformatics}
+\bvolume{22}(\bissue{1}),
+\bfpage{306}
+(\byear{2021}).
+doi:\doiurl{10.1186/s12859-021-04216-2}
+\end{barticle}
+\endbibitem
+
+%%% 16
+\bibitem{bewick2019traitbased}
+\begin{barticle}
+\bauthor{\bsnm{Bewick}, \binits{S.}},
+\bauthor{\bsnm{Gurarie}, \binits{E.}},
+\bauthor{\bsnm{Weissman}, \binits{J.L.}},
+\bauthor{\bsnm{Beattie}, \binits{J.}},
+\bauthor{\bsnm{Davati}, \binits{C.}},
+\bauthor{\bsnm{Flint}, \binits{R.}},
+\bauthor{\bsnm{Thielen}, \binits{P.}},
+\bauthor{\bsnm{Breitwieser}, \binits{F.}},
+\bauthor{\bsnm{Karig}, \binits{D.}},
+\bauthor{\bsnm{Fagan}, \binits{W.F.}}:
+\batitle{Trait-based analysis of the human skin microbiome}.
+\bjtitle{Microbiome}
+\bvolume{7}(\bissue{1}),
+\bfpage{101}
+(\byear{2019}).
+doi:\doiurl{10.1186/s40168-019-0698-2}
+\end{barticle}
+\endbibitem
+
+%%% 17
+\bibitem{madin2020synthesis}
+\begin{barticle}
+\bauthor{\bsnm{Madin}, \binits{J.S.}},
+\bauthor{\bsnm{Nielsen}, \binits{D.A.}},
+\bauthor{\bsnm{Brbic}, \binits{M.}},
+\bauthor{\bsnm{Corkrey}, \binits{R.}},
+\bauthor{\bsnm{Danko}, \binits{D.}},
+\bauthor{\bsnm{Edwards}, \binits{K.}},
+\bauthor{\bsnm{Engqvist}, \binits{M.K.M.}},
+\bauthor{\bsnm{Fierer}, \binits{N.}},
+\bauthor{\bsnm{Geoghegan}, \binits{J.L.}},
+\bauthor{\bsnm{Gillings}, \binits{M.}},
+\bauthor{\bsnm{Kyrpides}, \binits{N.C.}},
+\bauthor{\bsnm{Litchman}, \binits{E.}},
+\bauthor{\bsnm{Mason}, \binits{C.E.}},
+\bauthor{\bsnm{Moore}, \binits{L.}},
+\bauthor{\bsnm{Nielsen}, \binits{S.L.}},
+\bauthor{\bsnm{Paulsen}, \binits{I.T.}},
+\bauthor{\bsnm{Price}, \binits{N.D.}},
+\bauthor{\bsnm{Reddy}, \binits{T.B.K.}},
+\bauthor{\bsnm{Richards}, \binits{M.A.}},
+\bauthor{\bsnm{Rocha}, \binits{E.P.C.}},
+\bauthor{\bsnm{Schmidt}, \binits{T.M.}},
+\bauthor{\bsnm{Shaaban}, \binits{H.}},
+\bauthor{\bsnm{Shukla}, \binits{M.}},
+\bauthor{\bsnm{Supek}, \binits{F.}},
+\bauthor{\bsnm{Tetu}, \binits{S.G.}},
+\bauthor{\bsnm{{Vieira-Silva}}, \binits{S.}},
+\bauthor{\bsnm{Wattam}, \binits{A.R.}},
+\bauthor{\bsnm{Westfall}, \binits{D.A.}},
+\bauthor{\bsnm{Westoby}, \binits{M.}}:
+\batitle{A synthesis of bacterial and archaeal phenotypic trait data}.
+\bjtitle{Sci Data}
+\bvolume{7}(\bissue{1}),
+\bfpage{170}
+(\byear{2020}).
+doi:\doiurl{10.1038/s41597-020-0497-4}
+\end{barticle}
+\endbibitem
+
+%%% 18
+\bibitem{krause2014traitbased}
+\begin{botherref}
+\oauthor{\bsnm{Krause}, \binits{S.}},
+\oauthor{\bsnm{Le~Roux}, \binits{X.}},
+\oauthor{\bsnm{Niklaus}, \binits{P.A.}},
+\oauthor{\bsnm{Bodegom}, \binits{V.}},
+\oauthor{\bsnm{M}, \binits{P.}},
+\oauthor{\bsnm{Lennon}, \binits{J.T.}},
+\oauthor{\bsnm{Bertilsson}, \binits{S.}},
+\oauthor{\bsnm{Grossart}, \binits{H.-P.}},
+\oauthor{\bsnm{Philippot}, \binits{L.}},
+\oauthor{\bsnm{Bodelier}, \binits{P.L.E.}}:
+Trait-based approaches for understanding microbial biodiversity and ecosystem
+  functioning.
+Front. Microbiol.
+\textbf{5}
+(2014).
+doi:\doiurl{10.3389/fmicb.2014.00251}
+\end{botherref}
+\endbibitem
+
+%%% 19
+\bibitem{trujillo2015bergey}
+\begin{bbook}
+\beditor{\bsnm{Trujillo}, \binits{M.E.}},
+\beditor{\bsnm{Dedysh}, \binits{S.}},
+\beditor{\bsnm{DeVos}, \binits{P.}},
+\beditor{\bsnm{Hedlund}, \binits{B.}},
+\beditor{\bsnm{K{\"a}mpfer}, \binits{P.}},
+\beditor{\bsnm{Rainey}, \binits{F.A.}},
+\beditor{\bsnm{Whitman}, \binits{W.B.}} (eds.):
+\bbtitle{Bergey's {{Manual}} of {{Systematics}} of {{Archaea}} and
+  {{Bacteria}}},
+\bedition{1}st edn.
+\bpublisher{{Wiley}}, \blocation{???}
+(\byear{2015}).
+doi:\doiurl{10.1002/9781118960608}
+\end{bbook}
+\endbibitem
+
+%%% 20
+\bibitem{kanehisa2019understanding}
+\begin{barticle}
+\bauthor{\bsnm{Kanehisa}, \binits{M.}}:
+\batitle{Toward understanding the origin and evolution of cellular organisms}.
+\bjtitle{Protein Sci.}
+\bvolume{28}(\bissue{11}),
+\bfpage{1947}--\blpage{1951}
+(\byear{2019}).
+doi:\doiurl{10.1002/pro.3715}
+\end{barticle}
+\endbibitem
+
+%%% 21
+\bibitem{caspi2020metacyc}
+\begin{barticle}
+\bauthor{\bsnm{Caspi}, \binits{R.}},
+\bauthor{\bsnm{Billington}, \binits{R.}},
+\bauthor{\bsnm{Keseler}, \binits{I.M.}},
+\bauthor{\bsnm{Kothari}, \binits{A.}},
+\bauthor{\bsnm{Krummenacker}, \binits{M.}},
+\bauthor{\bsnm{Midford}, \binits{P.E.}},
+\bauthor{\bsnm{Ong}, \binits{W.K.}},
+\bauthor{\bsnm{Paley}, \binits{S.}},
+\bauthor{\bsnm{Subhraveti}, \binits{P.}},
+\bauthor{\bsnm{Karp}, \binits{P.D.}}:
+\batitle{The {{MetaCyc}} database of metabolic pathways and enzymes - a 2019
+  update}.
+\bjtitle{Nucleic Acids Research}
+\bvolume{48}(\bissue{D1}),
+\bfpage{445}--\blpage{453}
+(\byear{2020}).
+doi:\doiurl{10.1093/nar/gkz862}
+\end{barticle}
+\endbibitem
+
+%%% 22
+\bibitem{guittar2019traitbased}
+\begin{barticle}
+\bauthor{\bsnm{Guittar}, \binits{J.}},
+\bauthor{\bsnm{Shade}, \binits{A.}},
+\bauthor{\bsnm{Litchman}, \binits{E.}}:
+\batitle{Trait-based community assembly and succession of the infant gut
+  microbiome}.
+\bjtitle{Nat Commun}
+\bvolume{10}(\bissue{1}),
+\bfpage{512}
+(\byear{2019}).
+doi:\doiurl{10.1038/s41467-019-08377-w}
+\end{barticle}
+\endbibitem
+
+%%% 23
+\bibitem{douglas2020picrust2}
+\begin{barticle}
+\bauthor{\bsnm{Douglas}, \binits{G.M.}},
+\bauthor{\bsnm{Maffei}, \binits{V.J.}},
+\bauthor{\bsnm{Zaneveld}, \binits{J.R.}},
+\bauthor{\bsnm{Yurgel}, \binits{S.N.}},
+\bauthor{\bsnm{Brown}, \binits{J.R.}},
+\bauthor{\bsnm{Taylor}, \binits{C.M.}},
+\bauthor{\bsnm{Huttenhower}, \binits{C.}},
+\bauthor{\bsnm{Langille}, \binits{M.G.I.}}:
+\batitle{{{PICRUSt2}} for prediction of metagenome functions}.
+\bjtitle{Nature Biotechnology}
+\bvolume{38}(\bissue{6}),
+\bfpage{685}--\blpage{688}
+(\byear{2020}).
+doi:\doiurl{10.1038/s41587-020-0548-6}
+\end{barticle}
+\endbibitem
+
+%%% 24
+\bibitem{rcoreteam2021language}
+\begin{bbook}
+\bauthor{\bsnm{{R Core Team}}}:
+\bbtitle{R: {{A}} Language and Environment for Statistical Computing}.
+\bpublisher{{R Foundation for Statistical Computing}},
+\blocation{{Vienna, Austria}}
+(\byear{2021}).
+\bcomment{{R Foundation for Statistical Computing}}
+\end{bbook}
+\endbibitem
+
+%%% 25
+\bibitem{molder2021sustainable}
+\begin{barticle}
+\bauthor{\bsnm{M{\"o}lder}, \binits{F.}},
+\bauthor{\bsnm{Jablonski}, \binits{K.P.}},
+\bauthor{\bsnm{Letcher}, \binits{B.}},
+\bauthor{\bsnm{Hall}, \binits{M.B.}},
+\bauthor{\bsnm{{Tomkins-Tinch}}, \binits{C.H.}},
+\bauthor{\bsnm{Sochat}, \binits{V.}},
+\bauthor{\bsnm{Forster}, \binits{J.}},
+\bauthor{\bsnm{Lee}, \binits{S.}},
+\bauthor{\bsnm{Twardziok}, \binits{S.O.}},
+\bauthor{\bsnm{Kanitz}, \binits{A.}},
+\bauthor{\bsnm{Wilm}, \binits{A.}},
+\bauthor{\bsnm{Holtgrewe}, \binits{M.}},
+\bauthor{\bsnm{Rahmann}, \binits{S.}},
+\bauthor{\bsnm{Nahnsen}, \binits{S.}},
+\bauthor{\bsnm{K{\"o}ster}, \binits{J.}}:
+\batitle{Sustainable data analysis with {{Snakemake}}}.
+\bjtitle{F1000Res}
+\bvolume{10},
+\bfpage{33}
+(\byear{2021}).
+doi:\doiurl{10.12688/f1000research.29032.2}
+\end{barticle}
+\endbibitem
+
+%%% 26
+\bibitem{vieira-silva2016species}
+\begin{barticle}
+\bauthor{\bsnm{{Vieira-Silva}}, \binits{S.}},
+\bauthor{\bsnm{Falony}, \binits{G.}},
+\bauthor{\bsnm{Darzi}, \binits{Y.}},
+\bauthor{\bsnm{{Lima-Mendez}}, \binits{G.}},
+\bauthor{\bsnm{Yunta}, \binits{R.G.}},
+\bauthor{\bsnm{Okuda}, \binits{S.}},
+\bauthor{\bsnm{Vandeputte}, \binits{D.}},
+\bauthor{\bsnm{{Valles-Colomer}}, \binits{M.}},
+\bauthor{\bsnm{Hildebrand}, \binits{F.}},
+\bauthor{\bsnm{Chaffron}, \binits{S.}},
+\bauthor{\bsnm{Raes}, \binits{J.}}:
+\batitle{Species\textendash function relationships shape ecological properties
+  of the human gut microbiome}.
+\bjtitle{Nature Microbiology}
+\bvolume{1}(\bissue{8}),
+\bfpage{16088}
+(\byear{2016}).
+doi:\doiurl{10.1038/nmicrobiol.2016.88}
+\end{barticle}
+\endbibitem
+
+%%% 27
+\bibitem{mukherjee2021genomes}
+\begin{barticle}
+\bauthor{\bsnm{Mukherjee}, \binits{S.}},
+\bauthor{\bsnm{Stamatis}, \binits{D.}},
+\bauthor{\bsnm{Bertsch}, \binits{J.}},
+\bauthor{\bsnm{Ovchinnikova}, \binits{G.}},
+\bauthor{\bsnm{Sundaramurthi}, \binits{J.C.}},
+\bauthor{\bsnm{Lee}, \binits{J.}},
+\bauthor{\bsnm{Kandimalla}, \binits{M.}},
+\bauthor{\bsnm{Chen}, \binits{I.-M.A.}},
+\bauthor{\bsnm{Kyrpides}, \binits{N.C.}},
+\bauthor{\bsnm{Reddy}, \binits{T.B.K.}}:
+\batitle{Genomes {{OnLine Database}} ({{GOLD}}) v.8: Overview and updates}.
+\bjtitle{Nucleic Acids Research}
+\bvolume{49}(\bissue{D1}),
+\bfpage{723}--\blpage{733}
+(\byear{2021}).
+doi:\doiurl{10.1093/nar/gkaa983}
+\end{barticle}
+\endbibitem
+
+%%% 28
+\bibitem{johnson2019evaluation}
+\begin{barticle}
+\bauthor{\bsnm{Johnson}, \binits{J.S.}},
+\bauthor{\bsnm{Spakowicz}, \binits{D.J.}},
+\bauthor{\bsnm{Hong}, \binits{B.-Y.}},
+\bauthor{\bsnm{Petersen}, \binits{L.M.}},
+\bauthor{\bsnm{Demkowicz}, \binits{P.}},
+\bauthor{\bsnm{Chen}, \binits{L.}},
+\bauthor{\bsnm{Leopold}, \binits{S.R.}},
+\bauthor{\bsnm{Hanson}, \binits{B.M.}},
+\bauthor{\bsnm{Agresta}, \binits{H.O.}},
+\bauthor{\bsnm{Gerstein}, \binits{M.}},
+\bauthor{\bsnm{Sodergren}, \binits{E.}},
+\bauthor{\bsnm{Weinstock}, \binits{G.M.}}:
+\batitle{Evaluation of {{16S rRNA}} gene sequencing for species and
+  strain-level microbiome analysis}.
+\bjtitle{Nature Communications}
+\bvolume{10}(\bissue{1}),
+\bfpage{1}--\blpage{11}
+(\byear{2019}).
+doi:\doiurl{10.1038/s41467-019-13036-1}
+\end{barticle}
+\endbibitem
+
+%%% 29
+\bibitem{schoch2020ncbi}
+\begin{barticle}
+\bauthor{\bsnm{Schoch}, \binits{C.L.}},
+\bauthor{\bsnm{Ciufo}, \binits{S.}},
+\bauthor{\bsnm{Domrachev}, \binits{M.}},
+\bauthor{\bsnm{Hotton}, \binits{C.L.}},
+\bauthor{\bsnm{Kannan}, \binits{S.}},
+\bauthor{\bsnm{Khovanskaya}, \binits{R.}},
+\bauthor{\bsnm{Leipe}, \binits{D.}},
+\bauthor{\bsnm{Mcveigh}, \binits{R.}},
+\bauthor{\bsnm{O'Neill}, \binits{K.}},
+\bauthor{\bsnm{Robbertse}, \binits{B.}},
+\bauthor{\bsnm{Sharma}, \binits{S.}},
+\bauthor{\bsnm{Soussov}, \binits{V.}},
+\bauthor{\bsnm{Sullivan}, \binits{J.P.}},
+\bauthor{\bsnm{Sun}, \binits{L.}},
+\bauthor{\bsnm{Turner}, \binits{S.}},
+\bauthor{\bsnm{{Karsch-Mizrachi}}, \binits{I.}}:
+\batitle{{{NCBI Taxonomy}}: A comprehensive update on curation, resources and
+  tools}.
+\bjtitle{Database (Oxford)}
+\bvolume{2020},
+\bfpage{062}
+(\byear{2020}).
+doi:\doiurl{10.1093/database/baaa062}
+\end{barticle}
+\endbibitem
+
+%%% 30
+\bibitem{callahan2016dada2}
+\begin{barticle}
+\bauthor{\bsnm{Callahan}, \binits{B.J.}},
+\bauthor{\bsnm{McMurdie}, \binits{P.J.}},
+\bauthor{\bsnm{Rosen}, \binits{M.J.}},
+\bauthor{\bsnm{Han}, \binits{A.W.}},
+\bauthor{\bsnm{Johnson}, \binits{A.J.A.}},
+\bauthor{\bsnm{Holmes}, \binits{S.P.}}:
+\batitle{{{DADA2}}: {{High-resolution}} sample inference from {{Illumina}}
+  amplicon data}.
+\bjtitle{Nature Methods}
+\bvolume{13}(\bissue{7}),
+\bfpage{581}--\blpage{583}
+(\byear{2016}).
+doi:\doiurl{10.1038/nmeth.3869}
+\end{barticle}
+\endbibitem
+
+%%% 31
+\bibitem{bolyen2019reproducible}
+\begin{barticle}
+\bauthor{\bsnm{Bolyen}, \binits{E.}},
+\bauthor{\bsnm{Rideout}, \binits{J.R.}},
+\bauthor{\bsnm{Dillon}, \binits{M.R.}},
+\bauthor{\bsnm{Bokulich}, \binits{N.A.}},
+\bauthor{\bsnm{Abnet}, \binits{C.C.}},
+\bauthor{\bsnm{{Al-Ghalith}}, \binits{G.A.}},
+\bauthor{\bsnm{Alexander}, \binits{H.}},
+\bauthor{\bsnm{Alm}, \binits{E.J.}},
+\bauthor{\bsnm{Arumugam}, \binits{M.}},
+\bauthor{\bsnm{Asnicar}, \binits{F.}},
+\bauthor{\bsnm{Bai}, \binits{Y.}},
+\bauthor{\bsnm{Bisanz}, \binits{J.E.}},
+\bauthor{\bsnm{Bittinger}, \binits{K.}},
+\bauthor{\bsnm{Brejnrod}, \binits{A.}},
+\bauthor{\bsnm{Brislawn}, \binits{C.J.}},
+\bauthor{\bsnm{Brown}, \binits{C.T.}},
+\bauthor{\bsnm{Callahan}, \binits{B.J.}},
+\bauthor{\bsnm{{Caraballo-Rodr{\'i}guez}}, \binits{A.M.}},
+\bauthor{\bsnm{Chase}, \binits{J.}},
+\bauthor{\bsnm{Cope}, \binits{E.K.}},
+\bauthor{\bsnm{Silva}, \binits{R.D.}},
+\bauthor{\bsnm{Diener}, \binits{C.}},
+\bauthor{\bsnm{Dorrestein}, \binits{P.C.}},
+\bauthor{\bsnm{Douglas}, \binits{G.M.}},
+\bauthor{\bsnm{Durall}, \binits{D.M.}},
+\bauthor{\bsnm{Duvallet}, \binits{C.}},
+\bauthor{\bsnm{Edwardson}, \binits{C.F.}},
+\bauthor{\bsnm{Ernst}, \binits{M.}},
+\bauthor{\bsnm{Estaki}, \binits{M.}},
+\bauthor{\bsnm{Fouquier}, \binits{J.}},
+\bauthor{\bsnm{Gauglitz}, \binits{J.M.}},
+\bauthor{\bsnm{Gibbons}, \binits{S.M.}},
+\bauthor{\bsnm{Gibson}, \binits{D.L.}},
+\bauthor{\bsnm{Gonzalez}, \binits{A.}},
+\bauthor{\bsnm{Gorlick}, \binits{K.}},
+\bauthor{\bsnm{Guo}, \binits{J.}},
+\bauthor{\bsnm{Hillmann}, \binits{B.}},
+\bauthor{\bsnm{Holmes}, \binits{S.}},
+\bauthor{\bsnm{Holste}, \binits{H.}},
+\bauthor{\bsnm{Huttenhower}, \binits{C.}},
+\bauthor{\bsnm{Huttley}, \binits{G.A.}},
+\bauthor{\bsnm{Janssen}, \binits{S.}},
+\bauthor{\bsnm{Jarmusch}, \binits{A.K.}},
+\bauthor{\bsnm{Jiang}, \binits{L.}},
+\bauthor{\bsnm{Kaehler}, \binits{B.D.}},
+\bauthor{\bsnm{Kang}, \binits{K.B.}},
+\bauthor{\bsnm{Keefe}, \binits{C.R.}},
+\bauthor{\bsnm{Keim}, \binits{P.}},
+\bauthor{\bsnm{Kelley}, \binits{S.T.}},
+\bauthor{\bsnm{Knights}, \binits{D.}},
+\bauthor{\bsnm{Koester}, \binits{I.}},
+\bauthor{\bsnm{Kosciolek}, \binits{T.}},
+\bauthor{\bsnm{Kreps}, \binits{J.}},
+\bauthor{\bsnm{Langille}, \binits{M.G.I.}},
+\bauthor{\bsnm{Lee}, \binits{J.}},
+\bauthor{\bsnm{Ley}, \binits{R.}},
+\bauthor{\bsnm{Liu}, \binits{Y.-X.}},
+\bauthor{\bsnm{Loftfield}, \binits{E.}},
+\bauthor{\bsnm{Lozupone}, \binits{C.}},
+\bauthor{\bsnm{Maher}, \binits{M.}},
+\bauthor{\bsnm{Marotz}, \binits{C.}},
+\bauthor{\bsnm{Martin}, \binits{B.D.}},
+\bauthor{\bsnm{McDonald}, \binits{D.}},
+\bauthor{\bsnm{McIver}, \binits{L.J.}},
+\bauthor{\bsnm{Melnik}, \binits{A.V.}},
+\bauthor{\bsnm{Metcalf}, \binits{J.L.}},
+\bauthor{\bsnm{Morgan}, \binits{S.C.}},
+\bauthor{\bsnm{Morton}, \binits{J.T.}},
+\bauthor{\bsnm{Naimey}, \binits{A.T.}},
+\bauthor{\bsnm{{Navas-Molina}}, \binits{J.A.}},
+\bauthor{\bsnm{Nothias}, \binits{L.F.}},
+\bauthor{\bsnm{Orchanian}, \binits{S.B.}},
+\bauthor{\bsnm{Pearson}, \binits{T.}},
+\bauthor{\bsnm{Peoples}, \binits{S.L.}},
+\bauthor{\bsnm{Petras}, \binits{D.}},
+\bauthor{\bsnm{Preuss}, \binits{M.L.}},
+\bauthor{\bsnm{Pruesse}, \binits{E.}},
+\bauthor{\bsnm{Rasmussen}, \binits{L.B.}},
+\bauthor{\bsnm{Rivers}, \binits{A.}},
+\bauthor{\bsnm{Robeson}, \binits{M.S.}},
+\bauthor{\bsnm{Rosenthal}, \binits{P.}},
+\bauthor{\bsnm{Segata}, \binits{N.}},
+\bauthor{\bsnm{Shaffer}, \binits{M.}},
+\bauthor{\bsnm{Shiffer}, \binits{A.}},
+\bauthor{\bsnm{Sinha}, \binits{R.}},
+\bauthor{\bsnm{Song}, \binits{S.J.}},
+\bauthor{\bsnm{Spear}, \binits{J.R.}},
+\bauthor{\bsnm{Swafford}, \binits{A.D.}},
+\bauthor{\bsnm{Thompson}, \binits{L.R.}},
+\bauthor{\bsnm{Torres}, \binits{P.J.}},
+\bauthor{\bsnm{Trinh}, \binits{P.}},
+\bauthor{\bsnm{Tripathi}, \binits{A.}},
+\bauthor{\bsnm{Turnbaugh}, \binits{P.J.}},
+\bauthor{\bsnm{{Ul-Hasan}}, \binits{S.}},
+\bauthor{\bparticle{van~der} \bsnm{Hooft}, \binits{J.J.J.}},
+\bauthor{\bsnm{Vargas}, \binits{F.}},
+\bauthor{\bsnm{{V{\'a}zquez-Baeza}}, \binits{Y.}},
+\bauthor{\bsnm{Vogtmann}, \binits{E.}},
+\bauthor{\bparticle{von} \bsnm{Hippel}, \binits{M.}},
+\bauthor{\bsnm{Walters}, \binits{W.}},
+\bauthor{\bsnm{Wan}, \binits{Y.}},
+\bauthor{\bsnm{Wang}, \binits{M.}},
+\bauthor{\bsnm{Warren}, \binits{J.}},
+\bauthor{\bsnm{Weber}, \binits{K.C.}},
+\bauthor{\bsnm{Williamson}, \binits{C.H.D.}},
+\bauthor{\bsnm{Willis}, \binits{A.D.}},
+\bauthor{\bsnm{Xu}, \binits{Z.Z.}},
+\bauthor{\bsnm{Zaneveld}, \binits{J.R.}},
+\bauthor{\bsnm{Zhang}, \binits{Y.}},
+\bauthor{\bsnm{Zhu}, \binits{Q.}},
+\bauthor{\bsnm{Knight}, \binits{R.}},
+\bauthor{\bsnm{Caporaso}, \binits{J.G.}}:
+\batitle{Reproducible, interactive, scalable and extensible microbiome data
+  science using {{QIIME}} 2}.
+\bjtitle{Nature Biotechnology}
+\bvolume{37}(\bissue{8}),
+\bfpage{852}--\blpage{857}
+(\byear{2019}).
+doi:\doiurl{10.1038/s41587-019-0209-9}
+\end{barticle}
+\endbibitem
+
+%%% 32
+\bibitem{bokulich2018optimizing}
+\begin{barticle}
+\bauthor{\bsnm{Bokulich}, \binits{N.A.}},
+\bauthor{\bsnm{Kaehler}, \binits{B.D.}},
+\bauthor{\bsnm{Rideout}, \binits{J.R.}},
+\bauthor{\bsnm{Dillon}, \binits{M.}},
+\bauthor{\bsnm{Bolyen}, \binits{E.}},
+\bauthor{\bsnm{Knight}, \binits{R.}},
+\bauthor{\bsnm{Huttley}, \binits{G.A.}},
+\bauthor{\bsnm{Gregory~Caporaso}, \binits{J.}}:
+\batitle{Optimizing taxonomic classification of marker-gene amplicon sequences
+  with {{QIIME}} 2's q2-feature-classifier plugin}.
+\bjtitle{Microbiome}
+\bvolume{6}(\bissue{1}),
+\bfpage{90}
+(\byear{2018}).
+doi:\doiurl{10.1186/s40168-018-0470-z}
+\end{barticle}
+\endbibitem
+
+%%% 33
+\bibitem{kaehler2019species}
+\begin{barticle}
+\bauthor{\bsnm{Kaehler}, \binits{B.D.}},
+\bauthor{\bsnm{Bokulich}, \binits{N.A.}},
+\bauthor{\bsnm{McDonald}, \binits{D.}},
+\bauthor{\bsnm{Knight}, \binits{R.}},
+\bauthor{\bsnm{Caporaso}, \binits{J.G.}},
+\bauthor{\bsnm{Huttley}, \binits{G.A.}}:
+\batitle{Species abundance information improves sequence taxonomy
+  classification accuracy}.
+\bjtitle{Nat Commun}
+\bvolume{10}(\bissue{1}),
+\bfpage{4643}
+(\byear{2019}).
+doi:\doiurl{10.1038/s41467-019-12669-6}
+\end{barticle}
+\endbibitem
+
+%%% 34
+\bibitem{quast2013silva}
+\begin{barticle}
+\bauthor{\bsnm{Quast}, \binits{C.}},
+\bauthor{\bsnm{Pruesse}, \binits{E.}},
+\bauthor{\bsnm{Yilmaz}, \binits{P.}},
+\bauthor{\bsnm{Gerken}, \binits{J.}},
+\bauthor{\bsnm{Schweer}, \binits{T.}},
+\bauthor{\bsnm{Yarza}, \binits{P.}},
+\bauthor{\bsnm{Peplies}, \binits{J.}},
+\bauthor{\bsnm{Gl{\"o}ckner}, \binits{F.O.}}:
+\batitle{The {{SILVA}} ribosomal {{RNA}} gene database project: Improved data
+  processing and web-based tools}.
+\bjtitle{Nucleic Acids Res}
+\bvolume{41}(\bissue{D1}),
+\bfpage{590}--\blpage{596}
+(\byear{2013}).
+doi:\doiurl{10.1093/nar/gks1219}
+\end{barticle}
+\endbibitem
+
+%%% 35
+\bibitem{pasolli2017accessible}
+\begin{barticle}
+\bauthor{\bsnm{Pasolli}, \binits{E.}},
+\bauthor{\bsnm{Schiffer}, \binits{L.}},
+\bauthor{\bsnm{Manghi}, \binits{P.}},
+\bauthor{\bsnm{Renson}, \binits{A.}},
+\bauthor{\bsnm{Obenchain}, \binits{V.}},
+\bauthor{\bsnm{Truong}, \binits{D.T.}},
+\bauthor{\bsnm{Beghini}, \binits{F.}},
+\bauthor{\bsnm{Malik}, \binits{F.}},
+\bauthor{\bsnm{Ramos}, \binits{M.}},
+\bauthor{\bsnm{Dowd}, \binits{J.B.}},
+\bauthor{\bsnm{Huttenhower}, \binits{C.}},
+\bauthor{\bsnm{Morgan}, \binits{M.}},
+\bauthor{\bsnm{Segata}, \binits{N.}},
+\bauthor{\bsnm{Waldron}, \binits{L.}}:
+\batitle{Accessible, curated metagenomic data through {{ExperimentHub}}}.
+\bjtitle{Nature Methods}
+\bvolume{14}(\bissue{11}),
+\bfpage{1023}--\blpage{1024}
+(\byear{2017}).
+doi:\doiurl{10.1038/nmeth.4468}
+\end{barticle}
+\endbibitem
+
+%%% 36
+\bibitem{beghini2021integrating}
+\begin{barticle}
+\bauthor{\bsnm{Beghini}, \binits{F.}},
+\bauthor{\bsnm{McIver}, \binits{L.J.}},
+\bauthor{\bsnm{{Blanco-M{\'i}guez}}, \binits{A.}},
+\bauthor{\bsnm{Dubois}, \binits{L.}},
+\bauthor{\bsnm{Asnicar}, \binits{F.}},
+\bauthor{\bsnm{Maharjan}, \binits{S.}},
+\bauthor{\bsnm{Mailyan}, \binits{A.}},
+\bauthor{\bsnm{Manghi}, \binits{P.}},
+\bauthor{\bsnm{Scholz}, \binits{M.}},
+\bauthor{\bsnm{Thomas}, \binits{A.M.}},
+\bauthor{\bsnm{{Valles-Colomer}}, \binits{M.}},
+\bauthor{\bsnm{Weingart}, \binits{G.}},
+\bauthor{\bsnm{Zhang}, \binits{Y.}},
+\bauthor{\bsnm{Zolfo}, \binits{M.}},
+\bauthor{\bsnm{Huttenhower}, \binits{C.}},
+\bauthor{\bsnm{Franzosa}, \binits{E.A.}},
+\bauthor{\bsnm{Segata}, \binits{N.}}:
+\batitle{Integrating taxonomic, functional, and strain-level profiling of
+  diverse microbial communities with {{bioBakery}} 3}.
+\bjtitle{eLife}
+\bvolume{10},
+\bfpage{65088}
+(\byear{2021}).
+doi:\doiurl{10.7554/eLife.65088}
+\end{barticle}
+\endbibitem
+
+%%% 37
+\bibitem{schiffer2019hmp16sdata}
+\begin{barticle}
+\bauthor{\bsnm{Schiffer}, \binits{L.}},
+\bauthor{\bsnm{Azhar}, \binits{R.}},
+\bauthor{\bsnm{Shepherd}, \binits{L.}},
+\bauthor{\bsnm{Ramos}, \binits{M.}},
+\bauthor{\bsnm{Geistlinger}, \binits{L.}},
+\bauthor{\bsnm{Huttenhower}, \binits{C.}},
+\bauthor{\bsnm{Dowd}, \binits{J.B.}},
+\bauthor{\bsnm{Segata}, \binits{N.}},
+\bauthor{\bsnm{Waldron}, \binits{L.}}:
+\batitle{{{HMP16SData}}: {{Efficient}} access to the human microbiome project
+  through bioconductor}.
+\bjtitle{American Journal of Epidemiology}
+(\byear{2019}).
+doi:\doiurl{10.1093/aje/kwz006}
+\end{barticle}
+\endbibitem
+
+%%% 38
+\bibitem{consortium2012structure}
+\begin{barticle}
+\bauthor{\bsnm{Consortium}, \binits{T.H.M.P.}},
+\bauthor{\bsnm{Huttenhower}, \binits{C.}},
+\bauthor{\bsnm{Gevers}, \binits{D.}},
+\bauthor{\bsnm{Knight}, \binits{R.}},
+\bauthor{\bsnm{Abubucker}, \binits{S.}},
+\bauthor{\bsnm{Badger}, \binits{J.H.}},
+\bauthor{\bsnm{Chinwalla}, \binits{A.T.}},
+\bauthor{\bsnm{Creasy}, \binits{H.H.}},
+\bauthor{\bsnm{Earl}, \binits{A.M.}},
+\bauthor{\bsnm{FitzGerald}, \binits{M.G.}},
+\bauthor{\bsnm{Fulton}, \binits{R.S.}},
+\bauthor{\bsnm{Giglio}, \binits{M.G.}},
+\bauthor{\bsnm{{Hallsworth-Pepin}}, \binits{K.}},
+\bauthor{\bsnm{Lobos}, \binits{E.A.}},
+\bauthor{\bsnm{Madupu}, \binits{R.}},
+\bauthor{\bsnm{Magrini}, \binits{V.}},
+\bauthor{\bsnm{Martin}, \binits{J.C.}},
+\bauthor{\bsnm{Mitreva}, \binits{M.}},
+\bauthor{\bsnm{Muzny}, \binits{D.M.}},
+\bauthor{\bsnm{Sodergren}, \binits{E.J.}},
+\bauthor{\bsnm{Versalovic}, \binits{J.}},
+\bauthor{\bsnm{Wollam}, \binits{A.M.}},
+\bauthor{\bsnm{Worley}, \binits{K.C.}},
+\bauthor{\bsnm{Wortman}, \binits{J.R.}},
+\bauthor{\bsnm{Young}, \binits{S.K.}},
+\bauthor{\bsnm{Zeng}, \binits{Q.}},
+\bauthor{\bsnm{Aagaard}, \binits{K.M.}},
+\bauthor{\bsnm{Abolude}, \binits{O.O.}},
+\bauthor{\bsnm{{Allen-Vercoe}}, \binits{E.}},
+\bauthor{\bsnm{Alm}, \binits{E.J.}},
+\bauthor{\bsnm{Alvarado}, \binits{L.}},
+\bauthor{\bsnm{Andersen}, \binits{G.L.}},
+\bauthor{\bsnm{Anderson}, \binits{S.}},
+\bauthor{\bsnm{Appelbaum}, \binits{E.}},
+\bauthor{\bsnm{Arachchi}, \binits{H.M.}},
+\bauthor{\bsnm{Armitage}, \binits{G.}},
+\bauthor{\bsnm{Arze}, \binits{C.A.}},
+\bauthor{\bsnm{Ayvaz}, \binits{T.}},
+\bauthor{\bsnm{Baker}, \binits{C.C.}},
+\bauthor{\bsnm{Begg}, \binits{L.}},
+\bauthor{\bsnm{Belachew}, \binits{T.}},
+\bauthor{\bsnm{Bhonagiri}, \binits{V.}},
+\bauthor{\bsnm{Bihan}, \binits{M.}},
+\bauthor{\bsnm{Blaser}, \binits{M.J.}},
+\bauthor{\bsnm{Bloom}, \binits{T.}},
+\bauthor{\bsnm{Bonazzi}, \binits{V.}},
+\bauthor{\bsnm{Brooks}, \binits{J.P.}},
+\bauthor{\bsnm{Buck}, \binits{G.A.}},
+\bauthor{\bsnm{Buhay}, \binits{C.J.}},
+\bauthor{\bsnm{Busam}, \binits{D.A.}},
+\bauthor{\bsnm{Campbell}, \binits{J.L.}},
+\bauthor{\bsnm{Canon}, \binits{S.R.}},
+\bauthor{\bsnm{Cantarel}, \binits{B.L.}},
+\bauthor{\bsnm{Chain}, \binits{P.S.G.}},
+\bauthor{\bsnm{Chen}, \binits{I.-M.A.}},
+\bauthor{\bsnm{Chen}, \binits{L.}},
+\bauthor{\bsnm{Chhibba}, \binits{S.}},
+\bauthor{\bsnm{Chu}, \binits{K.}},
+\bauthor{\bsnm{Ciulla}, \binits{D.M.}},
+\bauthor{\bsnm{Clemente}, \binits{J.C.}},
+\bauthor{\bsnm{Clifton}, \binits{S.W.}},
+\bauthor{\bsnm{Conlan}, \binits{S.}},
+\bauthor{\bsnm{Crabtree}, \binits{J.}},
+\bauthor{\bsnm{Cutting}, \binits{M.A.}},
+\bauthor{\bsnm{Davidovics}, \binits{N.J.}},
+\bauthor{\bsnm{Davis}, \binits{C.C.}},
+\bauthor{\bsnm{DeSantis}, \binits{T.Z.}},
+\bauthor{\bsnm{Deal}, \binits{C.}},
+\bauthor{\bsnm{Delehaunty}, \binits{K.D.}},
+\bauthor{\bsnm{Dewhirst}, \binits{F.E.}},
+\bauthor{\bsnm{Deych}, \binits{E.}},
+\bauthor{\bsnm{Ding}, \binits{Y.}},
+\bauthor{\bsnm{Dooling}, \binits{D.J.}},
+\bauthor{\bsnm{Dugan}, \binits{S.P.}},
+\bauthor{\bsnm{Dunne}, \binits{W.M.}},
+\bauthor{\bsnm{Durkin}, \binits{A.S.}},
+\bauthor{\bsnm{Edgar}, \binits{R.C.}},
+\bauthor{\bsnm{Erlich}, \binits{R.L.}},
+\bauthor{\bsnm{Farmer}, \binits{C.N.}},
+\bauthor{\bsnm{Farrell}, \binits{R.M.}},
+\bauthor{\bsnm{Faust}, \binits{K.}},
+\bauthor{\bsnm{Feldgarden}, \binits{M.}},
+\bauthor{\bsnm{Felix}, \binits{V.M.}},
+\bauthor{\bsnm{Fisher}, \binits{S.}},
+\bauthor{\bsnm{Fodor}, \binits{A.A.}},
+\bauthor{\bsnm{Forney}, \binits{L.J.}},
+\bauthor{\bsnm{Foster}, \binits{L.}},
+\bauthor{\bsnm{Francesco}, \binits{V.D.}},
+\bauthor{\bsnm{Friedman}, \binits{J.}},
+\bauthor{\bsnm{Friedrich}, \binits{D.C.}},
+\bauthor{\bsnm{Fronick}, \binits{C.C.}},
+\bauthor{\bsnm{Fulton}, \binits{L.L.}},
+\bauthor{\bsnm{Gao}, \binits{H.}},
+\bauthor{\bsnm{Garcia}, \binits{N.}},
+\bauthor{\bsnm{Giannoukos}, \binits{G.}},
+\bauthor{\bsnm{Giblin}, \binits{C.}},
+\bauthor{\bsnm{Giovanni}, \binits{M.Y.}},
+\bauthor{\bsnm{Goldberg}, \binits{J.M.}},
+\bauthor{\bsnm{Goll}, \binits{J.}},
+\bauthor{\bsnm{Gonzalez}, \binits{A.}},
+\bauthor{\bsnm{Griggs}, \binits{A.}},
+\bauthor{\bsnm{Gujja}, \binits{S.}},
+\bauthor{\bsnm{Haake}, \binits{S.K.}},
+\bauthor{\bsnm{Haas}, \binits{B.J.}},
+\bauthor{\bsnm{Hamilton}, \binits{H.A.}},
+\bauthor{\bsnm{Harris}, \binits{E.L.}},
+\bauthor{\bsnm{Hepburn}, \binits{T.A.}},
+\bauthor{\bsnm{Herter}, \binits{B.}},
+\bauthor{\bsnm{Hoffmann}, \binits{D.E.}},
+\bauthor{\bsnm{Holder}, \binits{M.E.}},
+\bauthor{\bsnm{Howarth}, \binits{C.}},
+\bauthor{\bsnm{Huang}, \binits{K.H.}},
+\bauthor{\bsnm{Huse}, \binits{S.M.}},
+\bauthor{\bsnm{Izard}, \binits{J.}},
+\bauthor{\bsnm{Jansson}, \binits{J.K.}},
+\bauthor{\bsnm{Jiang}, \binits{H.}},
+\bauthor{\bsnm{Jordan}, \binits{C.}},
+\bauthor{\bsnm{Joshi}, \binits{V.}},
+\bauthor{\bsnm{Katancik}, \binits{J.A.}},
+\bauthor{\bsnm{Keitel}, \binits{W.A.}},
+\bauthor{\bsnm{Kelley}, \binits{S.T.}},
+\bauthor{\bsnm{Kells}, \binits{C.}},
+\bauthor{\bsnm{King}, \binits{N.B.}},
+\bauthor{\bsnm{Knights}, \binits{D.}},
+\bauthor{\bsnm{Kong}, \binits{H.H.}},
+\bauthor{\bsnm{Koren}, \binits{O.}},
+\bauthor{\bsnm{Koren}, \binits{S.}},
+\bauthor{\bsnm{Kota}, \binits{K.C.}},
+\bauthor{\bsnm{Kovar}, \binits{C.L.}},
+\bauthor{\bsnm{Kyrpides}, \binits{N.C.}},
+\bauthor{\bsnm{Rosa}, \binits{P.S.L.}},
+\bauthor{\bsnm{Lee}, \binits{S.L.}},
+\bauthor{\bsnm{Lemon}, \binits{K.P.}},
+\bauthor{\bsnm{Lennon}, \binits{N.}},
+\bauthor{\bsnm{Lewis}, \binits{C.M.}},
+\bauthor{\bsnm{Lewis}, \binits{L.}},
+\bauthor{\bsnm{Ley}, \binits{R.E.}},
+\bauthor{\bsnm{Li}, \binits{K.}},
+\bauthor{\bsnm{Liolios}, \binits{K.}},
+\bauthor{\bsnm{Liu}, \binits{B.}},
+\bauthor{\bsnm{Liu}, \binits{Y.}},
+\bauthor{\bsnm{Lo}, \binits{C.-C.}},
+\bauthor{\bsnm{Lozupone}, \binits{C.A.}},
+\bauthor{\bsnm{Lunsford}, \binits{R.D.}},
+\bauthor{\bsnm{Madden}, \binits{T.}},
+\bauthor{\bsnm{Mahurkar}, \binits{A.A.}},
+\bauthor{\bsnm{Mannon}, \binits{P.J.}},
+\bauthor{\bsnm{Mardis}, \binits{E.R.}},
+\bauthor{\bsnm{Markowitz}, \binits{V.M.}},
+\bauthor{\bsnm{Mavromatis}, \binits{K.}},
+\bauthor{\bsnm{McCorrison}, \binits{J.M.}},
+\bauthor{\bsnm{McDonald}, \binits{D.}},
+\bauthor{\bsnm{McEwen}, \binits{J.}},
+\bauthor{\bsnm{McGuire}, \binits{A.L.}},
+\bauthor{\bsnm{McInnes}, \binits{P.}},
+\bauthor{\bsnm{Mehta}, \binits{T.}},
+\bauthor{\bsnm{Mihindukulasuriya}, \binits{K.A.}},
+\bauthor{\bsnm{Miller}, \binits{J.R.}},
+\bauthor{\bsnm{Minx}, \binits{P.J.}},
+\bauthor{\bsnm{Newsham}, \binits{I.}},
+\bauthor{\bsnm{Nusbaum}, \binits{C.}},
+\bauthor{\bsnm{O'Laughlin}, \binits{M.}},
+\bauthor{\bsnm{Orvis}, \binits{J.}},
+\bauthor{\bsnm{Pagani}, \binits{I.}},
+\bauthor{\bsnm{Palaniappan}, \binits{K.}},
+\bauthor{\bsnm{Patel}, \binits{S.M.}},
+\bauthor{\bsnm{Pearson}, \binits{M.}},
+\bauthor{\bsnm{Peterson}, \binits{J.}},
+\bauthor{\bsnm{Podar}, \binits{M.}},
+\bauthor{\bsnm{Pohl}, \binits{C.}},
+\bauthor{\bsnm{Pollard}, \binits{K.S.}},
+\bauthor{\bsnm{Pop}, \binits{M.}},
+\bauthor{\bsnm{Priest}, \binits{M.E.}},
+\bauthor{\bsnm{Proctor}, \binits{L.M.}},
+\bauthor{\bsnm{Qin}, \binits{X.}},
+\bauthor{\bsnm{Raes}, \binits{J.}},
+\bauthor{\bsnm{Ravel}, \binits{J.}},
+\bauthor{\bsnm{Reid}, \binits{J.G.}},
+\bauthor{\bsnm{Rho}, \binits{M.}},
+\bauthor{\bsnm{Rhodes}, \binits{R.}},
+\bauthor{\bsnm{Riehle}, \binits{K.P.}},
+\bauthor{\bsnm{Rivera}, \binits{M.C.}},
+\bauthor{\bsnm{{Rodriguez-Mueller}}, \binits{B.}},
+\bauthor{\bsnm{Rogers}, \binits{Y.-H.}},
+\bauthor{\bsnm{Ross}, \binits{M.C.}},
+\bauthor{\bsnm{Russ}, \binits{C.}},
+\bauthor{\bsnm{Sanka}, \binits{R.K.}},
+\bauthor{\bsnm{Sankar}, \binits{P.}},
+\bauthor{\bsnm{Sathirapongsasuti}, \binits{J.F.}},
+\bauthor{\bsnm{Schloss}, \binits{J.A.}},
+\bauthor{\bsnm{Schloss}, \binits{P.D.}},
+\bauthor{\bsnm{Schmidt}, \binits{T.M.}},
+\bauthor{\bsnm{Scholz}, \binits{M.}},
+\bauthor{\bsnm{Schriml}, \binits{L.}},
+\bauthor{\bsnm{Schubert}, \binits{A.M.}},
+\bauthor{\bsnm{Segata}, \binits{N.}},
+\bauthor{\bsnm{Segre}, \binits{J.A.}},
+\bauthor{\bsnm{Shannon}, \binits{W.D.}},
+\bauthor{\bsnm{Sharp}, \binits{R.R.}},
+\bauthor{\bsnm{Sharpton}, \binits{T.J.}},
+\bauthor{\bsnm{Shenoy}, \binits{N.}},
+\bauthor{\bsnm{Sheth}, \binits{N.U.}},
+\bauthor{\bsnm{Simone}, \binits{G.A.}},
+\bauthor{\bsnm{Singh}, \binits{I.}},
+\bauthor{\bsnm{Smillie}, \binits{C.S.}},
+\bauthor{\bsnm{Sobel}, \binits{J.D.}},
+\bauthor{\bsnm{Sommer}, \binits{D.D.}},
+\bauthor{\bsnm{Spicer}, \binits{P.}},
+\bauthor{\bsnm{Sutton}, \binits{G.G.}},
+\bauthor{\bsnm{Sykes}, \binits{S.M.}},
+\bauthor{\bsnm{Tabbaa}, \binits{D.G.}},
+\bauthor{\bsnm{Thiagarajan}, \binits{M.}},
+\bauthor{\bsnm{Tomlinson}, \binits{C.M.}},
+\bauthor{\bsnm{Torralba}, \binits{M.}},
+\bauthor{\bsnm{Treangen}, \binits{T.J.}},
+\bauthor{\bsnm{Truty}, \binits{R.M.}},
+\bauthor{\bsnm{Vishnivetskaya}, \binits{T.A.}},
+\bauthor{\bsnm{Walker}, \binits{J.}},
+\bauthor{\bsnm{Wang}, \binits{L.}},
+\bauthor{\bsnm{Wang}, \binits{Z.}},
+\bauthor{\bsnm{Ward}, \binits{D.V.}},
+\bauthor{\bsnm{Warren}, \binits{W.}},
+\bauthor{\bsnm{Watson}, \binits{M.A.}},
+\bauthor{\bsnm{Wellington}, \binits{C.}},
+\bauthor{\bsnm{Wetterstrand}, \binits{K.A.}},
+\bauthor{\bsnm{White}, \binits{J.R.}},
+\bauthor{\bsnm{{Wilczek-Boney}}, \binits{K.}},
+\bauthor{\bsnm{Wu}, \binits{Y.}},
+\bauthor{\bsnm{Wylie}, \binits{K.M.}},
+\bauthor{\bsnm{Wylie}, \binits{T.}},
+\bauthor{\bsnm{Yandava}, \binits{C.}},
+\bauthor{\bsnm{Ye}, \binits{L.}},
+\bauthor{\bsnm{Ye}, \binits{Y.}},
+\bauthor{\bsnm{Yooseph}, \binits{S.}},
+\bauthor{\bsnm{Youmans}, \binits{B.P.}},
+\bauthor{\bsnm{Zhang}, \binits{L.}},
+\bauthor{\bsnm{Zhou}, \binits{Y.}},
+\bauthor{\bsnm{Zhu}, \binits{Y.}},
+\bauthor{\bsnm{Zoloth}, \binits{L.}},
+\bauthor{\bsnm{Zucker}, \binits{J.D.}},
+\bauthor{\bsnm{Birren}, \binits{B.W.}},
+\bauthor{\bsnm{Gibbs}, \binits{R.A.}},
+\bauthor{\bsnm{Highlander}, \binits{S.K.}},
+\bauthor{\bsnm{Meth{\'e}}, \binits{B.A.}},
+\bauthor{\bsnm{Nelson}, \binits{K.E.}},
+\bauthor{\bsnm{Petrosino}, \binits{J.F.}},
+\bauthor{\bsnm{Weinstock}, \binits{G.M.}},
+\bauthor{\bsnm{Wilson}, \binits{R.K.}},
+\bauthor{\bsnm{White}, \binits{O.}}:
+\batitle{Structure, function and diversity of the healthy human microbiome}.
+\bjtitle{Nature}
+\bvolume{486}(\bissue{7402}),
+\bfpage{207}--\blpage{214}
+(\byear{2012}).
+doi:\doiurl{10.1038/nature11234}
+\end{barticle}
+\endbibitem
+
+%%% 39
+\bibitem{zeller2014potential}
+\begin{barticle}
+\bauthor{\bsnm{Zeller}, \binits{G.}},
+\bauthor{\bsnm{Tap}, \binits{J.}},
+\bauthor{\bsnm{Voigt}, \binits{A.Y.}},
+\bauthor{\bsnm{Sunagawa}, \binits{S.}},
+\bauthor{\bsnm{Kultima}, \binits{J.R.}},
+\bauthor{\bsnm{Costea}, \binits{P.I.}},
+\bauthor{\bsnm{Amiot}, \binits{A.}},
+\bauthor{\bsnm{B{\"o}hm}, \binits{J.}},
+\bauthor{\bsnm{Brunetti}, \binits{F.}},
+\bauthor{\bsnm{Habermann}, \binits{N.}},
+\bauthor{\bsnm{Hercog}, \binits{R.}},
+\bauthor{\bsnm{Koch}, \binits{M.}},
+\bauthor{\bsnm{Luciani}, \binits{A.}},
+\bauthor{\bsnm{Mende}, \binits{D.R.}},
+\bauthor{\bsnm{Schneider}, \binits{M.A.}},
+\bauthor{\bsnm{Schrotz-King}, \binits{P.}},
+\bauthor{\bsnm{Tournigand}, \binits{C.}},
+\bauthor{\bsnm{Tran Van~Nhieu}, \binits{J.}},
+\bauthor{\bsnm{Yamada}, \binits{T.}},
+\bauthor{\bsnm{Zimmermann}, \binits{J.}},
+\bauthor{\bsnm{Benes}, \binits{V.}},
+\bauthor{\bsnm{Kloor}, \binits{M.}},
+\bauthor{\bsnm{Ulrich}, \binits{C.M.}},
+\bauthor{\bsnm{Knebel~Doeberitz}, \binits{M.}},
+\bauthor{\bsnm{Sobhani}, \binits{I.}},
+\bauthor{\bsnm{Bork}, \binits{P.}}:
+\batitle{Potential of fecal microbiota for early-stage detection of colorectal
+  cancer}.
+\bjtitle{Mol Syst Biol}
+\bvolume{10}(\bissue{11}),
+\bfpage{766}
+(\byear{2014}).
+doi:\doiurl{10.15252/msb.20145645}
+\end{barticle}
+\endbibitem
+
+%%% 40
+\bibitem{feng2015gut}
+\begin{barticle}
+\bauthor{\bsnm{Feng}, \binits{Q.}},
+\bauthor{\bsnm{Liang}, \binits{S.}},
+\bauthor{\bsnm{Jia}, \binits{H.}},
+\bauthor{\bsnm{Stadlmayr}, \binits{A.}},
+\bauthor{\bsnm{Tang}, \binits{L.}},
+\bauthor{\bsnm{Lan}, \binits{Z.}},
+\bauthor{\bsnm{Zhang}, \binits{D.}},
+\bauthor{\bsnm{Xia}, \binits{H.}},
+\bauthor{\bsnm{Xu}, \binits{X.}},
+\bauthor{\bsnm{Jie}, \binits{Z.}},
+\bauthor{\bsnm{Su}, \binits{L.}},
+\bauthor{\bsnm{Li}, \binits{X.}},
+\bauthor{\bsnm{Li}, \binits{X.}},
+\bauthor{\bsnm{Li}, \binits{J.}},
+\bauthor{\bsnm{Xiao}, \binits{L.}},
+\bauthor{\bsnm{{Huber-Sch{\"o}nauer}}, \binits{U.}},
+\bauthor{\bsnm{Niederseer}, \binits{D.}},
+\bauthor{\bsnm{Xu}, \binits{X.}},
+\bauthor{\bsnm{{Al-Aama}}, \binits{J.Y.}},
+\bauthor{\bsnm{Yang}, \binits{H.}},
+\bauthor{\bsnm{Wang}, \binits{J.}},
+\bauthor{\bsnm{Kristiansen}, \binits{K.}},
+\bauthor{\bsnm{Arumugam}, \binits{M.}},
+\bauthor{\bsnm{Tilg}, \binits{H.}},
+\bauthor{\bsnm{Datz}, \binits{C.}},
+\bauthor{\bsnm{Wang}, \binits{J.}}:
+\batitle{Gut microbiome development along the colorectal adenoma-carcinoma
+  sequence}.
+\bjtitle{Nat Commun}
+\bvolume{6},
+\bfpage{6528}
+(\byear{2015}).
+doi:\doiurl{10.1038/ncomms7528}
+\end{barticle}
+\endbibitem
+
+%%% 41
+\bibitem{gupta2019association}
+\begin{barticle}
+\bauthor{\bsnm{Gupta}, \binits{A.}},
+\bauthor{\bsnm{Dhakan}, \binits{D.B.}},
+\bauthor{\bsnm{Maji}, \binits{A.}},
+\bauthor{\bsnm{Saxena}, \binits{R.}},
+\bauthor{\bsnm{P~K}, \binits{V.P.}},
+\bauthor{\bsnm{Mahajan}, \binits{S.}},
+\bauthor{\bsnm{Pulikkan}, \binits{J.}},
+\bauthor{\bsnm{Kurian}, \binits{J.}},
+\bauthor{\bsnm{Gomez}, \binits{A.M.}},
+\bauthor{\bsnm{Scaria}, \binits{J.}},
+\bauthor{\bsnm{Amato}, \binits{K.R.}},
+\bauthor{\bsnm{Sharma}, \binits{A.K.}},
+\bauthor{\bsnm{Sharma}, \binits{V.K.}}:
+\batitle{Association of {{Flavonifractor}} plautii, a {{Flavonoid-Degrading
+  Bacterium}}, with the {{Gut Microbiome}} of {{Colorectal Cancer Patients}} in
+  {{India}}}.
+\bjtitle{mSystems}
+\bvolume{4}(\bissue{6}),
+\bfpage{00438}--\blpage{19}
+(\byear{2019}).
+doi:\doiurl{10.1128/mSystems.00438-19}
+\end{barticle}
+\endbibitem
+
+%%% 42
+\bibitem{hannigan2018diagnostic}
+\begin{barticle}
+\bauthor{\bsnm{Hannigan}, \binits{G.D.}},
+\bauthor{\bsnm{Duhaime}, \binits{M.B.}},
+\bauthor{\bsnm{Ruffin}, \binits{M.T.}},
+\bauthor{\bsnm{Koumpouras}, \binits{C.C.}},
+\bauthor{\bsnm{Schloss}, \binits{P.D.}}:
+\batitle{Diagnostic {{Potential}} and {{Interactive Dynamics}} of the
+  {{Colorectal Cancer Virome}}}.
+\bjtitle{mBio}
+\bvolume{9}(\bissue{6}),
+\bfpage{02248}--\blpage{18}
+(\byear{2018}).
+doi:\doiurl{10.1128/mBio.02248-18}
+\end{barticle}
+\endbibitem
+
+%%% 43
+\bibitem{thomas2019metagenomic}
+\begin{barticle}
+\bauthor{\bsnm{Thomas}, \binits{A.M.}},
+\bauthor{\bsnm{Manghi}, \binits{P.}},
+\bauthor{\bsnm{Asnicar}, \binits{F.}},
+\bauthor{\bsnm{Pasolli}, \binits{E.}},
+\bauthor{\bsnm{Armanini}, \binits{F.}},
+\bauthor{\bsnm{Zolfo}, \binits{M.}},
+\bauthor{\bsnm{Beghini}, \binits{F.}},
+\bauthor{\bsnm{Manara}, \binits{S.}},
+\bauthor{\bsnm{Karcher}, \binits{N.}},
+\bauthor{\bsnm{Pozzi}, \binits{C.}},
+\bauthor{\bsnm{Gandini}, \binits{S.}},
+\bauthor{\bsnm{Serrano}, \binits{D.}},
+\bauthor{\bsnm{Tarallo}, \binits{S.}},
+\bauthor{\bsnm{Francavilla}, \binits{A.}},
+\bauthor{\bsnm{Gallo}, \binits{G.}},
+\bauthor{\bsnm{Trompetto}, \binits{M.}},
+\bauthor{\bsnm{Ferrero}, \binits{G.}},
+\bauthor{\bsnm{Mizutani}, \binits{S.}},
+\bauthor{\bsnm{Shiroma}, \binits{H.}},
+\bauthor{\bsnm{Shiba}, \binits{S.}},
+\bauthor{\bsnm{Shibata}, \binits{T.}},
+\bauthor{\bsnm{Yachida}, \binits{S.}},
+\bauthor{\bsnm{Yamada}, \binits{T.}},
+\bauthor{\bsnm{Wirbel}, \binits{J.}},
+\bauthor{\bsnm{{Schrotz-King}}, \binits{P.}},
+\bauthor{\bsnm{Ulrich}, \binits{C.M.}},
+\bauthor{\bsnm{Brenner}, \binits{H.}},
+\bauthor{\bsnm{Arumugam}, \binits{M.}},
+\bauthor{\bsnm{Bork}, \binits{P.}},
+\bauthor{\bsnm{Zeller}, \binits{G.}},
+\bauthor{\bsnm{Cordero}, \binits{F.}},
+\bauthor{\bsnm{{Dias-Neto}}, \binits{E.}},
+\bauthor{\bsnm{Setubal}, \binits{J.C.}},
+\bauthor{\bsnm{Tett}, \binits{A.}},
+\bauthor{\bsnm{Pardini}, \binits{B.}},
+\bauthor{\bsnm{Rescigno}, \binits{M.}},
+\bauthor{\bsnm{Waldron}, \binits{L.}},
+\bauthor{\bsnm{Naccarati}, \binits{A.}},
+\bauthor{\bsnm{Segata}, \binits{N.}}:
+\batitle{Metagenomic analysis of colorectal cancer datasets identifies
+  cross-cohort microbial diagnostic signatures and a link with choline
+  degradation}.
+\bjtitle{Nat Med}
+\bvolume{25}(\bissue{4}),
+\bfpage{667}--\blpage{678}
+(\byear{2019}).
+doi:\doiurl{10.1038/s41591-019-0405-7}
+\end{barticle}
+\endbibitem
+
+%%% 44
+\bibitem{vogtmann2016colorectal}
+\begin{barticle}
+\bauthor{\bsnm{Vogtmann}, \binits{E.}},
+\bauthor{\bsnm{Hua}, \binits{X.}},
+\bauthor{\bsnm{Zeller}, \binits{G.}},
+\bauthor{\bsnm{Sunagawa}, \binits{S.}},
+\bauthor{\bsnm{Voigt}, \binits{A.Y.}},
+\bauthor{\bsnm{Hercog}, \binits{R.}},
+\bauthor{\bsnm{Goedert}, \binits{J.J.}},
+\bauthor{\bsnm{Shi}, \binits{J.}},
+\bauthor{\bsnm{Bork}, \binits{P.}},
+\bauthor{\bsnm{Sinha}, \binits{R.}}:
+\batitle{Colorectal {{Cancer}} and the {{Human Gut Microbiome}}:
+  {{Reproducibility}} with {{Whole-Genome Shotgun Sequencing}}}.
+\bjtitle{PLoS One}
+\bvolume{11}(\bissue{5}),
+\bfpage{0155362}
+(\byear{2016}).
+doi:\doiurl{10.1371/journal.pone.0155362}
+\end{barticle}
+\endbibitem
+
+%%% 45
+\bibitem{wirbel2019metaanalysis}
+\begin{barticle}
+\bauthor{\bsnm{Wirbel}, \binits{J.}},
+\bauthor{\bsnm{Pyl}, \binits{P.T.}},
+\bauthor{\bsnm{Kartal}, \binits{E.}},
+\bauthor{\bsnm{Zych}, \binits{K.}},
+\bauthor{\bsnm{Kashani}, \binits{A.}},
+\bauthor{\bsnm{Milanese}, \binits{A.}},
+\bauthor{\bsnm{Fleck}, \binits{J.S.}},
+\bauthor{\bsnm{Voigt}, \binits{A.Y.}},
+\bauthor{\bsnm{Palleja}, \binits{A.}},
+\bauthor{\bsnm{Ponnudurai}, \binits{R.}},
+\bauthor{\bsnm{Sunagawa}, \binits{S.}},
+\bauthor{\bsnm{Coelho}, \binits{L.P.}},
+\bauthor{\bsnm{{Schrotz-King}}, \binits{P.}},
+\bauthor{\bsnm{Vogtmann}, \binits{E.}},
+\bauthor{\bsnm{Habermann}, \binits{N.}},
+\bauthor{\bsnm{Nim{\'e}us}, \binits{E.}},
+\bauthor{\bsnm{Thomas}, \binits{A.M.}},
+\bauthor{\bsnm{Manghi}, \binits{P.}},
+\bauthor{\bsnm{Gandini}, \binits{S.}},
+\bauthor{\bsnm{Serrano}, \binits{D.}},
+\bauthor{\bsnm{Mizutani}, \binits{S.}},
+\bauthor{\bsnm{Shiroma}, \binits{H.}},
+\bauthor{\bsnm{Shiba}, \binits{S.}},
+\bauthor{\bsnm{Shibata}, \binits{T.}},
+\bauthor{\bsnm{Yachida}, \binits{S.}},
+\bauthor{\bsnm{Yamada}, \binits{T.}},
+\bauthor{\bsnm{Waldron}, \binits{L.}},
+\bauthor{\bsnm{Naccarati}, \binits{A.}},
+\bauthor{\bsnm{Segata}, \binits{N.}},
+\bauthor{\bsnm{Sinha}, \binits{R.}},
+\bauthor{\bsnm{Ulrich}, \binits{C.M.}},
+\bauthor{\bsnm{Brenner}, \binits{H.}},
+\bauthor{\bsnm{Arumugam}, \binits{M.}},
+\bauthor{\bsnm{Bork}, \binits{P.}},
+\bauthor{\bsnm{Zeller}, \binits{G.}}:
+\batitle{Meta-analysis of fecal metagenomes reveals global microbial signatures
+  that are specific for colorectal cancer}.
+\bjtitle{Nat Med}
+\bvolume{25}(\bissue{4}),
+\bfpage{679}--\blpage{689}
+(\byear{2019}).
+doi:\doiurl{10.1038/s41591-019-0406-6}
+\end{barticle}
+\endbibitem
+
+%%% 46
+\bibitem{yachida2019metagenomic}
+\begin{barticle}
+\bauthor{\bsnm{Yachida}, \binits{S.}},
+\bauthor{\bsnm{Mizutani}, \binits{S.}},
+\bauthor{\bsnm{Shiroma}, \binits{H.}},
+\bauthor{\bsnm{Shiba}, \binits{S.}},
+\bauthor{\bsnm{Nakajima}, \binits{T.}},
+\bauthor{\bsnm{Sakamoto}, \binits{T.}},
+\bauthor{\bsnm{Watanabe}, \binits{H.}},
+\bauthor{\bsnm{Masuda}, \binits{K.}},
+\bauthor{\bsnm{Nishimoto}, \binits{Y.}},
+\bauthor{\bsnm{Kubo}, \binits{M.}},
+\bauthor{\bsnm{Hosoda}, \binits{F.}},
+\bauthor{\bsnm{Rokutan}, \binits{H.}},
+\bauthor{\bsnm{Matsumoto}, \binits{M.}},
+\bauthor{\bsnm{Takamaru}, \binits{H.}},
+\bauthor{\bsnm{Yamada}, \binits{M.}},
+\bauthor{\bsnm{Matsuda}, \binits{T.}},
+\bauthor{\bsnm{Iwasaki}, \binits{M.}},
+\bauthor{\bsnm{Yamaji}, \binits{T.}},
+\bauthor{\bsnm{Yachida}, \binits{T.}},
+\bauthor{\bsnm{Soga}, \binits{T.}},
+\bauthor{\bsnm{Kurokawa}, \binits{K.}},
+\bauthor{\bsnm{Toyoda}, \binits{A.}},
+\bauthor{\bsnm{Ogura}, \binits{Y.}},
+\bauthor{\bsnm{Hayashi}, \binits{T.}},
+\bauthor{\bsnm{Hatakeyama}, \binits{M.}},
+\bauthor{\bsnm{Nakagama}, \binits{H.}},
+\bauthor{\bsnm{Saito}, \binits{Y.}},
+\bauthor{\bsnm{Fukuda}, \binits{S.}},
+\bauthor{\bsnm{Shibata}, \binits{T.}},
+\bauthor{\bsnm{Yamada}, \binits{T.}}:
+\batitle{Metagenomic and metabolomic analyses reveal distinct stage-specific
+  phenotypes of the gut microbiota in colorectal cancer}.
+\bjtitle{Nat Med}
+\bvolume{25}(\bissue{6}),
+\bfpage{968}--\blpage{976}
+(\byear{2019}).
+doi:\doiurl{10.1038/s41591-019-0458-7}
+\end{barticle}
+\endbibitem
+
+%%% 47
+\bibitem{yu2017metagenomica}
+\begin{barticle}
+\bauthor{\bsnm{Yu}, \binits{J.}},
+\bauthor{\bsnm{Feng}, \binits{Q.}},
+\bauthor{\bsnm{Wong}, \binits{S.H.}},
+\bauthor{\bsnm{Zhang}, \binits{D.}},
+\bauthor{\bsnm{Liang}, \binits{Q.Y.}},
+\bauthor{\bsnm{Qin}, \binits{Y.}},
+\bauthor{\bsnm{Tang}, \binits{L.}},
+\bauthor{\bsnm{Zhao}, \binits{H.}},
+\bauthor{\bsnm{Stenvang}, \binits{J.}},
+\bauthor{\bsnm{Li}, \binits{Y.}},
+\bauthor{\bsnm{Wang}, \binits{X.}},
+\bauthor{\bsnm{Xu}, \binits{X.}},
+\bauthor{\bsnm{Chen}, \binits{N.}},
+\bauthor{\bsnm{Wu}, \binits{W.K.K.}},
+\bauthor{\bsnm{{Al-Aama}}, \binits{J.}},
+\bauthor{\bsnm{Nielsen}, \binits{H.J.}},
+\bauthor{\bsnm{Kiilerich}, \binits{P.}},
+\bauthor{\bsnm{Jensen}, \binits{B.A.H.}},
+\bauthor{\bsnm{Yau}, \binits{T.O.}},
+\bauthor{\bsnm{Lan}, \binits{Z.}},
+\bauthor{\bsnm{Jia}, \binits{H.}},
+\bauthor{\bsnm{Li}, \binits{J.}},
+\bauthor{\bsnm{Xiao}, \binits{L.}},
+\bauthor{\bsnm{Lam}, \binits{T.Y.T.}},
+\bauthor{\bsnm{Ng}, \binits{S.C.}},
+\bauthor{\bsnm{Cheng}, \binits{A.S.-L.}},
+\bauthor{\bsnm{Wong}, \binits{V.W.-S.}},
+\bauthor{\bsnm{Chan}, \binits{F.K.L.}},
+\bauthor{\bsnm{Xu}, \binits{X.}},
+\bauthor{\bsnm{Yang}, \binits{H.}},
+\bauthor{\bsnm{Madsen}, \binits{L.}},
+\bauthor{\bsnm{Datz}, \binits{C.}},
+\bauthor{\bsnm{Tilg}, \binits{H.}},
+\bauthor{\bsnm{Wang}, \binits{J.}},
+\bauthor{\bsnm{Br{\"u}nner}, \binits{N.}},
+\bauthor{\bsnm{Kristiansen}, \binits{K.}},
+\bauthor{\bsnm{Arumugam}, \binits{M.}},
+\bauthor{\bsnm{Sung}, \binits{J.J.-Y.}},
+\bauthor{\bsnm{Wang}, \binits{J.}}:
+\batitle{Metagenomic analysis of faecal microbiome as a tool towards targeted
+  non-invasive biomarkers for colorectal cancer}.
+\bjtitle{Gut}
+\bvolume{66}(\bissue{1}),
+\bfpage{70}--\blpage{78}
+(\byear{2017}).
+doi:\doiurl{10.1136/gutjnl-2015-309800}
+\end{barticle}
+\endbibitem
+
+%%% 48
+\bibitem{proctor2019integrative}
+\begin{barticle}
+\bauthor{\bsnm{Proctor}, \binits{L.M.}},
+\bauthor{\bsnm{Creasy}, \binits{H.H.}},
+\bauthor{\bsnm{Fettweis}, \binits{J.M.}},
+\bauthor{\bsnm{{Lloyd-Price}}, \binits{J.}},
+\bauthor{\bsnm{Mahurkar}, \binits{A.}},
+\bauthor{\bsnm{Zhou}, \binits{W.}},
+\bauthor{\bsnm{Buck}, \binits{G.A.}},
+\bauthor{\bsnm{Snyder}, \binits{M.P.}},
+\bauthor{\bsnm{Strauss}, \binits{J.F.}},
+\bauthor{\bsnm{Weinstock}, \binits{G.M.}},
+\bauthor{\bsnm{White}, \binits{O.}},
+\bauthor{\bsnm{Huttenhower}, \binits{C.}},
+\bauthor{\bsnm{{The Integrative HMP (iHMP) Research Network Consortium}}}:
+\batitle{The {{Integrative Human Microbiome Project}}}.
+\bjtitle{Nature}
+\bvolume{569}(\bissue{7758}),
+\bfpage{641}--\blpage{648}
+(\byear{2019}).
+doi:\doiurl{10.1038/s41586-019-1238-8}
+\end{barticle}
+\endbibitem
+
+%%% 49
+\bibitem{hall2017novel}
+\begin{barticle}
+\bauthor{\bsnm{Hall}, \binits{A.B.}},
+\bauthor{\bsnm{Yassour}, \binits{M.}},
+\bauthor{\bsnm{Sauk}, \binits{J.}},
+\bauthor{\bsnm{Garner}, \binits{A.}},
+\bauthor{\bsnm{Jiang}, \binits{X.}},
+\bauthor{\bsnm{Arthur}, \binits{T.}},
+\bauthor{\bsnm{Lagoudas}, \binits{G.K.}},
+\bauthor{\bsnm{Vatanen}, \binits{T.}},
+\bauthor{\bsnm{Fornelos}, \binits{N.}},
+\bauthor{\bsnm{Wilson}, \binits{R.}},
+\bauthor{\bsnm{Bertha}, \binits{M.}},
+\bauthor{\bsnm{Cohen}, \binits{M.}},
+\bauthor{\bsnm{Garber}, \binits{J.}},
+\bauthor{\bsnm{Khalili}, \binits{H.}},
+\bauthor{\bsnm{Gevers}, \binits{D.}},
+\bauthor{\bsnm{Ananthakrishnan}, \binits{A.N.}},
+\bauthor{\bsnm{Kugathasan}, \binits{S.}},
+\bauthor{\bsnm{Lander}, \binits{E.S.}},
+\bauthor{\bsnm{Blainey}, \binits{P.}},
+\bauthor{\bsnm{Vlamakis}, \binits{H.}},
+\bauthor{\bsnm{Xavier}, \binits{R.J.}},
+\bauthor{\bsnm{Huttenhower}, \binits{C.}}:
+\batitle{A novel {{Ruminococcus}} gnavus clade enriched in inflammatory bowel
+  disease patients}.
+\bjtitle{Genome Med}
+\bvolume{9}(\bissue{1}),
+\bfpage{103}
+(\byear{2017}).
+doi:\doiurl{10.1186/s13073-017-0490-5}
+\end{barticle}
+\endbibitem
+
+%%% 50
+\bibitem{ijaz2017distinct}
+\begin{barticle}
+\bauthor{\bsnm{Ijaz}, \binits{U.Z.}},
+\bauthor{\bsnm{Quince}, \binits{C.}},
+\bauthor{\bsnm{Hanske}, \binits{L.}},
+\bauthor{\bsnm{Loman}, \binits{N.}},
+\bauthor{\bsnm{Calus}, \binits{S.T.}},
+\bauthor{\bsnm{Bertz}, \binits{M.}},
+\bauthor{\bsnm{Edwards}, \binits{C.A.}},
+\bauthor{\bsnm{Gaya}, \binits{D.R.}},
+\bauthor{\bsnm{Hansen}, \binits{R.}},
+\bauthor{\bsnm{McGrogan}, \binits{P.}},
+\bauthor{\bsnm{Russell}, \binits{R.K.}},
+\bauthor{\bsnm{Gerasimidis}, \binits{K.}}:
+\batitle{The distinct features of microbial 'dysbiosis' of {{Crohn}}'s disease
+  do not occur to the same extent in their unaffected, genetically-linked
+  kindred}.
+\bjtitle{PLoS One}
+\bvolume{12}(\bissue{2}),
+\bfpage{0172605}
+(\byear{2017}).
+doi:\doiurl{10.1371/journal.pone.0172605}
+\end{barticle}
+\endbibitem
+
+%%% 51
+\bibitem{li2014integrated}
+\begin{barticle}
+\bauthor{\bsnm{Li}, \binits{J.}},
+\bauthor{\bsnm{Jia}, \binits{H.}},
+\bauthor{\bsnm{Cai}, \binits{X.}},
+\bauthor{\bsnm{Zhong}, \binits{H.}},
+\bauthor{\bsnm{Feng}, \binits{Q.}},
+\bauthor{\bsnm{Sunagawa}, \binits{S.}},
+\bauthor{\bsnm{Arumugam}, \binits{M.}},
+\bauthor{\bsnm{Kultima}, \binits{J.R.}},
+\bauthor{\bsnm{Prifti}, \binits{E.}},
+\bauthor{\bsnm{Nielsen}, \binits{T.}},
+\bauthor{\bsnm{Juncker}, \binits{A.S.}},
+\bauthor{\bsnm{Manichanh}, \binits{C.}},
+\bauthor{\bsnm{Chen}, \binits{B.}},
+\bauthor{\bsnm{Zhang}, \binits{W.}},
+\bauthor{\bsnm{Levenez}, \binits{F.}},
+\bauthor{\bsnm{Wang}, \binits{J.}},
+\bauthor{\bsnm{Xu}, \binits{X.}},
+\bauthor{\bsnm{Xiao}, \binits{L.}},
+\bauthor{\bsnm{Liang}, \binits{S.}},
+\bauthor{\bsnm{Zhang}, \binits{D.}},
+\bauthor{\bsnm{Zhang}, \binits{Z.}},
+\bauthor{\bsnm{Chen}, \binits{W.}},
+\bauthor{\bsnm{Zhao}, \binits{H.}},
+\bauthor{\bsnm{{Al-Aama}}, \binits{J.Y.}},
+\bauthor{\bsnm{Edris}, \binits{S.}},
+\bauthor{\bsnm{Yang}, \binits{H.}},
+\bauthor{\bsnm{Wang}, \binits{J.}},
+\bauthor{\bsnm{Hansen}, \binits{T.}},
+\bauthor{\bsnm{Nielsen}, \binits{H.B.}},
+\bauthor{\bsnm{Brunak}, \binits{S.}},
+\bauthor{\bsnm{Kristiansen}, \binits{K.}},
+\bauthor{\bsnm{Guarner}, \binits{F.}},
+\bauthor{\bsnm{Pedersen}, \binits{O.}},
+\bauthor{\bsnm{Dor{\'e}}, \binits{J.}},
+\bauthor{\bsnm{Ehrlich}, \binits{S.D.}},
+\bauthor{\bsnm{{MetaHIT Consortium}}},
+\bauthor{\bsnm{Bork}, \binits{P.}},
+\bauthor{\bsnm{Wang}, \binits{J.}},
+\bauthor{\bsnm{{MetaHIT Consortium}}}:
+\batitle{An integrated catalog of reference genes in the human gut microbiome}.
+\bjtitle{Nat Biotechnol}
+\bvolume{32}(\bissue{8}),
+\bfpage{834}--\blpage{841}
+(\byear{2014}).
+doi:\doiurl{10.1038/nbt.2942}
+\end{barticle}
+\endbibitem
+
+%%% 52
+\bibitem{nielsen2014identificationa}
+\begin{barticle}
+\bauthor{\bsnm{Nielsen}, \binits{H.B.}},
+\bauthor{\bsnm{Almeida}, \binits{M.}},
+\bauthor{\bsnm{Juncker}, \binits{A.S.}},
+\bauthor{\bsnm{Rasmussen}, \binits{S.}},
+\bauthor{\bsnm{Li}, \binits{J.}},
+\bauthor{\bsnm{Sunagawa}, \binits{S.}},
+\bauthor{\bsnm{Plichta}, \binits{D.R.}},
+\bauthor{\bsnm{Gautier}, \binits{L.}},
+\bauthor{\bsnm{Pedersen}, \binits{A.G.}},
+\bauthor{\bsnm{Le~Chatelier}, \binits{E.}},
+\bauthor{\bsnm{Pelletier}, \binits{E.}},
+\bauthor{\bsnm{Bonde}, \binits{I.}},
+\bauthor{\bsnm{Nielsen}, \binits{T.}},
+\bauthor{\bsnm{Manichanh}, \binits{C.}},
+\bauthor{\bsnm{Arumugam}, \binits{M.}},
+\bauthor{\bsnm{Batto}, \binits{J.-M.}},
+\bauthor{\bsnm{Quintanilha Dos~Santos}, \binits{M.B.}},
+\bauthor{\bsnm{Blom}, \binits{N.}},
+\bauthor{\bsnm{Borruel}, \binits{N.}},
+\bauthor{\bsnm{Burgdorf}, \binits{K.S.}},
+\bauthor{\bsnm{Boumezbeur}, \binits{F.}},
+\bauthor{\bsnm{Casellas}, \binits{F.}},
+\bauthor{\bsnm{Dor{\'e}}, \binits{J.}},
+\bauthor{\bsnm{Dworzynski}, \binits{P.}},
+\bauthor{\bsnm{Guarner}, \binits{F.}},
+\bauthor{\bsnm{Hansen}, \binits{T.}},
+\bauthor{\bsnm{Hildebrand}, \binits{F.}},
+\bauthor{\bsnm{Kaas}, \binits{R.S.}},
+\bauthor{\bsnm{Kennedy}, \binits{S.}},
+\bauthor{\bsnm{Kristiansen}, \binits{K.}},
+\bauthor{\bsnm{Kultima}, \binits{J.R.}},
+\bauthor{\bsnm{L{\'e}onard}, \binits{P.}},
+\bauthor{\bsnm{Levenez}, \binits{F.}},
+\bauthor{\bsnm{Lund}, \binits{O.}},
+\bauthor{\bsnm{Moumen}, \binits{B.}},
+\bauthor{\bsnm{Le~Paslier}, \binits{D.}},
+\bauthor{\bsnm{Pons}, \binits{N.}},
+\bauthor{\bsnm{Pedersen}, \binits{O.}},
+\bauthor{\bsnm{Prifti}, \binits{E.}},
+\bauthor{\bsnm{Qin}, \binits{J.}},
+\bauthor{\bsnm{Raes}, \binits{J.}},
+\bauthor{\bsnm{S{\o}rensen}, \binits{S.}},
+\bauthor{\bsnm{Tap}, \binits{J.}},
+\bauthor{\bsnm{Tims}, \binits{S.}},
+\bauthor{\bsnm{Ussery}, \binits{D.W.}},
+\bauthor{\bsnm{Yamada}, \binits{T.}},
+\bauthor{\bsnm{{MetaHIT Consortium}}},
+\bauthor{\bsnm{Renault}, \binits{P.}},
+\bauthor{\bsnm{{Sicheritz-Ponten}}, \binits{T.}},
+\bauthor{\bsnm{Bork}, \binits{P.}},
+\bauthor{\bsnm{Wang}, \binits{J.}},
+\bauthor{\bsnm{Brunak}, \binits{S.}},
+\bauthor{\bsnm{Ehrlich}, \binits{S.D.}},
+\bauthor{\bsnm{{MetaHIT Consortium}}}:
+\batitle{Identification and assembly of genomes and genetic elements in complex
+  metagenomic samples without using reference genomes}.
+\bjtitle{Nat Biotechnol}
+\bvolume{32}(\bissue{8}),
+\bfpage{822}--\blpage{828}
+(\byear{2014}).
+doi:\doiurl{10.1038/nbt.2939}
+\end{barticle}
+\endbibitem
+
+%%% 53
+\bibitem{vichvila2018gut}
+\begin{barticle}
+\bauthor{\bsnm{Vich~Vila}, \binits{A.}},
+\bauthor{\bsnm{Imhann}, \binits{F.}},
+\bauthor{\bsnm{Collij}, \binits{V.}},
+\bauthor{\bsnm{Jankipersadsing}, \binits{S.A.}},
+\bauthor{\bsnm{Gurry}, \binits{T.}},
+\bauthor{\bsnm{Mujagic}, \binits{Z.}},
+\bauthor{\bsnm{Kurilshikov}, \binits{A.}},
+\bauthor{\bsnm{Bonder}, \binits{M.J.}},
+\bauthor{\bsnm{Jiang}, \binits{X.}},
+\bauthor{\bsnm{Tigchelaar}, \binits{E.F.}},
+\bauthor{\bsnm{Dekens}, \binits{J.}},
+\bauthor{\bsnm{Peters}, \binits{V.}},
+\bauthor{\bsnm{Voskuil}, \binits{M.D.}},
+\bauthor{\bsnm{Visschedijk}, \binits{M.C.}},
+\bauthor{\bsnm{{van Dullemen}}, \binits{H.M.}},
+\bauthor{\bsnm{Keszthelyi}, \binits{D.}},
+\bauthor{\bsnm{Swertz}, \binits{M.A.}},
+\bauthor{\bsnm{Franke}, \binits{L.}},
+\bauthor{\bsnm{Alberts}, \binits{R.}},
+\bauthor{\bsnm{Festen}, \binits{E.A.M.}},
+\bauthor{\bsnm{Dijkstra}, \binits{G.}},
+\bauthor{\bsnm{Masclee}, \binits{A.A.M.}},
+\bauthor{\bsnm{Hofker}, \binits{M.H.}},
+\bauthor{\bsnm{Xavier}, \binits{R.J.}},
+\bauthor{\bsnm{Alm}, \binits{E.J.}},
+\bauthor{\bsnm{Fu}, \binits{J.}},
+\bauthor{\bsnm{Wijmenga}, \binits{C.}},
+\bauthor{\bsnm{Jonkers}, \binits{D.M.A.E.}},
+\bauthor{\bsnm{Zhernakova}, \binits{A.}},
+\bauthor{\bsnm{Weersma}, \binits{R.K.}}:
+\batitle{Gut microbiota composition and functional changes in inflammatory
+  bowel disease and irritable bowel syndrome}.
+\bjtitle{Sci Transl Med}
+\bvolume{10}(\bissue{472}),
+\bfpage{8914}
+(\byear{2018}).
+doi:\doiurl{10.1126/scitranslmed.aap8914}
+\end{barticle}
+\endbibitem
+
+%%% 54
+\bibitem{breiman2001random}
+\begin{barticle}
+\bauthor{\bsnm{Breiman}, \binits{L.}}:
+\batitle{Random {{Forests}}}.
+\bjtitle{Machine Learning}
+\bvolume{45}(\bissue{1}),
+\bfpage{5}--\blpage{32}
+(\byear{2001}).
+doi:\doiurl{10.1023/A:1010933404324}
+\end{barticle}
+\endbibitem
+
+%%% 55
+\bibitem{scikit-learn}
+\begin{barticle}
+\bauthor{\bsnm{Pedregosa}, \binits{F.}},
+\bauthor{\bsnm{Varoquaux}, \binits{G.}},
+\bauthor{\bsnm{Gramfort}, \binits{A.}},
+\bauthor{\bsnm{Michel}, \binits{V.}},
+\bauthor{\bsnm{Thirion}, \binits{B.}},
+\bauthor{\bsnm{Grisel}, \binits{O.}},
+\bauthor{\bsnm{Blondel}, \binits{M.}},
+\bauthor{\bsnm{Prettenhofer}, \binits{P.}},
+\bauthor{\bsnm{Weiss}, \binits{R.}},
+\bauthor{\bsnm{Dubourg}, \binits{V.}},
+\bauthor{\bsnm{Vanderplas}, \binits{J.}},
+\bauthor{\bsnm{Passos}, \binits{A.}},
+\bauthor{\bsnm{Cournapeau}, \binits{D.}},
+\bauthor{\bsnm{Brucher}, \binits{M.}},
+\bauthor{\bsnm{Perrot}, \binits{M.}},
+\bauthor{\bsnm{Duchesnay}, \binits{E.}}:
+\batitle{Scikit-learn: {{Machine}} learning in {{Python}}}.
+\bjtitle{Journal of Machine Learning Research}
+\bvolume{12},
+\bfpage{2825}--\blpage{2830}
+(\byear{2011})
+\end{barticle}
+\endbibitem
+
+%%% 56
+\bibitem{brier1950verification}
+\begin{barticle}
+\bauthor{\bsnm{Brier}, \binits{G.W.}}:
+\batitle{{{VERIFICATION OF FORECASTS EXPRESSED IN TERMS OF PROBABILITY}}}.
+\bjtitle{Mon. Wea. Rev.}
+\bvolume{78}(\bissue{1}),
+\bfpage{1}--\blpage{3}
+(\byear{1950}).
+doi:\doiurl{10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2}
+\end{barticle}
+\endbibitem
+
+%%% 57
+\bibitem{Platt99probabilisticoutputs}
+\begin{bchapter}
+\bauthor{\bsnm{Platt}, \binits{J.C.}}:
+\bctitle{Probabilistic outputs for support vector machines and comparisons to
+  regularized likelihood methods}.
+In: \bbtitle{{{ADVANCES IN LARGE MARGIN CLASSIFIERS}}},
+pp. \bfpage{61}--\blpage{74}.
+\bpublisher{{MIT Press}}, \blocation{???}
+(\byear{1999})
+\end{bchapter}
+\endbibitem
+
+%%% 58
+\bibitem{ravel2011vaginal}
+\begin{barticle}
+\bauthor{\bsnm{Ravel}, \binits{J.}},
+\bauthor{\bsnm{Gajer}, \binits{P.}},
+\bauthor{\bsnm{Abdo}, \binits{Z.}},
+\bauthor{\bsnm{Schneider}, \binits{G.M.}},
+\bauthor{\bsnm{Koenig}, \binits{S.S.K.}},
+\bauthor{\bsnm{McCulle}, \binits{S.L.}},
+\bauthor{\bsnm{Karlebach}, \binits{S.}},
+\bauthor{\bsnm{Gorle}, \binits{R.}},
+\bauthor{\bsnm{Russell}, \binits{J.}},
+\bauthor{\bsnm{Tacket}, \binits{C.O.}},
+\bauthor{\bsnm{Brotman}, \binits{R.M.}},
+\bauthor{\bsnm{Davis}, \binits{C.C.}},
+\bauthor{\bsnm{Ault}, \binits{K.}},
+\bauthor{\bsnm{Peralta}, \binits{L.}},
+\bauthor{\bsnm{Forney}, \binits{L.J.}}:
+\batitle{Vaginal microbiome of reproductive-age women}.
+\bjtitle{Proc. Natl. Acad. Sci. U.S.A.}
+\bvolume{108}(\bissue{supplement\_1}),
+\bfpage{4680}--\blpage{4687}
+(\byear{2011}).
+doi:\doiurl{10.1073/pnas.1002611107}
+\end{barticle}
+\endbibitem
+
+%%% 59
+\bibitem{velazquez2019endogenous}
+\begin{barticle}
+\bauthor{\bsnm{Velazquez}, \binits{E.M.}},
+\bauthor{\bsnm{Nguyen}, \binits{H.}},
+\bauthor{\bsnm{Heasley}, \binits{K.T.}},
+\bauthor{\bsnm{Saechao}, \binits{C.H.}},
+\bauthor{\bsnm{Gil}, \binits{L.M.}},
+\bauthor{\bsnm{Rogers}, \binits{A.W.L.}},
+\bauthor{\bsnm{Miller}, \binits{B.M.}},
+\bauthor{\bsnm{Rolston}, \binits{M.R.}},
+\bauthor{\bsnm{Lopez}, \binits{C.A.}},
+\bauthor{\bsnm{Litvak}, \binits{Y.}},
+\bauthor{\bsnm{Liou}, \binits{M.J.}},
+\bauthor{\bsnm{Faber}, \binits{F.}},
+\bauthor{\bsnm{Bronner}, \binits{D.N.}},
+\bauthor{\bsnm{Tiffany}, \binits{C.R.}},
+\bauthor{\bsnm{Byndloss}, \binits{M.X.}},
+\bauthor{\bsnm{Byndloss}, \binits{A.J.}},
+\bauthor{\bsnm{B{\"a}umler}, \binits{A.J.}}:
+\batitle{Endogenous {{Enterobacteriaceae}} underlie variation in susceptibility
+  to {{Salmonella}} infection}.
+\bjtitle{Nat Microbiol}
+\bvolume{4}(\bissue{6}),
+\bfpage{1057}--\blpage{1064}
+(\byear{2019}).
+doi:\doiurl{10.1038/s41564-019-0407-8}
+\end{barticle}
+\endbibitem
+
+%%% 60
+\bibitem{carrow2020strain}
+\begin{barticle}
+\bauthor{\bsnm{Carrow}, \binits{H.C.}},
+\bauthor{\bsnm{Batachari}, \binits{L.E.}},
+\bauthor{\bsnm{Chu}, \binits{H.}}:
+\batitle{Strain diversity in the microbiome: {{Lessons}} from {{Bacteroides}}
+  fragilis}.
+\bjtitle{PLoS Pathog}
+\bvolume{16}(\bissue{12}),
+\bfpage{1009056}
+(\byear{2020}).
+doi:\doiurl{10.1371/journal.ppat.1009056}
+\end{barticle}
+\endbibitem
+
+%%% 61
+\bibitem{cole2014ribosomal}
+\begin{barticle}
+\bauthor{\bsnm{Cole}, \binits{J.R.}},
+\bauthor{\bsnm{Wang}, \binits{Q.}},
+\bauthor{\bsnm{Fish}, \binits{J.A.}},
+\bauthor{\bsnm{Chai}, \binits{B.}},
+\bauthor{\bsnm{McGarrell}, \binits{D.M.}},
+\bauthor{\bsnm{Sun}, \binits{Y.}},
+\bauthor{\bsnm{Brown}, \binits{C.T.}},
+\bauthor{\bsnm{{Porras-Alfaro}}, \binits{A.}},
+\bauthor{\bsnm{Kuske}, \binits{C.R.}},
+\bauthor{\bsnm{Tiedje}, \binits{J.M.}}:
+\batitle{Ribosomal {{Database Project}}: Data and tools for high throughput
+  {{rRNA}} analysis}.
+\bjtitle{Nucl. Acids Res.}
+\bvolume{42}(\bissue{D1}),
+\bfpage{633}--\blpage{642}
+(\byear{2014}).
+doi:\doiurl{10.1093/nar/gkt1244}
+\end{barticle}
+\endbibitem
+
+%%% 62
+\bibitem{balvociute2017silva}
+\begin{barticle}
+\bauthor{\bsnm{Balvo{\v c}i{\=u}t{\.e}}, \binits{M.}},
+\bauthor{\bsnm{Huson}, \binits{D.H.}}:
+\batitle{{{SILVA}}, {{RDP}}, {{Greengenes}}, {{NCBI}} and {{OTT}} \textemdash{}
+  how do these taxonomies compare?}
+\bjtitle{BMC Genomics}
+\bvolume{18}(\bissue{S2}),
+\bfpage{114}
+(\byear{2017}).
+doi:\doiurl{10.1186/s12864-017-3501-4}
+\end{barticle}
+\endbibitem
+
+%%% 63
+\bibitem{hastie2009elements}
+\begin{bbook}
+\bauthor{\bsnm{Hastie}, \binits{T.}},
+\bauthor{\bsnm{Tibshirani}, \binits{R.}},
+\bauthor{\bsnm{Friedman}, \binits{J.H.}}:
+\bbtitle{The Elements of Statistical Learning: Data Mining, Inference, and
+  Prediction},
+\bedition{2nd ed} edn.
+\bsertitle{Springer Series in Statistics}.
+\bpublisher{{Springer}},
+\blocation{{New York, NY}}
+(\byear{2009})
+\end{bbook}
+\endbibitem
+
+%%% 64
+\bibitem{wright2016little}
+\begin{barticle}
+\bauthor{\bsnm{Wright}, \binits{M.N.}},
+\bauthor{\bsnm{Ziegler}, \binits{A.}},
+\bauthor{\bsnm{K{\"o}nig}, \binits{I.R.}}:
+\batitle{Do little interactions get lost in dark random forests?}
+\bjtitle{BMC Bioinformatics}
+\bvolume{17}(\bissue{1}),
+\bfpage{145}
+(\byear{2016}).
+doi:\doiurl{10.1186/s12859-016-0995-8}
+\end{barticle}
+\endbibitem
+
+%%% 65
+\bibitem{cheng2020intestinal}
+\begin{botherref}
+\oauthor{\bsnm{Cheng}, \binits{Y.}},
+\oauthor{\bsnm{Ling}, \binits{Z.}},
+\oauthor{\bsnm{Li}, \binits{L.}}:
+The {{Intestinal Microbiota}} and {{Colorectal Cancer}}.
+Front. Immunol.
+\textbf{11}
+(2020).
+doi:\doiurl{10.3389/fimmu.2020.615056}
+\end{botherref}
+\endbibitem
+
+%%% 66
+\bibitem{marquet2009lactate}
+\begin{barticle}
+\bauthor{\bsnm{Marquet}, \binits{P.}},
+\bauthor{\bsnm{Duncan}, \binits{S.H.}},
+\bauthor{\bsnm{Chassard}, \binits{C.}},
+\bauthor{\bsnm{{Bernalier-Donadille}}, \binits{A.}},
+\bauthor{\bsnm{Flint}, \binits{H.J.}}:
+\batitle{Lactate has the potential to promote hydrogen sulphide formation in
+  the human colon}.
+\bjtitle{FEMS Microbiology Letters}
+\bvolume{299}(\bissue{2}),
+\bfpage{128}--\blpage{134}
+(\byear{2009}).
+doi:\doiurl{10.1111/j.1574-6968.2009.01750.x}
+\end{barticle}
+\endbibitem
+
+%%% 67
+\bibitem{blachier2007effects}
+\begin{barticle}
+\bauthor{\bsnm{Blachier}, \binits{F.}},
+\bauthor{\bsnm{Mariotti}, \binits{F.}},
+\bauthor{\bsnm{Huneau}, \binits{J.F.}},
+\bauthor{\bsnm{Tom{\'e}}, \binits{D.}}:
+\batitle{Effects of amino acid-derived luminal metabolites on the colonic
+  epithelium and physiopathological consequences}.
+\bjtitle{Amino Acids}
+\bvolume{33}(\bissue{4}),
+\bfpage{547}--\blpage{562}
+(\byear{2007}).
+doi:\doiurl{10.1007/s00726-006-0477-9}
+\end{barticle}
+\endbibitem
+
+%%% 68
+\bibitem{clausen1992fecal}
+\begin{barticle}
+\bauthor{\bsnm{Clausen}, \binits{M.R.}},
+\bauthor{\bsnm{Mortensen}, \binits{P.B.}}:
+\batitle{Fecal ammonia in patients with adenomatous polyps and cancer of the
+  colon}.
+\bjtitle{Nutrition and Cancer}
+\bvolume{18}(\bissue{2}),
+\bfpage{175}--\blpage{180}
+(\byear{1992}).
+doi:\doiurl{10.1080/01635589209514217}
+\end{barticle}
+\endbibitem
+
+%%% 69
+\bibitem{lin1991colon}
+\begin{barticle}
+\bauthor{\bsnm{Lin}, \binits{H.-C.}},
+\bauthor{\bsnm{Visek}, \binits{W.J.}}:
+\batitle{Colon {{Mucosal Cell Damage}} by {{Ammonia}} in {{Rats}}}.
+\bjtitle{The Journal of Nutrition}
+\bvolume{121}(\bissue{6}),
+\bfpage{887}--\blpage{893}
+(\byear{1991}).
+doi:\doiurl{10.1093/jn/121.6.887}
+\end{barticle}
+\endbibitem
+
+%%% 70
+\bibitem{xu2014which}
+\begin{barticle}
+\bauthor{\bsnm{Xu}, \binits{Z.}},
+\bauthor{\bsnm{Malmer}, \binits{D.}},
+\bauthor{\bsnm{Langille}, \binits{M.G.I.}},
+\bauthor{\bsnm{Way}, \binits{S.F.}},
+\bauthor{\bsnm{Knight}, \binits{R.}}:
+\batitle{Which is more important for classifying microbial communities: Who's
+  there or what they can do?}
+\bjtitle{ISME J}
+\bvolume{8}(\bissue{12}),
+\bfpage{2357}--\blpage{2359}
+(\byear{2014}).
+doi:\doiurl{10.1038/ismej.2014.157}
+\end{barticle}
+\endbibitem
+
+%%% 71
+\bibitem{weimann2016genomes}
+\begin{barticle}
+\bauthor{\bsnm{Weimann}, \binits{A.}},
+\bauthor{\bsnm{Mooren}, \binits{K.}},
+\bauthor{\bsnm{Frank}, \binits{J.}},
+\bauthor{\bsnm{Pope}, \binits{P.B.}},
+\bauthor{\bsnm{Bremges}, \binits{A.}},
+\bauthor{\bsnm{McHardy}, \binits{A.C.}}:
+\batitle{From {{Genomes}} to {{Phenotypes}}: {{Traitar}}, the {{Microbial Trait
+  Analyzer}}}.
+\bjtitle{mSystems}
+\bvolume{1}(\bissue{6}),
+\bfpage{00101}--\blpage{16}
+(\byear{2016}).
+doi:\doiurl{10.1128/mSystems.00101-16}
+\end{barticle}
+\endbibitem
+
+\end{thebibliography}
+
+\newcommand{\BMCxmlcomment}[1]{}
+
+\BMCxmlcomment{
+
+<refgrp>
+
+<bibl id="B1">
+  <title><p>Culture of Previously Uncultured Members of the Human Gut
+  Microbiota by Culturomics</p></title>
+  <aug>
+    <au><snm>Lagier</snm><fnm>JC</fnm></au>
+    <au><snm>Khelaifia</snm><fnm>S</fnm></au>
+    <au><snm>Alou</snm><fnm>MT</fnm></au>
+    <au><snm>Ndongo</snm><fnm>S</fnm></au>
+    <au><snm>Dione</snm><fnm>N</fnm></au>
+    <au><snm>Hugon</snm><fnm>P</fnm></au>
+    <au><snm>Caputo</snm><fnm>A</fnm></au>
+    <au><snm>Cadoret</snm><fnm>F</fnm></au>
+    <au><snm>Traore</snm><fnm>SI</fnm></au>
+    <au><snm>Seck</snm><fnm>EH</fnm></au>
+    <au><snm>Dubourg</snm><fnm>G</fnm></au>
+    <au><snm>Durand</snm><fnm>G</fnm></au>
+    <au><snm>Mourembou</snm><fnm>G</fnm></au>
+    <au><snm>Guilhot</snm><fnm>E</fnm></au>
+    <au><snm>Togo</snm><fnm>A</fnm></au>
+    <au><snm>Bellali</snm><fnm>S</fnm></au>
+    <au><snm>Bachar</snm><fnm>D</fnm></au>
+    <au><snm>Cassir</snm><fnm>N</fnm></au>
+    <au><snm>Bittar</snm><fnm>F</fnm></au>
+    <au><snm>Delerce</snm><fnm>J</fnm></au>
+    <au><snm>Mailhe</snm><fnm>M</fnm></au>
+    <au><snm>Ricaboni</snm><fnm>D</fnm></au>
+    <au><snm>Bilen</snm><fnm>M</fnm></au>
+    <au><snm>Dangui Nieko</snm><fnm>NPM</fnm></au>
+    <au><snm>Dia Badiane</snm><fnm>NM</fnm></au>
+    <au><snm>Valles</snm><fnm>C</fnm></au>
+    <au><snm>Mouelhi</snm><fnm>D</fnm></au>
+    <au><snm>Diop</snm><fnm>K</fnm></au>
+    <au><snm>Million</snm><fnm>M</fnm></au>
+    <au><snm>Musso</snm><fnm>D</fnm></au>
+    <au><snm>Abrah{\~a}o</snm><fnm>J</fnm></au>
+    <au><snm>Azhar</snm><fnm>EI</fnm></au>
+    <au><snm>Bibi</snm><fnm>F</fnm></au>
+    <au><snm>Yasir</snm><fnm>M</fnm></au>
+    <au><snm>Diallo</snm><fnm>A</fnm></au>
+    <au><snm>Sokhna</snm><fnm>C</fnm></au>
+    <au><snm>Djossou</snm><fnm>F</fnm></au>
+    <au><snm>Vitton</snm><fnm>V</fnm></au>
+    <au><snm>Robert</snm><fnm>C</fnm></au>
+    <au><snm>Rolain</snm><fnm>JM</fnm></au>
+    <au><snm>La Scola</snm><fnm>B</fnm></au>
+    <au><snm>Fournier</snm><fnm>PE</fnm></au>
+    <au><snm>Levasseur</snm><fnm>A</fnm></au>
+    <au><snm>Raoult</snm><fnm>D</fnm></au>
+  </aug>
+  <source>Nat Microbiol</source>
+  <pubdate>2016</pubdate>
+  <volume>1</volume>
+  <issue>12</issue>
+  <fpage>16203</fpage>
+</bibl>
+
+<bibl id="B2">
+  <title><p>Advancing Functional and Translational Microbiome Research Using
+  Meta-Omics Approaches</p></title>
+  <aug>
+    <au><snm>Zhang</snm><fnm>X</fnm></au>
+    <au><snm>Li</snm><fnm>L</fnm></au>
+    <au><snm>Butcher</snm><fnm>J</fnm></au>
+    <au><snm>Stintzi</snm><fnm>A</fnm></au>
+    <au><snm>Figeys</snm><fnm>D</fnm></au>
+  </aug>
+  <source>Microbiome</source>
+  <pubdate>2019</pubdate>
+  <volume>7</volume>
+  <issue>1</issue>
+  <fpage>154</fpage>
+</bibl>
+
+<bibl id="B3">
+  <title><p>Statistical and {{Computational Methods}} in {{Microbiome}} and
+  {{Metagenomics}}</p></title>
+  <aug>
+    <au><snm>Li</snm><fnm>H</fnm></au>
+  </aug>
+  <source>Handbook of {{Statistical Genomics}}</source>
+  <publisher>{Wiley}</publisher>
+  <editor>Balding, David and Moltke, Ida and Marioni, John</editor>
+  <edition>First</edition>
+  <pubdate>2019</pubdate>
+  <fpage>977</fpage>
+  <lpage>-550</lpage>
+</bibl>
+
+<bibl id="B4">
+  <title><p>Gene {{Set Analysis}}: {{Challenges}}, {{Opportunities}}, and
+  {{Future Research}}</p></title>
+  <aug>
+    <au><snm>Maleki</snm><fnm>F</fnm></au>
+    <au><snm>Ovens</snm><fnm>K</fnm></au>
+    <au><snm>Hogan</snm><fnm>DJ</fnm></au>
+    <au><snm>Kusalik</snm><fnm>AJ</fnm></au>
+  </aug>
+  <source>Front. Genet.</source>
+  <pubdate>2020</pubdate>
+  <volume>11</volume>
+  <fpage>654</fpage>
+</bibl>
+
+<bibl id="B5">
+  <title><p>Analyzing Gene Expression Data in Terms of Gene Sets:
+  Methodological Issues</p></title>
+  <aug>
+    <au><snm>Goeman</snm><fnm>JJ</fnm></au>
+    <au><snm>B{\"u}hlmann</snm><fnm>P</fnm></au>
+  </aug>
+  <source>Bioinformatics</source>
+  <pubdate>2007</pubdate>
+  <volume>23</volume>
+  <issue>8</issue>
+  <fpage>980</fpage>
+  <lpage>-987</lpage>
+</bibl>
+
+<bibl id="B6">
+  <title><p>The {{Molecular Signatures Database Hallmark Gene Set
+  Collection}}</p></title>
+  <aug>
+    <au><snm>Liberzon</snm><fnm>A</fnm></au>
+    <au><snm>Birger</snm><fnm>C</fnm></au>
+    <au><snm>Thorvaldsd{\'o}ttir</snm><fnm>H</fnm></au>
+    <au><snm>Ghandi</snm><fnm>M</fnm></au>
+    <au><snm>Mesirov</snm><fnm>JP</fnm></au>
+    <au><snm>Tamayo</snm><fnm>P</fnm></au>
+  </aug>
+  <source>Cell Systems</source>
+  <pubdate>2015</pubdate>
+  <volume>1</volume>
+  <issue>6</issue>
+  <fpage>417</fpage>
+  <lpage>-425</lpage>
+</bibl>
+
+<bibl id="B7">
+  <title><p>CBEA: Competitive balances for taxonomic enrichment
+  analysis</p></title>
+  <aug>
+    <au><snm>Nguyen</snm><fnm>QP</fnm></au>
+    <au><snm>Hoen</snm><fnm>AG</fnm></au>
+    <au><snm>Frost</snm><fnm>HR</fnm></au>
+  </aug>
+  <source>PLoS Computational Biology</source>
+  <publisher>Public Library of Science San Francisco, CA USA</publisher>
+  <pubdate>2022</pubdate>
+  <volume>18</volume>
+  <issue>5</issue>
+  <fpage>e1010091</fpage>
+</bibl>
+
+<bibl id="B8">
+  <title><p>Microbe-Set Enrichment Analysis Facilitates Functional
+  Interpretation of Microbiome Profiling Data</p></title>
+  <aug>
+    <au><snm>Kou</snm><fnm>Y</fnm></au>
+    <au><snm>Xu</snm><fnm>X</fnm></au>
+    <au><snm>Zhu</snm><fnm>Z</fnm></au>
+    <au><snm>Dai</snm><fnm>L</fnm></au>
+    <au><snm>Tan</snm><fnm>Y</fnm></au>
+  </aug>
+  <source>Sci Rep</source>
+  <pubdate>2020</pubdate>
+  <volume>10</volume>
+  <issue>1</issue>
+  <fpage>21466</fpage>
+</bibl>
+
+<bibl id="B9">
+  <title><p>Guild-Based Analysis for Understanding Gut Microbiome in Human
+  Health and Diseases</p></title>
+  <aug>
+    <au><snm>Wu</snm><fnm>G</fnm></au>
+    <au><snm>Zhao</snm><fnm>N</fnm></au>
+    <au><snm>Zhang</snm><fnm>C</fnm></au>
+    <au><snm>Lam</snm><fnm>YY</fnm></au>
+    <au><snm>Zhao</snm><fnm>L</fnm></au>
+  </aug>
+  <source>Genome Med</source>
+  <pubdate>2021</pubdate>
+  <volume>13</volume>
+  <issue>1</issue>
+  <fpage>22</fpage>
+</bibl>
+
+<bibl id="B10">
+  <title><p>The {{Treatment-Naive Microbiome}} in {{New-Onset Crohn}}'s
+  {{Disease}}</p></title>
+  <aug>
+    <au><snm>Gevers</snm><fnm>D</fnm></au>
+    <au><snm>Kugathasan</snm><fnm>S</fnm></au>
+    <au><snm>Denson</snm><fnm>LA</fnm></au>
+    <au><snm>{V{\'a}zquez-Baeza}</snm><fnm>Y</fnm></au>
+    <au><snm>Van Treuren</snm><fnm>W</fnm></au>
+    <au><snm>Ren</snm><fnm>B</fnm></au>
+    <au><snm>Schwager</snm><fnm>E</fnm></au>
+    <au><snm>Knights</snm><fnm>D</fnm></au>
+    <au><snm>Song</snm><fnm>SJ</fnm></au>
+    <au><snm>Yassour</snm><fnm>M</fnm></au>
+    <au><snm>Morgan</snm><fnm>XC</fnm></au>
+    <au><snm>Kostic</snm><fnm>AD</fnm></au>
+    <au><snm>Luo</snm><fnm>C</fnm></au>
+    <au><snm>Gonz{\'a}lez</snm><fnm>A</fnm></au>
+    <au><snm>McDonald</snm><fnm>D</fnm></au>
+    <au><snm>Haberman</snm><fnm>Y</fnm></au>
+    <au><snm>Walters</snm><fnm>T</fnm></au>
+    <au><snm>Baker</snm><fnm>S</fnm></au>
+    <au><snm>Rosh</snm><fnm>J</fnm></au>
+    <au><snm>Stephens</snm><fnm>M</fnm></au>
+    <au><snm>Heyman</snm><fnm>M</fnm></au>
+    <au><snm>Markowitz</snm><fnm>J</fnm></au>
+    <au><snm>Baldassano</snm><fnm>R</fnm></au>
+    <au><snm>Griffiths</snm><fnm>A</fnm></au>
+    <au><snm>Sylvester</snm><fnm>F</fnm></au>
+    <au><snm>Mack</snm><fnm>D</fnm></au>
+    <au><snm>Kim</snm><fnm>S</fnm></au>
+    <au><snm>Crandall</snm><fnm>W</fnm></au>
+    <au><snm>Hyams</snm><fnm>J</fnm></au>
+    <au><snm>Huttenhower</snm><fnm>C</fnm></au>
+    <au><snm>Knight</snm><fnm>R</fnm></au>
+    <au><snm>Xavier</snm><fnm>RJ</fnm></au>
+  </aug>
+  <source>Cell Host \& Microbe</source>
+  <pubdate>2014</pubdate>
+  <volume>15</volume>
+  <issue>3</issue>
+  <fpage>382</fpage>
+  <lpage>-392</lpage>
+</bibl>
+
+<bibl id="B11">
+  <title><p>Microbiome Definition Re-Visited: Old Concepts and New
+  Challenges</p></title>
+  <aug>
+    <au><snm>Berg</snm><fnm>G</fnm></au>
+    <au><snm>Rybakova</snm><fnm>D</fnm></au>
+    <au><snm>Fischer</snm><fnm>D</fnm></au>
+    <au><snm>Cernava</snm><fnm>T</fnm></au>
+    <au><snm>Verg{\`e}s</snm><fnm>MCC</fnm></au>
+    <au><snm>Charles</snm><fnm>T</fnm></au>
+    <au><snm>Chen</snm><fnm>X</fnm></au>
+    <au><snm>Cocolin</snm><fnm>L</fnm></au>
+    <au><snm>Eversole</snm><fnm>K</fnm></au>
+    <au><snm>Corral</snm><fnm>GH</fnm></au>
+    <au><snm>Kazou</snm><fnm>M</fnm></au>
+    <au><snm>Kinkel</snm><fnm>L</fnm></au>
+    <au><snm>Lange</snm><fnm>L</fnm></au>
+    <au><snm>Lima</snm><fnm>N</fnm></au>
+    <au><snm>Loy</snm><fnm>A</fnm></au>
+    <au><snm>Macklin</snm><fnm>JA</fnm></au>
+    <au><snm>Maguin</snm><fnm>E</fnm></au>
+    <au><snm>Mauchline</snm><fnm>T</fnm></au>
+    <au><snm>McClure</snm><fnm>R</fnm></au>
+    <au><snm>Mitter</snm><fnm>B</fnm></au>
+    <au><snm>Ryan</snm><fnm>M</fnm></au>
+    <au><snm>Sarand</snm><fnm>I</fnm></au>
+    <au><snm>Smidt</snm><fnm>H</fnm></au>
+    <au><snm>Schelkle</snm><fnm>B</fnm></au>
+    <au><snm>Roume</snm><fnm>H</fnm></au>
+    <au><snm>Kiran</snm><fnm>GS</fnm></au>
+    <au><snm>Selvin</snm><fnm>J</fnm></au>
+    <au><snm>Souza</snm><fnm>RSC</fnm></au>
+    <au><snm>{van Overbeek}</snm><fnm>L</fnm></au>
+    <au><snm>Singh</snm><fnm>BK</fnm></au>
+    <au><snm>Wagner</snm><fnm>M</fnm></au>
+    <au><snm>Walsh</snm><fnm>A</fnm></au>
+    <au><snm>Sessitsch</snm><fnm>A</fnm></au>
+    <au><snm>Schloter</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Microbiome</source>
+  <pubdate>2020</pubdate>
+  <volume>8</volume>
+  <issue>1</issue>
+  <fpage>103</fpage>
+</bibl>
+
+<bibl id="B12">
+  <title><p>The Gut Microbiome: {{Relationships}} with Disease and
+  Opportunities for Therapy</p></title>
+  <aug>
+    <au><snm>Durack</snm><fnm>J</fnm></au>
+    <au><snm>Lynch</snm><fnm>SV</fnm></au>
+  </aug>
+  <source>J Exp Med</source>
+  <pubdate>2019</pubdate>
+  <volume>216</volume>
+  <issue>1</issue>
+  <fpage>20</fpage>
+  <lpage>-40</lpage>
+</bibl>
+
+<bibl id="B13">
+  <title><p>Microbial Interactions: From Networks to Models</p></title>
+  <aug>
+    <au><snm>Faust</snm><fnm>K</fnm></au>
+    <au><snm>Raes</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Nat Rev Microbiol</source>
+  <pubdate>2012</pubdate>
+  <volume>10</volume>
+  <issue>8</issue>
+  <fpage>538</fpage>
+  <lpage>-550</lpage>
+</bibl>
+
+<bibl id="B14">
+  <title><p>Disbiome Database: Linking the Microbiome to Disease</p></title>
+  <aug>
+    <au><snm>Janssens</snm><fnm>Y</fnm></au>
+    <au><snm>Nielandt</snm><fnm>J</fnm></au>
+    <au><snm>Bronselaer</snm><fnm>A</fnm></au>
+    <au><snm>Debunne</snm><fnm>N</fnm></au>
+    <au><snm>Verbeke</snm><fnm>F</fnm></au>
+    <au><snm>Wynendaele</snm><fnm>E</fnm></au>
+    <au><snm>Van Immerseel</snm><fnm>F</fnm></au>
+    <au><snm>Vandewynckel</snm><fnm>YP</fnm></au>
+    <au><snm>De Tr{\'e}</snm><fnm>G</fnm></au>
+    <au><snm>De Spiegeleer</snm><fnm>B</fnm></au>
+  </aug>
+  <source>BMC Microbiol</source>
+  <pubdate>2018</pubdate>
+  <volume>18</volume>
+  <issue>1</issue>
+  <fpage>50</fpage>
+</bibl>
+
+<bibl id="B15">
+  <title><p>Exploring the Functional Composition of the Human Microbiome Using
+  a Hand-Curated Microbial Trait Database</p></title>
+  <aug>
+    <au><snm>Weissman</snm><fnm>JL</fnm></au>
+    <au><snm>Dogra</snm><fnm>S</fnm></au>
+    <au><snm>Javadi</snm><fnm>K</fnm></au>
+    <au><snm>Bolten</snm><fnm>S</fnm></au>
+    <au><snm>Flint</snm><fnm>R</fnm></au>
+    <au><snm>Davati</snm><fnm>C</fnm></au>
+    <au><snm>Beattie</snm><fnm>J</fnm></au>
+    <au><snm>Dixit</snm><fnm>K</fnm></au>
+    <au><snm>Peesay</snm><fnm>T</fnm></au>
+    <au><snm>Awan</snm><fnm>S</fnm></au>
+    <au><snm>Thielen</snm><fnm>P</fnm></au>
+    <au><snm>Breitwieser</snm><fnm>F</fnm></au>
+    <au><snm>Johnson</snm><fnm>PLF</fnm></au>
+    <au><snm>Karig</snm><fnm>D</fnm></au>
+    <au><snm>Fagan</snm><fnm>WF</fnm></au>
+    <au><snm>Bewick</snm><fnm>S</fnm></au>
+  </aug>
+  <source>BMC Bioinformatics</source>
+  <pubdate>2021</pubdate>
+  <volume>22</volume>
+  <issue>1</issue>
+  <fpage>306</fpage>
+</bibl>
+
+<bibl id="B16">
+  <title><p>Trait-Based Analysis of the Human Skin Microbiome</p></title>
+  <aug>
+    <au><snm>Bewick</snm><fnm>S</fnm></au>
+    <au><snm>Gurarie</snm><fnm>E</fnm></au>
+    <au><snm>Weissman</snm><fnm>JL</fnm></au>
+    <au><snm>Beattie</snm><fnm>J</fnm></au>
+    <au><snm>Davati</snm><fnm>C</fnm></au>
+    <au><snm>Flint</snm><fnm>R</fnm></au>
+    <au><snm>Thielen</snm><fnm>P</fnm></au>
+    <au><snm>Breitwieser</snm><fnm>F</fnm></au>
+    <au><snm>Karig</snm><fnm>D</fnm></au>
+    <au><snm>Fagan</snm><fnm>WF</fnm></au>
+  </aug>
+  <source>Microbiome</source>
+  <pubdate>2019</pubdate>
+  <volume>7</volume>
+  <issue>1</issue>
+  <fpage>101</fpage>
+</bibl>
+
+<bibl id="B17">
+  <title><p>A Synthesis of Bacterial and Archaeal Phenotypic Trait
+  Data</p></title>
+  <aug>
+    <au><snm>Madin</snm><fnm>JS</fnm></au>
+    <au><snm>Nielsen</snm><fnm>DA</fnm></au>
+    <au><snm>Brbic</snm><fnm>M</fnm></au>
+    <au><snm>Corkrey</snm><fnm>R</fnm></au>
+    <au><snm>Danko</snm><fnm>D</fnm></au>
+    <au><snm>Edwards</snm><fnm>K</fnm></au>
+    <au><snm>Engqvist</snm><fnm>MKM</fnm></au>
+    <au><snm>Fierer</snm><fnm>N</fnm></au>
+    <au><snm>Geoghegan</snm><fnm>JL</fnm></au>
+    <au><snm>Gillings</snm><fnm>M</fnm></au>
+    <au><snm>Kyrpides</snm><fnm>NC</fnm></au>
+    <au><snm>Litchman</snm><fnm>E</fnm></au>
+    <au><snm>Mason</snm><fnm>CE</fnm></au>
+    <au><snm>Moore</snm><fnm>L</fnm></au>
+    <au><snm>Nielsen</snm><fnm>SL</fnm></au>
+    <au><snm>Paulsen</snm><fnm>IT</fnm></au>
+    <au><snm>Price</snm><fnm>ND</fnm></au>
+    <au><snm>Reddy</snm><fnm>T. B. K.</fnm></au>
+    <au><snm>Richards</snm><fnm>MA</fnm></au>
+    <au><snm>Rocha</snm><fnm>EPC</fnm></au>
+    <au><snm>Schmidt</snm><fnm>TM</fnm></au>
+    <au><snm>Shaaban</snm><fnm>H</fnm></au>
+    <au><snm>Shukla</snm><fnm>M</fnm></au>
+    <au><snm>Supek</snm><fnm>F</fnm></au>
+    <au><snm>Tetu</snm><fnm>SG</fnm></au>
+    <au><snm>{Vieira-Silva}</snm><fnm>S</fnm></au>
+    <au><snm>Wattam</snm><fnm>AR</fnm></au>
+    <au><snm>Westfall</snm><fnm>DA</fnm></au>
+    <au><snm>Westoby</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Sci Data</source>
+  <publisher>{Nature Publishing Group}</publisher>
+  <pubdate>2020</pubdate>
+  <volume>7</volume>
+  <issue>1</issue>
+  <fpage>170</fpage>
+</bibl>
+
+<bibl id="B18">
+  <title><p>Trait-Based Approaches for Understanding Microbial Biodiversity and
+  Ecosystem Functioning</p></title>
+  <aug>
+    <au><snm>Krause</snm><fnm>S</fnm></au>
+    <au><snm>Le Roux</snm><fnm>X</fnm></au>
+    <au><snm>Niklaus</snm><fnm>PA</fnm></au>
+    <au><snm>Bodegom</snm><fnm>V</fnm></au>
+    <au><snm>M</snm><fnm>P</fnm></au>
+    <au><snm>Lennon</snm><fnm>JT</fnm></au>
+    <au><snm>Bertilsson</snm><fnm>S</fnm></au>
+    <au><snm>Grossart</snm><fnm>HP</fnm></au>
+    <au><snm>Philippot</snm><fnm>L</fnm></au>
+    <au><snm>Bodelier</snm><fnm>PLE</fnm></au>
+  </aug>
+  <source>Front. Microbiol.</source>
+  <pubdate>2014</pubdate>
+  <volume>5</volume>
+</bibl>
+
+<bibl id="B19">
+  <title><p>Bergey's {{Manual}} of {{Systematics}} of {{Archaea}} and
+  {{Bacteria}}</p></title>
+  <publisher>{Wiley}</publisher>
+  <editor>Trujillo, Martha E and Dedysh, Svetlana and DeVos, Paul and Hedlund,
+  Brian and K{\"a}mpfer, Peter and Rainey, Fred A and Whitman, William
+  B</editor>
+  <edition>First</edition>
+  <pubdate>2015</pubdate>
+</bibl>
+
+<bibl id="B20">
+  <title><p>Toward Understanding the Origin and Evolution of Cellular
+  Organisms</p></title>
+  <aug>
+    <au><snm>Kanehisa</snm><fnm>M</fnm></au>
+  </aug>
+  <source>Protein Sci.</source>
+  <pubdate>2019</pubdate>
+  <volume>28</volume>
+  <issue>11</issue>
+  <fpage>1947</fpage>
+  <lpage>-1951</lpage>
+</bibl>
+
+<bibl id="B21">
+  <title><p>The {{MetaCyc}} Database of Metabolic Pathways and Enzymes - a 2019
+  Update</p></title>
+  <aug>
+    <au><snm>Caspi</snm><fnm>R</fnm></au>
+    <au><snm>Billington</snm><fnm>R</fnm></au>
+    <au><snm>Keseler</snm><fnm>IM</fnm></au>
+    <au><snm>Kothari</snm><fnm>A</fnm></au>
+    <au><snm>Krummenacker</snm><fnm>M</fnm></au>
+    <au><snm>Midford</snm><fnm>PE</fnm></au>
+    <au><snm>Ong</snm><fnm>WK</fnm></au>
+    <au><snm>Paley</snm><fnm>S</fnm></au>
+    <au><snm>Subhraveti</snm><fnm>P</fnm></au>
+    <au><snm>Karp</snm><fnm>PD</fnm></au>
+  </aug>
+  <source>Nucleic Acids Research</source>
+  <pubdate>2020</pubdate>
+  <volume>48</volume>
+  <issue>D1</issue>
+  <fpage>D445</fpage>
+  <lpage>D453</lpage>
+</bibl>
+
+<bibl id="B22">
+  <title><p>Trait-Based Community Assembly and Succession of the Infant Gut
+  Microbiome</p></title>
+  <aug>
+    <au><snm>Guittar</snm><fnm>J</fnm></au>
+    <au><snm>Shade</snm><fnm>A</fnm></au>
+    <au><snm>Litchman</snm><fnm>E</fnm></au>
+  </aug>
+  <source>Nat Commun</source>
+  <pubdate>2019</pubdate>
+  <volume>10</volume>
+  <issue>1</issue>
+  <fpage>512</fpage>
+</bibl>
+
+<bibl id="B23">
+  <title><p>{{PICRUSt2}} for Prediction of Metagenome Functions</p></title>
+  <aug>
+    <au><snm>Douglas</snm><fnm>GM</fnm></au>
+    <au><snm>Maffei</snm><fnm>VJ</fnm></au>
+    <au><snm>Zaneveld</snm><fnm>JR</fnm></au>
+    <au><snm>Yurgel</snm><fnm>SN</fnm></au>
+    <au><snm>Brown</snm><fnm>JR</fnm></au>
+    <au><snm>Taylor</snm><fnm>CM</fnm></au>
+    <au><snm>Huttenhower</snm><fnm>C</fnm></au>
+    <au><snm>Langille</snm><fnm>MGI</fnm></au>
+  </aug>
+  <source>Nature Biotechnology</source>
+  <publisher>{Nature Publishing Group}</publisher>
+  <pubdate>2020</pubdate>
+  <volume>38</volume>
+  <issue>6</issue>
+  <fpage>685</fpage>
+  <lpage>-688</lpage>
+</bibl>
+
+<bibl id="B24">
+  <title><p>R: {{A}} Language and Environment for Statistical
+  Computing</p></title>
+  <aug>
+    <au><cnm>{R Core Team}</cnm></au>
+  </aug>
+  <source>Manual</source>
+  <publisher>{Vienna, Austria}</publisher>
+  <pubdate>2021</pubdate>
+</bibl>
+
+<bibl id="B25">
+  <title><p>Sustainable Data Analysis with {{Snakemake}}</p></title>
+  <aug>
+    <au><snm>M{\"o}lder</snm><fnm>F</fnm></au>
+    <au><snm>Jablonski</snm><fnm>KP</fnm></au>
+    <au><snm>Letcher</snm><fnm>B</fnm></au>
+    <au><snm>Hall</snm><fnm>MB</fnm></au>
+    <au><snm>{Tomkins-Tinch}</snm><fnm>CH</fnm></au>
+    <au><snm>Sochat</snm><fnm>V</fnm></au>
+    <au><snm>Forster</snm><fnm>J</fnm></au>
+    <au><snm>Lee</snm><fnm>S</fnm></au>
+    <au><snm>Twardziok</snm><fnm>SO</fnm></au>
+    <au><snm>Kanitz</snm><fnm>A</fnm></au>
+    <au><snm>Wilm</snm><fnm>A</fnm></au>
+    <au><snm>Holtgrewe</snm><fnm>M</fnm></au>
+    <au><snm>Rahmann</snm><fnm>S</fnm></au>
+    <au><snm>Nahnsen</snm><fnm>S</fnm></au>
+    <au><snm>K{\"o}ster</snm><fnm>J</fnm></au>
+  </aug>
+  <source>F1000Res</source>
+  <pubdate>2021</pubdate>
+  <volume>10</volume>
+  <fpage>33</fpage>
+</bibl>
+
+<bibl id="B26">
+  <title><p>Species\textendash Function Relationships Shape Ecological
+  Properties of the Human Gut Microbiome</p></title>
+  <aug>
+    <au><snm>{Vieira-Silva}</snm><fnm>S</fnm></au>
+    <au><snm>Falony</snm><fnm>G</fnm></au>
+    <au><snm>Darzi</snm><fnm>Y</fnm></au>
+    <au><snm>{Lima-Mendez}</snm><fnm>G</fnm></au>
+    <au><snm>Yunta</snm><fnm>RG</fnm></au>
+    <au><snm>Okuda</snm><fnm>S</fnm></au>
+    <au><snm>Vandeputte</snm><fnm>D</fnm></au>
+    <au><snm>{Valles-Colomer}</snm><fnm>M</fnm></au>
+    <au><snm>Hildebrand</snm><fnm>F</fnm></au>
+    <au><snm>Chaffron</snm><fnm>S</fnm></au>
+    <au><snm>Raes</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Nature Microbiology</source>
+  <pubdate>2016</pubdate>
+  <volume>1</volume>
+  <issue>8</issue>
+  <fpage>16088</fpage>
+</bibl>
+
+<bibl id="B27">
+  <title><p>Genomes {{OnLine Database}} ({{GOLD}}) v.8: Overview and
+  Updates</p></title>
+  <aug>
+    <au><snm>Mukherjee</snm><fnm>S</fnm></au>
+    <au><snm>Stamatis</snm><fnm>D</fnm></au>
+    <au><snm>Bertsch</snm><fnm>J</fnm></au>
+    <au><snm>Ovchinnikova</snm><fnm>G</fnm></au>
+    <au><snm>Sundaramurthi</snm><fnm>JC</fnm></au>
+    <au><snm>Lee</snm><fnm>J</fnm></au>
+    <au><snm>Kandimalla</snm><fnm>M</fnm></au>
+    <au><snm>Chen</snm><fnm>IMA</fnm></au>
+    <au><snm>Kyrpides</snm><fnm>NC</fnm></au>
+    <au><snm>Reddy</snm><fnm>T B K</fnm></au>
+  </aug>
+  <source>Nucleic Acids Research</source>
+  <pubdate>2021</pubdate>
+  <volume>49</volume>
+  <issue>D1</issue>
+  <fpage>D723</fpage>
+  <lpage>D733</lpage>
+</bibl>
+
+<bibl id="B28">
+  <title><p>Evaluation of {{16S rRNA}} Gene Sequencing for Species and
+  Strain-Level Microbiome Analysis</p></title>
+  <aug>
+    <au><snm>Johnson</snm><fnm>JS</fnm></au>
+    <au><snm>Spakowicz</snm><fnm>DJ</fnm></au>
+    <au><snm>Hong</snm><fnm>BY</fnm></au>
+    <au><snm>Petersen</snm><fnm>LM</fnm></au>
+    <au><snm>Demkowicz</snm><fnm>P</fnm></au>
+    <au><snm>Chen</snm><fnm>L</fnm></au>
+    <au><snm>Leopold</snm><fnm>SR</fnm></au>
+    <au><snm>Hanson</snm><fnm>BM</fnm></au>
+    <au><snm>Agresta</snm><fnm>HO</fnm></au>
+    <au><snm>Gerstein</snm><fnm>M</fnm></au>
+    <au><snm>Sodergren</snm><fnm>E</fnm></au>
+    <au><snm>Weinstock</snm><fnm>GM</fnm></au>
+  </aug>
+  <source>Nature Communications</source>
+  <publisher>{Nature Publishing Group}</publisher>
+  <pubdate>2019</pubdate>
+  <volume>10</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+  <lpage>-11</lpage>
+</bibl>
+
+<bibl id="B29">
+  <title><p>{{NCBI Taxonomy}}: A Comprehensive Update on Curation, Resources
+  and Tools</p></title>
+  <aug>
+    <au><snm>Schoch</snm><fnm>CL</fnm></au>
+    <au><snm>Ciufo</snm><fnm>S</fnm></au>
+    <au><snm>Domrachev</snm><fnm>M</fnm></au>
+    <au><snm>Hotton</snm><fnm>CL</fnm></au>
+    <au><snm>Kannan</snm><fnm>S</fnm></au>
+    <au><snm>Khovanskaya</snm><fnm>R</fnm></au>
+    <au><snm>Leipe</snm><fnm>D</fnm></au>
+    <au><snm>Mcveigh</snm><fnm>R</fnm></au>
+    <au><snm>O'Neill</snm><fnm>K</fnm></au>
+    <au><snm>Robbertse</snm><fnm>B</fnm></au>
+    <au><snm>Sharma</snm><fnm>S</fnm></au>
+    <au><snm>Soussov</snm><fnm>V</fnm></au>
+    <au><snm>Sullivan</snm><fnm>JP</fnm></au>
+    <au><snm>Sun</snm><fnm>L</fnm></au>
+    <au><snm>Turner</snm><fnm>S</fnm></au>
+    <au><snm>{Karsch-Mizrachi}</snm><fnm>I</fnm></au>
+  </aug>
+  <source>Database (Oxford)</source>
+  <pubdate>2020</pubdate>
+  <volume>2020</volume>
+  <fpage>baaa062</fpage>
+</bibl>
+
+<bibl id="B30">
+  <title><p>{{DADA2}}: {{High-resolution}} Sample Inference from {{Illumina}}
+  Amplicon Data</p></title>
+  <aug>
+    <au><snm>Callahan</snm><fnm>BJ</fnm></au>
+    <au><snm>McMurdie</snm><fnm>PJ</fnm></au>
+    <au><snm>Rosen</snm><fnm>MJ</fnm></au>
+    <au><snm>Han</snm><fnm>AW</fnm></au>
+    <au><snm>Johnson</snm><fnm>AJA</fnm></au>
+    <au><snm>Holmes</snm><fnm>SP</fnm></au>
+  </aug>
+  <source>Nature Methods</source>
+  <pubdate>2016</pubdate>
+  <volume>13</volume>
+  <issue>7</issue>
+  <fpage>581</fpage>
+  <lpage>-583</lpage>
+</bibl>
+
+<bibl id="B31">
+  <title><p>Reproducible, Interactive, Scalable and Extensible Microbiome Data
+  Science Using {{QIIME}} 2</p></title>
+  <aug>
+    <au><snm>Bolyen</snm><fnm>E</fnm></au>
+    <au><snm>Rideout</snm><fnm>JR</fnm></au>
+    <au><snm>Dillon</snm><fnm>MR</fnm></au>
+    <au><snm>Bokulich</snm><fnm>NA</fnm></au>
+    <au><snm>Abnet</snm><fnm>CC</fnm></au>
+    <au><snm>{Al-Ghalith}</snm><fnm>GA</fnm></au>
+    <au><snm>Alexander</snm><fnm>H</fnm></au>
+    <au><snm>Alm</snm><fnm>EJ</fnm></au>
+    <au><snm>Arumugam</snm><fnm>M</fnm></au>
+    <au><snm>Asnicar</snm><fnm>F</fnm></au>
+    <au><snm>Bai</snm><fnm>Y</fnm></au>
+    <au><snm>Bisanz</snm><fnm>JE</fnm></au>
+    <au><snm>Bittinger</snm><fnm>K</fnm></au>
+    <au><snm>Brejnrod</snm><fnm>A</fnm></au>
+    <au><snm>Brislawn</snm><fnm>CJ</fnm></au>
+    <au><snm>Brown</snm><fnm>CT</fnm></au>
+    <au><snm>Callahan</snm><fnm>BJ</fnm></au>
+    <au><snm>{Caraballo-Rodr{\'i}guez}</snm><fnm>AM</fnm></au>
+    <au><snm>Chase</snm><fnm>J</fnm></au>
+    <au><snm>Cope</snm><fnm>EK</fnm></au>
+    <au><snm>Silva</snm><fnm>RD</fnm></au>
+    <au><snm>Diener</snm><fnm>C</fnm></au>
+    <au><snm>Dorrestein</snm><fnm>PC</fnm></au>
+    <au><snm>Douglas</snm><fnm>GM</fnm></au>
+    <au><snm>Durall</snm><fnm>DM</fnm></au>
+    <au><snm>Duvallet</snm><fnm>C</fnm></au>
+    <au><snm>Edwardson</snm><fnm>CF</fnm></au>
+    <au><snm>Ernst</snm><fnm>M</fnm></au>
+    <au><snm>Estaki</snm><fnm>M</fnm></au>
+    <au><snm>Fouquier</snm><fnm>J</fnm></au>
+    <au><snm>Gauglitz</snm><fnm>JM</fnm></au>
+    <au><snm>Gibbons</snm><fnm>SM</fnm></au>
+    <au><snm>Gibson</snm><fnm>DL</fnm></au>
+    <au><snm>Gonzalez</snm><fnm>A</fnm></au>
+    <au><snm>Gorlick</snm><fnm>K</fnm></au>
+    <au><snm>Guo</snm><fnm>J</fnm></au>
+    <au><snm>Hillmann</snm><fnm>B</fnm></au>
+    <au><snm>Holmes</snm><fnm>S</fnm></au>
+    <au><snm>Holste</snm><fnm>H</fnm></au>
+    <au><snm>Huttenhower</snm><fnm>C</fnm></au>
+    <au><snm>Huttley</snm><fnm>GA</fnm></au>
+    <au><snm>Janssen</snm><fnm>S</fnm></au>
+    <au><snm>Jarmusch</snm><fnm>AK</fnm></au>
+    <au><snm>Jiang</snm><fnm>L</fnm></au>
+    <au><snm>Kaehler</snm><fnm>BD</fnm></au>
+    <au><snm>Kang</snm><fnm>KB</fnm></au>
+    <au><snm>Keefe</snm><fnm>CR</fnm></au>
+    <au><snm>Keim</snm><fnm>P</fnm></au>
+    <au><snm>Kelley</snm><fnm>ST</fnm></au>
+    <au><snm>Knights</snm><fnm>D</fnm></au>
+    <au><snm>Koester</snm><fnm>I</fnm></au>
+    <au><snm>Kosciolek</snm><fnm>T</fnm></au>
+    <au><snm>Kreps</snm><fnm>J</fnm></au>
+    <au><snm>Langille</snm><fnm>MGI</fnm></au>
+    <au><snm>Lee</snm><fnm>J</fnm></au>
+    <au><snm>Ley</snm><fnm>R</fnm></au>
+    <au><snm>Liu</snm><fnm>YX</fnm></au>
+    <au><snm>Loftfield</snm><fnm>E</fnm></au>
+    <au><snm>Lozupone</snm><fnm>C</fnm></au>
+    <au><snm>Maher</snm><fnm>M</fnm></au>
+    <au><snm>Marotz</snm><fnm>C</fnm></au>
+    <au><snm>Martin</snm><fnm>BD</fnm></au>
+    <au><snm>McDonald</snm><fnm>D</fnm></au>
+    <au><snm>McIver</snm><fnm>LJ</fnm></au>
+    <au><snm>Melnik</snm><fnm>AV</fnm></au>
+    <au><snm>Metcalf</snm><fnm>JL</fnm></au>
+    <au><snm>Morgan</snm><fnm>SC</fnm></au>
+    <au><snm>Morton</snm><fnm>JT</fnm></au>
+    <au><snm>Naimey</snm><fnm>AT</fnm></au>
+    <au><snm>{Navas-Molina}</snm><fnm>JA</fnm></au>
+    <au><snm>Nothias</snm><fnm>LF</fnm></au>
+    <au><snm>Orchanian</snm><fnm>SB</fnm></au>
+    <au><snm>Pearson</snm><fnm>T</fnm></au>
+    <au><snm>Peoples</snm><fnm>SL</fnm></au>
+    <au><snm>Petras</snm><fnm>D</fnm></au>
+    <au><snm>Preuss</snm><fnm>ML</fnm></au>
+    <au><snm>Pruesse</snm><fnm>E</fnm></au>
+    <au><snm>Rasmussen</snm><fnm>LB</fnm></au>
+    <au><snm>Rivers</snm><fnm>A</fnm></au>
+    <au><snm>Robeson</snm><fnm>MS</fnm></au>
+    <au><snm>Rosenthal</snm><fnm>P</fnm></au>
+    <au><snm>Segata</snm><fnm>N</fnm></au>
+    <au><snm>Shaffer</snm><fnm>M</fnm></au>
+    <au><snm>Shiffer</snm><fnm>A</fnm></au>
+    <au><snm>Sinha</snm><fnm>R</fnm></au>
+    <au><snm>Song</snm><fnm>SJ</fnm></au>
+    <au><snm>Spear</snm><fnm>JR</fnm></au>
+    <au><snm>Swafford</snm><fnm>AD</fnm></au>
+    <au><snm>Thompson</snm><fnm>LR</fnm></au>
+    <au><snm>Torres</snm><fnm>PJ</fnm></au>
+    <au><snm>Trinh</snm><fnm>P</fnm></au>
+    <au><snm>Tripathi</snm><fnm>A</fnm></au>
+    <au><snm>Turnbaugh</snm><fnm>PJ</fnm></au>
+    <au><snm>{Ul-Hasan}</snm><fnm>S</fnm></au>
+    <au><snm>Hooft</snm><fnm>JJJ</fnm></au>
+    <au><snm>Vargas</snm><fnm>F</fnm></au>
+    <au><snm>{V{\'a}zquez-Baeza}</snm><fnm>Y</fnm></au>
+    <au><snm>Vogtmann</snm><fnm>E</fnm></au>
+    <au><snm>Hippel</snm><fnm>M</fnm></au>
+    <au><snm>Walters</snm><fnm>W</fnm></au>
+    <au><snm>Wan</snm><fnm>Y</fnm></au>
+    <au><snm>Wang</snm><fnm>M</fnm></au>
+    <au><snm>Warren</snm><fnm>J</fnm></au>
+    <au><snm>Weber</snm><fnm>KC</fnm></au>
+    <au><snm>Williamson</snm><fnm>CHD</fnm></au>
+    <au><snm>Willis</snm><fnm>AD</fnm></au>
+    <au><snm>Xu</snm><fnm>ZZ</fnm></au>
+    <au><snm>Zaneveld</snm><fnm>JR</fnm></au>
+    <au><snm>Zhang</snm><fnm>Y</fnm></au>
+    <au><snm>Zhu</snm><fnm>Q</fnm></au>
+    <au><snm>Knight</snm><fnm>R</fnm></au>
+    <au><snm>Caporaso</snm><fnm>JG</fnm></au>
+  </aug>
+  <source>Nature Biotechnology</source>
+  <pubdate>2019</pubdate>
+  <volume>37</volume>
+  <issue>8</issue>
+  <fpage>852</fpage>
+  <lpage>-857</lpage>
+</bibl>
+
+<bibl id="B32">
+  <title><p>Optimizing Taxonomic Classification of Marker-Gene Amplicon
+  Sequences with {{QIIME}} 2's Q2-Feature-Classifier Plugin</p></title>
+  <aug>
+    <au><snm>Bokulich</snm><fnm>NA</fnm></au>
+    <au><snm>Kaehler</snm><fnm>BD</fnm></au>
+    <au><snm>Rideout</snm><fnm>JR</fnm></au>
+    <au><snm>Dillon</snm><fnm>M</fnm></au>
+    <au><snm>Bolyen</snm><fnm>E</fnm></au>
+    <au><snm>Knight</snm><fnm>R</fnm></au>
+    <au><snm>Huttley</snm><fnm>GA</fnm></au>
+    <au><snm>Gregory Caporaso</snm><fnm>J.</fnm></au>
+  </aug>
+  <source>Microbiome</source>
+  <pubdate>2018</pubdate>
+  <volume>6</volume>
+  <issue>1</issue>
+  <fpage>90</fpage>
+</bibl>
+
+<bibl id="B33">
+  <title><p>Species Abundance Information Improves Sequence Taxonomy
+  Classification Accuracy</p></title>
+  <aug>
+    <au><snm>Kaehler</snm><fnm>BD</fnm></au>
+    <au><snm>Bokulich</snm><fnm>NA</fnm></au>
+    <au><snm>McDonald</snm><fnm>D</fnm></au>
+    <au><snm>Knight</snm><fnm>R</fnm></au>
+    <au><snm>Caporaso</snm><fnm>JG</fnm></au>
+    <au><snm>Huttley</snm><fnm>GA</fnm></au>
+  </aug>
+  <source>Nat Commun</source>
+  <pubdate>2019</pubdate>
+  <volume>10</volume>
+  <issue>1</issue>
+  <fpage>4643</fpage>
+</bibl>
+
+<bibl id="B34">
+  <title><p>The {{SILVA}} Ribosomal {{RNA}} Gene Database Project: Improved
+  Data Processing and Web-Based Tools</p></title>
+  <aug>
+    <au><snm>Quast</snm><fnm>C</fnm></au>
+    <au><snm>Pruesse</snm><fnm>E</fnm></au>
+    <au><snm>Yilmaz</snm><fnm>P</fnm></au>
+    <au><snm>Gerken</snm><fnm>J</fnm></au>
+    <au><snm>Schweer</snm><fnm>T</fnm></au>
+    <au><snm>Yarza</snm><fnm>P</fnm></au>
+    <au><snm>Peplies</snm><fnm>J</fnm></au>
+    <au><snm>Gl{\"o}ckner</snm><fnm>FO</fnm></au>
+  </aug>
+  <source>Nucleic Acids Res</source>
+  <publisher>{Oxford Academic}</publisher>
+  <pubdate>2013</pubdate>
+  <volume>41</volume>
+  <issue>D1</issue>
+  <fpage>D590</fpage>
+  <lpage>D596</lpage>
+</bibl>
+
+<bibl id="B35">
+  <title><p>Accessible, Curated Metagenomic Data through
+  {{ExperimentHub}}</p></title>
+  <aug>
+    <au><snm>Pasolli</snm><fnm>E</fnm></au>
+    <au><snm>Schiffer</snm><fnm>L</fnm></au>
+    <au><snm>Manghi</snm><fnm>P</fnm></au>
+    <au><snm>Renson</snm><fnm>A</fnm></au>
+    <au><snm>Obenchain</snm><fnm>V</fnm></au>
+    <au><snm>Truong</snm><fnm>DT</fnm></au>
+    <au><snm>Beghini</snm><fnm>F</fnm></au>
+    <au><snm>Malik</snm><fnm>F</fnm></au>
+    <au><snm>Ramos</snm><fnm>M</fnm></au>
+    <au><snm>Dowd</snm><fnm>JB</fnm></au>
+    <au><snm>Huttenhower</snm><fnm>C</fnm></au>
+    <au><snm>Morgan</snm><fnm>M</fnm></au>
+    <au><snm>Segata</snm><fnm>N</fnm></au>
+    <au><snm>Waldron</snm><fnm>L</fnm></au>
+  </aug>
+  <source>Nature Methods</source>
+  <publisher>{Nature Publishing Group}</publisher>
+  <pubdate>2017</pubdate>
+  <volume>14</volume>
+  <issue>11</issue>
+  <fpage>1023</fpage>
+  <lpage>-1024</lpage>
+</bibl>
+
+<bibl id="B36">
+  <title><p>Integrating Taxonomic, Functional, and Strain-Level Profiling of
+  Diverse Microbial Communities with {{bioBakery}} 3</p></title>
+  <aug>
+    <au><snm>Beghini</snm><fnm>F</fnm></au>
+    <au><snm>McIver</snm><fnm>LJ</fnm></au>
+    <au><snm>{Blanco-M{\'i}guez}</snm><fnm>A</fnm></au>
+    <au><snm>Dubois</snm><fnm>L</fnm></au>
+    <au><snm>Asnicar</snm><fnm>F</fnm></au>
+    <au><snm>Maharjan</snm><fnm>S</fnm></au>
+    <au><snm>Mailyan</snm><fnm>A</fnm></au>
+    <au><snm>Manghi</snm><fnm>P</fnm></au>
+    <au><snm>Scholz</snm><fnm>M</fnm></au>
+    <au><snm>Thomas</snm><fnm>AM</fnm></au>
+    <au><snm>{Valles-Colomer}</snm><fnm>M</fnm></au>
+    <au><snm>Weingart</snm><fnm>G</fnm></au>
+    <au><snm>Zhang</snm><fnm>Y</fnm></au>
+    <au><snm>Zolfo</snm><fnm>M</fnm></au>
+    <au><snm>Huttenhower</snm><fnm>C</fnm></au>
+    <au><snm>Franzosa</snm><fnm>EA</fnm></au>
+    <au><snm>Segata</snm><fnm>N</fnm></au>
+  </aug>
+  <source>eLife</source>
+  <publisher>{eLife Sciences Publications, Ltd}</publisher>
+  <editor>Turnbaugh, Peter and Franco, Eduardo and Brown, C Titus</editor>
+  <pubdate>2021</pubdate>
+  <volume>10</volume>
+  <fpage>e65088</fpage>
+</bibl>
+
+<bibl id="B37">
+  <title><p>{{HMP16SData}}: {{Efficient}} Access to the Human Microbiome
+  Project through Bioconductor</p></title>
+  <aug>
+    <au><snm>Schiffer</snm><fnm>L</fnm></au>
+    <au><snm>Azhar</snm><fnm>R</fnm></au>
+    <au><snm>Shepherd</snm><fnm>L</fnm></au>
+    <au><snm>Ramos</snm><fnm>M</fnm></au>
+    <au><snm>Geistlinger</snm><fnm>L</fnm></au>
+    <au><snm>Huttenhower</snm><fnm>C</fnm></au>
+    <au><snm>Dowd</snm><fnm>JB</fnm></au>
+    <au><snm>Segata</snm><fnm>N</fnm></au>
+    <au><snm>Waldron</snm><fnm>L</fnm></au>
+  </aug>
+  <source>American Journal of Epidemiology</source>
+  <publisher>{Oxford University Press}</publisher>
+  <pubdate>2019</pubdate>
+</bibl>
+
+<bibl id="B38">
+  <title><p>Structure, Function and Diversity of the Healthy Human
+  Microbiome</p></title>
+  <aug>
+    <au><snm>Consortium</snm><fnm>THMP</fnm></au>
+    <au><snm>Huttenhower</snm><fnm>C</fnm></au>
+    <au><snm>Gevers</snm><fnm>D</fnm></au>
+    <au><snm>Knight</snm><fnm>R</fnm></au>
+    <au><snm>Abubucker</snm><fnm>S</fnm></au>
+    <au><snm>Badger</snm><fnm>JH</fnm></au>
+    <au><snm>Chinwalla</snm><fnm>AT</fnm></au>
+    <au><snm>Creasy</snm><fnm>HH</fnm></au>
+    <au><snm>Earl</snm><fnm>AM</fnm></au>
+    <au><snm>FitzGerald</snm><fnm>MG</fnm></au>
+    <au><snm>Fulton</snm><fnm>RS</fnm></au>
+    <au><snm>Giglio</snm><fnm>MG</fnm></au>
+    <au><snm>{Hallsworth-Pepin}</snm><fnm>K</fnm></au>
+    <au><snm>Lobos</snm><fnm>EA</fnm></au>
+    <au><snm>Madupu</snm><fnm>R</fnm></au>
+    <au><snm>Magrini</snm><fnm>V</fnm></au>
+    <au><snm>Martin</snm><fnm>JC</fnm></au>
+    <au><snm>Mitreva</snm><fnm>M</fnm></au>
+    <au><snm>Muzny</snm><fnm>DM</fnm></au>
+    <au><snm>Sodergren</snm><fnm>EJ</fnm></au>
+    <au><snm>Versalovic</snm><fnm>J</fnm></au>
+    <au><snm>Wollam</snm><fnm>AM</fnm></au>
+    <au><snm>Worley</snm><fnm>KC</fnm></au>
+    <au><snm>Wortman</snm><fnm>JR</fnm></au>
+    <au><snm>Young</snm><fnm>SK</fnm></au>
+    <au><snm>Zeng</snm><fnm>Q</fnm></au>
+    <au><snm>Aagaard</snm><fnm>KM</fnm></au>
+    <au><snm>Abolude</snm><fnm>OO</fnm></au>
+    <au><snm>{Allen-Vercoe}</snm><fnm>E</fnm></au>
+    <au><snm>Alm</snm><fnm>EJ</fnm></au>
+    <au><snm>Alvarado</snm><fnm>L</fnm></au>
+    <au><snm>Andersen</snm><fnm>GL</fnm></au>
+    <au><snm>Anderson</snm><fnm>S</fnm></au>
+    <au><snm>Appelbaum</snm><fnm>E</fnm></au>
+    <au><snm>Arachchi</snm><fnm>HM</fnm></au>
+    <au><snm>Armitage</snm><fnm>G</fnm></au>
+    <au><snm>Arze</snm><fnm>CA</fnm></au>
+    <au><snm>Ayvaz</snm><fnm>T</fnm></au>
+    <au><snm>Baker</snm><fnm>CC</fnm></au>
+    <au><snm>Begg</snm><fnm>L</fnm></au>
+    <au><snm>Belachew</snm><fnm>T</fnm></au>
+    <au><snm>Bhonagiri</snm><fnm>V</fnm></au>
+    <au><snm>Bihan</snm><fnm>M</fnm></au>
+    <au><snm>Blaser</snm><fnm>MJ</fnm></au>
+    <au><snm>Bloom</snm><fnm>T</fnm></au>
+    <au><snm>Bonazzi</snm><fnm>V</fnm></au>
+    <au><snm>Brooks</snm><fnm>JP</fnm></au>
+    <au><snm>Buck</snm><fnm>GA</fnm></au>
+    <au><snm>Buhay</snm><fnm>CJ</fnm></au>
+    <au><snm>Busam</snm><fnm>DA</fnm></au>
+    <au><snm>Campbell</snm><fnm>JL</fnm></au>
+    <au><snm>Canon</snm><fnm>SR</fnm></au>
+    <au><snm>Cantarel</snm><fnm>BL</fnm></au>
+    <au><snm>Chain</snm><fnm>PSG</fnm></au>
+    <au><snm>Chen</snm><fnm>IMA</fnm></au>
+    <au><snm>Chen</snm><fnm>L</fnm></au>
+    <au><snm>Chhibba</snm><fnm>S</fnm></au>
+    <au><snm>Chu</snm><fnm>K</fnm></au>
+    <au><snm>Ciulla</snm><fnm>DM</fnm></au>
+    <au><snm>Clemente</snm><fnm>JC</fnm></au>
+    <au><snm>Clifton</snm><fnm>SW</fnm></au>
+    <au><snm>Conlan</snm><fnm>S</fnm></au>
+    <au><snm>Crabtree</snm><fnm>J</fnm></au>
+    <au><snm>Cutting</snm><fnm>MA</fnm></au>
+    <au><snm>Davidovics</snm><fnm>NJ</fnm></au>
+    <au><snm>Davis</snm><fnm>CC</fnm></au>
+    <au><snm>DeSantis</snm><fnm>TZ</fnm></au>
+    <au><snm>Deal</snm><fnm>C</fnm></au>
+    <au><snm>Delehaunty</snm><fnm>KD</fnm></au>
+    <au><snm>Dewhirst</snm><fnm>FE</fnm></au>
+    <au><snm>Deych</snm><fnm>E</fnm></au>
+    <au><snm>Ding</snm><fnm>Y</fnm></au>
+    <au><snm>Dooling</snm><fnm>DJ</fnm></au>
+    <au><snm>Dugan</snm><fnm>SP</fnm></au>
+    <au><snm>Dunne</snm><fnm>WM</fnm></au>
+    <au><snm>Durkin</snm><fnm>AS</fnm></au>
+    <au><snm>Edgar</snm><fnm>RC</fnm></au>
+    <au><snm>Erlich</snm><fnm>RL</fnm></au>
+    <au><snm>Farmer</snm><fnm>CN</fnm></au>
+    <au><snm>Farrell</snm><fnm>RM</fnm></au>
+    <au><snm>Faust</snm><fnm>K</fnm></au>
+    <au><snm>Feldgarden</snm><fnm>M</fnm></au>
+    <au><snm>Felix</snm><fnm>VM</fnm></au>
+    <au><snm>Fisher</snm><fnm>S</fnm></au>
+    <au><snm>Fodor</snm><fnm>AA</fnm></au>
+    <au><snm>Forney</snm><fnm>LJ</fnm></au>
+    <au><snm>Foster</snm><fnm>L</fnm></au>
+    <au><snm>Francesco</snm><fnm>VD</fnm></au>
+    <au><snm>Friedman</snm><fnm>J</fnm></au>
+    <au><snm>Friedrich</snm><fnm>DC</fnm></au>
+    <au><snm>Fronick</snm><fnm>CC</fnm></au>
+    <au><snm>Fulton</snm><fnm>LL</fnm></au>
+    <au><snm>Gao</snm><fnm>H</fnm></au>
+    <au><snm>Garcia</snm><fnm>N</fnm></au>
+    <au><snm>Giannoukos</snm><fnm>G</fnm></au>
+    <au><snm>Giblin</snm><fnm>C</fnm></au>
+    <au><snm>Giovanni</snm><fnm>MY</fnm></au>
+    <au><snm>Goldberg</snm><fnm>JM</fnm></au>
+    <au><snm>Goll</snm><fnm>J</fnm></au>
+    <au><snm>Gonzalez</snm><fnm>A</fnm></au>
+    <au><snm>Griggs</snm><fnm>A</fnm></au>
+    <au><snm>Gujja</snm><fnm>S</fnm></au>
+    <au><snm>Haake</snm><fnm>SK</fnm></au>
+    <au><snm>Haas</snm><fnm>BJ</fnm></au>
+    <au><snm>Hamilton</snm><fnm>HA</fnm></au>
+    <au><snm>Harris</snm><fnm>EL</fnm></au>
+    <au><snm>Hepburn</snm><fnm>TA</fnm></au>
+    <au><snm>Herter</snm><fnm>B</fnm></au>
+    <au><snm>Hoffmann</snm><fnm>DE</fnm></au>
+    <au><snm>Holder</snm><fnm>ME</fnm></au>
+    <au><snm>Howarth</snm><fnm>C</fnm></au>
+    <au><snm>Huang</snm><fnm>KH</fnm></au>
+    <au><snm>Huse</snm><fnm>SM</fnm></au>
+    <au><snm>Izard</snm><fnm>J</fnm></au>
+    <au><snm>Jansson</snm><fnm>JK</fnm></au>
+    <au><snm>Jiang</snm><fnm>H</fnm></au>
+    <au><snm>Jordan</snm><fnm>C</fnm></au>
+    <au><snm>Joshi</snm><fnm>V</fnm></au>
+    <au><snm>Katancik</snm><fnm>JA</fnm></au>
+    <au><snm>Keitel</snm><fnm>WA</fnm></au>
+    <au><snm>Kelley</snm><fnm>ST</fnm></au>
+    <au><snm>Kells</snm><fnm>C</fnm></au>
+    <au><snm>King</snm><fnm>NB</fnm></au>
+    <au><snm>Knights</snm><fnm>D</fnm></au>
+    <au><snm>Kong</snm><fnm>HH</fnm></au>
+    <au><snm>Koren</snm><fnm>O</fnm></au>
+    <au><snm>Koren</snm><fnm>S</fnm></au>
+    <au><snm>Kota</snm><fnm>KC</fnm></au>
+    <au><snm>Kovar</snm><fnm>CL</fnm></au>
+    <au><snm>Kyrpides</snm><fnm>NC</fnm></au>
+    <au><snm>Rosa</snm><fnm>PSL</fnm></au>
+    <au><snm>Lee</snm><fnm>SL</fnm></au>
+    <au><snm>Lemon</snm><fnm>KP</fnm></au>
+    <au><snm>Lennon</snm><fnm>N</fnm></au>
+    <au><snm>Lewis</snm><fnm>CM</fnm></au>
+    <au><snm>Lewis</snm><fnm>L</fnm></au>
+    <au><snm>Ley</snm><fnm>RE</fnm></au>
+    <au><snm>Li</snm><fnm>K</fnm></au>
+    <au><snm>Liolios</snm><fnm>K</fnm></au>
+    <au><snm>Liu</snm><fnm>B</fnm></au>
+    <au><snm>Liu</snm><fnm>Y</fnm></au>
+    <au><snm>Lo</snm><fnm>CC</fnm></au>
+    <au><snm>Lozupone</snm><fnm>CA</fnm></au>
+    <au><snm>Lunsford</snm><fnm>RD</fnm></au>
+    <au><snm>Madden</snm><fnm>T</fnm></au>
+    <au><snm>Mahurkar</snm><fnm>AA</fnm></au>
+    <au><snm>Mannon</snm><fnm>PJ</fnm></au>
+    <au><snm>Mardis</snm><fnm>ER</fnm></au>
+    <au><snm>Markowitz</snm><fnm>VM</fnm></au>
+    <au><snm>Mavromatis</snm><fnm>K</fnm></au>
+    <au><snm>McCorrison</snm><fnm>JM</fnm></au>
+    <au><snm>McDonald</snm><fnm>D</fnm></au>
+    <au><snm>McEwen</snm><fnm>J</fnm></au>
+    <au><snm>McGuire</snm><fnm>AL</fnm></au>
+    <au><snm>McInnes</snm><fnm>P</fnm></au>
+    <au><snm>Mehta</snm><fnm>T</fnm></au>
+    <au><snm>Mihindukulasuriya</snm><fnm>KA</fnm></au>
+    <au><snm>Miller</snm><fnm>JR</fnm></au>
+    <au><snm>Minx</snm><fnm>PJ</fnm></au>
+    <au><snm>Newsham</snm><fnm>I</fnm></au>
+    <au><snm>Nusbaum</snm><fnm>C</fnm></au>
+    <au><snm>O'Laughlin</snm><fnm>M</fnm></au>
+    <au><snm>Orvis</snm><fnm>J</fnm></au>
+    <au><snm>Pagani</snm><fnm>I</fnm></au>
+    <au><snm>Palaniappan</snm><fnm>K</fnm></au>
+    <au><snm>Patel</snm><fnm>SM</fnm></au>
+    <au><snm>Pearson</snm><fnm>M</fnm></au>
+    <au><snm>Peterson</snm><fnm>J</fnm></au>
+    <au><snm>Podar</snm><fnm>M</fnm></au>
+    <au><snm>Pohl</snm><fnm>C</fnm></au>
+    <au><snm>Pollard</snm><fnm>KS</fnm></au>
+    <au><snm>Pop</snm><fnm>M</fnm></au>
+    <au><snm>Priest</snm><fnm>ME</fnm></au>
+    <au><snm>Proctor</snm><fnm>LM</fnm></au>
+    <au><snm>Qin</snm><fnm>X</fnm></au>
+    <au><snm>Raes</snm><fnm>J</fnm></au>
+    <au><snm>Ravel</snm><fnm>J</fnm></au>
+    <au><snm>Reid</snm><fnm>JG</fnm></au>
+    <au><snm>Rho</snm><fnm>M</fnm></au>
+    <au><snm>Rhodes</snm><fnm>R</fnm></au>
+    <au><snm>Riehle</snm><fnm>KP</fnm></au>
+    <au><snm>Rivera</snm><fnm>MC</fnm></au>
+    <au><snm>{Rodriguez-Mueller}</snm><fnm>B</fnm></au>
+    <au><snm>Rogers</snm><fnm>YH</fnm></au>
+    <au><snm>Ross</snm><fnm>MC</fnm></au>
+    <au><snm>Russ</snm><fnm>C</fnm></au>
+    <au><snm>Sanka</snm><fnm>RK</fnm></au>
+    <au><snm>Sankar</snm><fnm>P</fnm></au>
+    <au><snm>Sathirapongsasuti</snm><fnm>JF</fnm></au>
+    <au><snm>Schloss</snm><fnm>JA</fnm></au>
+    <au><snm>Schloss</snm><fnm>PD</fnm></au>
+    <au><snm>Schmidt</snm><fnm>TM</fnm></au>
+    <au><snm>Scholz</snm><fnm>M</fnm></au>
+    <au><snm>Schriml</snm><fnm>L</fnm></au>
+    <au><snm>Schubert</snm><fnm>AM</fnm></au>
+    <au><snm>Segata</snm><fnm>N</fnm></au>
+    <au><snm>Segre</snm><fnm>JA</fnm></au>
+    <au><snm>Shannon</snm><fnm>WD</fnm></au>
+    <au><snm>Sharp</snm><fnm>RR</fnm></au>
+    <au><snm>Sharpton</snm><fnm>TJ</fnm></au>
+    <au><snm>Shenoy</snm><fnm>N</fnm></au>
+    <au><snm>Sheth</snm><fnm>NU</fnm></au>
+    <au><snm>Simone</snm><fnm>GA</fnm></au>
+    <au><snm>Singh</snm><fnm>I</fnm></au>
+    <au><snm>Smillie</snm><fnm>CS</fnm></au>
+    <au><snm>Sobel</snm><fnm>JD</fnm></au>
+    <au><snm>Sommer</snm><fnm>DD</fnm></au>
+    <au><snm>Spicer</snm><fnm>P</fnm></au>
+    <au><snm>Sutton</snm><fnm>GG</fnm></au>
+    <au><snm>Sykes</snm><fnm>SM</fnm></au>
+    <au><snm>Tabbaa</snm><fnm>DG</fnm></au>
+    <au><snm>Thiagarajan</snm><fnm>M</fnm></au>
+    <au><snm>Tomlinson</snm><fnm>CM</fnm></au>
+    <au><snm>Torralba</snm><fnm>M</fnm></au>
+    <au><snm>Treangen</snm><fnm>TJ</fnm></au>
+    <au><snm>Truty</snm><fnm>RM</fnm></au>
+    <au><snm>Vishnivetskaya</snm><fnm>TA</fnm></au>
+    <au><snm>Walker</snm><fnm>J</fnm></au>
+    <au><snm>Wang</snm><fnm>L</fnm></au>
+    <au><snm>Wang</snm><fnm>Z</fnm></au>
+    <au><snm>Ward</snm><fnm>DV</fnm></au>
+    <au><snm>Warren</snm><fnm>W</fnm></au>
+    <au><snm>Watson</snm><fnm>MA</fnm></au>
+    <au><snm>Wellington</snm><fnm>C</fnm></au>
+    <au><snm>Wetterstrand</snm><fnm>KA</fnm></au>
+    <au><snm>White</snm><fnm>JR</fnm></au>
+    <au><snm>{Wilczek-Boney}</snm><fnm>K</fnm></au>
+    <au><snm>Wu</snm><fnm>Y</fnm></au>
+    <au><snm>Wylie</snm><fnm>KM</fnm></au>
+    <au><snm>Wylie</snm><fnm>T</fnm></au>
+    <au><snm>Yandava</snm><fnm>C</fnm></au>
+    <au><snm>Ye</snm><fnm>L</fnm></au>
+    <au><snm>Ye</snm><fnm>Y</fnm></au>
+    <au><snm>Yooseph</snm><fnm>S</fnm></au>
+    <au><snm>Youmans</snm><fnm>BP</fnm></au>
+    <au><snm>Zhang</snm><fnm>L</fnm></au>
+    <au><snm>Zhou</snm><fnm>Y</fnm></au>
+    <au><snm>Zhu</snm><fnm>Y</fnm></au>
+    <au><snm>Zoloth</snm><fnm>L</fnm></au>
+    <au><snm>Zucker</snm><fnm>JD</fnm></au>
+    <au><snm>Birren</snm><fnm>BW</fnm></au>
+    <au><snm>Gibbs</snm><fnm>RA</fnm></au>
+    <au><snm>Highlander</snm><fnm>SK</fnm></au>
+    <au><snm>Meth{\'e}</snm><fnm>BA</fnm></au>
+    <au><snm>Nelson</snm><fnm>KE</fnm></au>
+    <au><snm>Petrosino</snm><fnm>JF</fnm></au>
+    <au><snm>Weinstock</snm><fnm>GM</fnm></au>
+    <au><snm>Wilson</snm><fnm>RK</fnm></au>
+    <au><snm>White</snm><fnm>O</fnm></au>
+  </aug>
+  <source>Nature</source>
+  <pubdate>2012</pubdate>
+  <volume>486</volume>
+  <issue>7402</issue>
+  <fpage>207</fpage>
+  <lpage>-214</lpage>
+</bibl>
+
+<bibl id="B39">
+  <title><p>Potential of Fecal Microbiota for Early-stage Detection of
+  Colorectal Cancer</p></title>
+  <aug>
+    <au><snm>Zeller</snm><fnm>G</fnm></au>
+    <au><snm>Tap</snm><fnm>J</fnm></au>
+    <au><snm>Voigt</snm><fnm>AY</fnm></au>
+    <au><snm>Sunagawa</snm><fnm>S</fnm></au>
+    <au><snm>Kultima</snm><fnm>JR</fnm></au>
+    <au><snm>Costea</snm><fnm>PI</fnm></au>
+    <au><snm>Amiot</snm><fnm>A</fnm></au>
+    <au><snm>B{\"o}hm</snm><fnm>J</fnm></au>
+    <au><snm>Brunetti</snm><fnm>F</fnm></au>
+    <au><snm>Habermann</snm><fnm>N</fnm></au>
+    <au><snm>Hercog</snm><fnm>R</fnm></au>
+    <au><snm>Koch</snm><fnm>M</fnm></au>
+    <au><snm>Luciani</snm><fnm>A</fnm></au>
+    <au><snm>Mende</snm><fnm>DR</fnm></au>
+    <au><snm>Schneider</snm><fnm>MA</fnm></au>
+    <au><snm>Schrotz King</snm><fnm>P</fnm></au>
+    <au><snm>Tournigand</snm><fnm>C</fnm></au>
+    <au><snm>Tran Van Nhieu</snm><fnm>J</fnm></au>
+    <au><snm>Yamada</snm><fnm>T</fnm></au>
+    <au><snm>Zimmermann</snm><fnm>J</fnm></au>
+    <au><snm>Benes</snm><fnm>V</fnm></au>
+    <au><snm>Kloor</snm><fnm>M</fnm></au>
+    <au><snm>Ulrich</snm><fnm>CM</fnm></au>
+    <au><snm>Knebel Doeberitz</snm><fnm>M</fnm></au>
+    <au><snm>Sobhani</snm><fnm>I</fnm></au>
+    <au><snm>Bork</snm><fnm>P</fnm></au>
+  </aug>
+  <source>Mol Syst Biol</source>
+  <pubdate>2014</pubdate>
+  <volume>10</volume>
+  <issue>11</issue>
+  <fpage>766</fpage>
+</bibl>
+
+<bibl id="B40">
+  <title><p>Gut Microbiome Development along the Colorectal Adenoma-Carcinoma
+  Sequence</p></title>
+  <aug>
+    <au><snm>Feng</snm><fnm>Q</fnm></au>
+    <au><snm>Liang</snm><fnm>S</fnm></au>
+    <au><snm>Jia</snm><fnm>H</fnm></au>
+    <au><snm>Stadlmayr</snm><fnm>A</fnm></au>
+    <au><snm>Tang</snm><fnm>L</fnm></au>
+    <au><snm>Lan</snm><fnm>Z</fnm></au>
+    <au><snm>Zhang</snm><fnm>D</fnm></au>
+    <au><snm>Xia</snm><fnm>H</fnm></au>
+    <au><snm>Xu</snm><fnm>X</fnm></au>
+    <au><snm>Jie</snm><fnm>Z</fnm></au>
+    <au><snm>Su</snm><fnm>L</fnm></au>
+    <au><snm>Li</snm><fnm>X</fnm></au>
+    <au><snm>Li</snm><fnm>X</fnm></au>
+    <au><snm>Li</snm><fnm>J</fnm></au>
+    <au><snm>Xiao</snm><fnm>L</fnm></au>
+    <au><snm>{Huber-Sch{\"o}nauer}</snm><fnm>U</fnm></au>
+    <au><snm>Niederseer</snm><fnm>D</fnm></au>
+    <au><snm>Xu</snm><fnm>X</fnm></au>
+    <au><snm>{Al-Aama}</snm><fnm>JY</fnm></au>
+    <au><snm>Yang</snm><fnm>H</fnm></au>
+    <au><snm>Wang</snm><fnm>J</fnm></au>
+    <au><snm>Kristiansen</snm><fnm>K</fnm></au>
+    <au><snm>Arumugam</snm><fnm>M</fnm></au>
+    <au><snm>Tilg</snm><fnm>H</fnm></au>
+    <au><snm>Datz</snm><fnm>C</fnm></au>
+    <au><snm>Wang</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Nat Commun</source>
+  <pubdate>2015</pubdate>
+  <volume>6</volume>
+  <fpage>6528</fpage>
+</bibl>
+
+<bibl id="B41">
+  <title><p>Association of {{Flavonifractor}} Plautii, a {{Flavonoid-Degrading
+  Bacterium}}, with the {{Gut Microbiome}} of {{Colorectal Cancer Patients}} in
+  {{India}}</p></title>
+  <aug>
+    <au><snm>Gupta</snm><fnm>A</fnm></au>
+    <au><snm>Dhakan</snm><fnm>DB</fnm></au>
+    <au><snm>Maji</snm><fnm>A</fnm></au>
+    <au><snm>Saxena</snm><fnm>R</fnm></au>
+    <au><snm>P K</snm><fnm>VP</fnm></au>
+    <au><snm>Mahajan</snm><fnm>S</fnm></au>
+    <au><snm>Pulikkan</snm><fnm>J</fnm></au>
+    <au><snm>Kurian</snm><fnm>J</fnm></au>
+    <au><snm>Gomez</snm><fnm>AM</fnm></au>
+    <au><snm>Scaria</snm><fnm>J</fnm></au>
+    <au><snm>Amato</snm><fnm>KR</fnm></au>
+    <au><snm>Sharma</snm><fnm>AK</fnm></au>
+    <au><snm>Sharma</snm><fnm>VK</fnm></au>
+  </aug>
+  <source>mSystems</source>
+  <pubdate>2019</pubdate>
+  <volume>4</volume>
+  <issue>6</issue>
+  <fpage>e00438</fpage>
+  <lpage>19</lpage>
+</bibl>
+
+<bibl id="B42">
+  <title><p>Diagnostic {{Potential}} and {{Interactive Dynamics}} of the
+  {{Colorectal Cancer Virome}}</p></title>
+  <aug>
+    <au><snm>Hannigan</snm><fnm>GD</fnm></au>
+    <au><snm>Duhaime</snm><fnm>MB</fnm></au>
+    <au><snm>Ruffin</snm><fnm>MT</fnm></au>
+    <au><snm>Koumpouras</snm><fnm>CC</fnm></au>
+    <au><snm>Schloss</snm><fnm>PD</fnm></au>
+  </aug>
+  <source>mBio</source>
+  <pubdate>2018</pubdate>
+  <volume>9</volume>
+  <issue>6</issue>
+  <fpage>e02248</fpage>
+  <lpage>18</lpage>
+</bibl>
+
+<bibl id="B43">
+  <title><p>Metagenomic Analysis of Colorectal Cancer Datasets Identifies
+  Cross-Cohort Microbial Diagnostic Signatures and a Link with Choline
+  Degradation</p></title>
+  <aug>
+    <au><snm>Thomas</snm><fnm>AM</fnm></au>
+    <au><snm>Manghi</snm><fnm>P</fnm></au>
+    <au><snm>Asnicar</snm><fnm>F</fnm></au>
+    <au><snm>Pasolli</snm><fnm>E</fnm></au>
+    <au><snm>Armanini</snm><fnm>F</fnm></au>
+    <au><snm>Zolfo</snm><fnm>M</fnm></au>
+    <au><snm>Beghini</snm><fnm>F</fnm></au>
+    <au><snm>Manara</snm><fnm>S</fnm></au>
+    <au><snm>Karcher</snm><fnm>N</fnm></au>
+    <au><snm>Pozzi</snm><fnm>C</fnm></au>
+    <au><snm>Gandini</snm><fnm>S</fnm></au>
+    <au><snm>Serrano</snm><fnm>D</fnm></au>
+    <au><snm>Tarallo</snm><fnm>S</fnm></au>
+    <au><snm>Francavilla</snm><fnm>A</fnm></au>
+    <au><snm>Gallo</snm><fnm>G</fnm></au>
+    <au><snm>Trompetto</snm><fnm>M</fnm></au>
+    <au><snm>Ferrero</snm><fnm>G</fnm></au>
+    <au><snm>Mizutani</snm><fnm>S</fnm></au>
+    <au><snm>Shiroma</snm><fnm>H</fnm></au>
+    <au><snm>Shiba</snm><fnm>S</fnm></au>
+    <au><snm>Shibata</snm><fnm>T</fnm></au>
+    <au><snm>Yachida</snm><fnm>S</fnm></au>
+    <au><snm>Yamada</snm><fnm>T</fnm></au>
+    <au><snm>Wirbel</snm><fnm>J</fnm></au>
+    <au><snm>{Schrotz-King}</snm><fnm>P</fnm></au>
+    <au><snm>Ulrich</snm><fnm>CM</fnm></au>
+    <au><snm>Brenner</snm><fnm>H</fnm></au>
+    <au><snm>Arumugam</snm><fnm>M</fnm></au>
+    <au><snm>Bork</snm><fnm>P</fnm></au>
+    <au><snm>Zeller</snm><fnm>G</fnm></au>
+    <au><snm>Cordero</snm><fnm>F</fnm></au>
+    <au><snm>{Dias-Neto}</snm><fnm>E</fnm></au>
+    <au><snm>Setubal</snm><fnm>JC</fnm></au>
+    <au><snm>Tett</snm><fnm>A</fnm></au>
+    <au><snm>Pardini</snm><fnm>B</fnm></au>
+    <au><snm>Rescigno</snm><fnm>M</fnm></au>
+    <au><snm>Waldron</snm><fnm>L</fnm></au>
+    <au><snm>Naccarati</snm><fnm>A</fnm></au>
+    <au><snm>Segata</snm><fnm>N</fnm></au>
+  </aug>
+  <source>Nat Med</source>
+  <pubdate>2019</pubdate>
+  <volume>25</volume>
+  <issue>4</issue>
+  <fpage>667</fpage>
+  <lpage>-678</lpage>
+</bibl>
+
+<bibl id="B44">
+  <title><p>Colorectal {{Cancer}} and the {{Human Gut Microbiome}}:
+  {{Reproducibility}} with {{Whole-Genome Shotgun Sequencing}}</p></title>
+  <aug>
+    <au><snm>Vogtmann</snm><fnm>E</fnm></au>
+    <au><snm>Hua</snm><fnm>X</fnm></au>
+    <au><snm>Zeller</snm><fnm>G</fnm></au>
+    <au><snm>Sunagawa</snm><fnm>S</fnm></au>
+    <au><snm>Voigt</snm><fnm>AY</fnm></au>
+    <au><snm>Hercog</snm><fnm>R</fnm></au>
+    <au><snm>Goedert</snm><fnm>JJ</fnm></au>
+    <au><snm>Shi</snm><fnm>J</fnm></au>
+    <au><snm>Bork</snm><fnm>P</fnm></au>
+    <au><snm>Sinha</snm><fnm>R</fnm></au>
+  </aug>
+  <source>PLoS One</source>
+  <pubdate>2016</pubdate>
+  <volume>11</volume>
+  <issue>5</issue>
+  <fpage>e0155362</fpage>
+</bibl>
+
+<bibl id="B45">
+  <title><p>Meta-Analysis of Fecal Metagenomes Reveals Global Microbial
+  Signatures That Are Specific for Colorectal Cancer</p></title>
+  <aug>
+    <au><snm>Wirbel</snm><fnm>J</fnm></au>
+    <au><snm>Pyl</snm><fnm>PT</fnm></au>
+    <au><snm>Kartal</snm><fnm>E</fnm></au>
+    <au><snm>Zych</snm><fnm>K</fnm></au>
+    <au><snm>Kashani</snm><fnm>A</fnm></au>
+    <au><snm>Milanese</snm><fnm>A</fnm></au>
+    <au><snm>Fleck</snm><fnm>JS</fnm></au>
+    <au><snm>Voigt</snm><fnm>AY</fnm></au>
+    <au><snm>Palleja</snm><fnm>A</fnm></au>
+    <au><snm>Ponnudurai</snm><fnm>R</fnm></au>
+    <au><snm>Sunagawa</snm><fnm>S</fnm></au>
+    <au><snm>Coelho</snm><fnm>LP</fnm></au>
+    <au><snm>{Schrotz-King}</snm><fnm>P</fnm></au>
+    <au><snm>Vogtmann</snm><fnm>E</fnm></au>
+    <au><snm>Habermann</snm><fnm>N</fnm></au>
+    <au><snm>Nim{\'e}us</snm><fnm>E</fnm></au>
+    <au><snm>Thomas</snm><fnm>AM</fnm></au>
+    <au><snm>Manghi</snm><fnm>P</fnm></au>
+    <au><snm>Gandini</snm><fnm>S</fnm></au>
+    <au><snm>Serrano</snm><fnm>D</fnm></au>
+    <au><snm>Mizutani</snm><fnm>S</fnm></au>
+    <au><snm>Shiroma</snm><fnm>H</fnm></au>
+    <au><snm>Shiba</snm><fnm>S</fnm></au>
+    <au><snm>Shibata</snm><fnm>T</fnm></au>
+    <au><snm>Yachida</snm><fnm>S</fnm></au>
+    <au><snm>Yamada</snm><fnm>T</fnm></au>
+    <au><snm>Waldron</snm><fnm>L</fnm></au>
+    <au><snm>Naccarati</snm><fnm>A</fnm></au>
+    <au><snm>Segata</snm><fnm>N</fnm></au>
+    <au><snm>Sinha</snm><fnm>R</fnm></au>
+    <au><snm>Ulrich</snm><fnm>CM</fnm></au>
+    <au><snm>Brenner</snm><fnm>H</fnm></au>
+    <au><snm>Arumugam</snm><fnm>M</fnm></au>
+    <au><snm>Bork</snm><fnm>P</fnm></au>
+    <au><snm>Zeller</snm><fnm>G</fnm></au>
+  </aug>
+  <source>Nat Med</source>
+  <pubdate>2019</pubdate>
+  <volume>25</volume>
+  <issue>4</issue>
+  <fpage>679</fpage>
+  <lpage>-689</lpage>
+</bibl>
+
+<bibl id="B46">
+  <title><p>Metagenomic and Metabolomic Analyses Reveal Distinct Stage-Specific
+  Phenotypes of the Gut Microbiota in Colorectal Cancer</p></title>
+  <aug>
+    <au><snm>Yachida</snm><fnm>S</fnm></au>
+    <au><snm>Mizutani</snm><fnm>S</fnm></au>
+    <au><snm>Shiroma</snm><fnm>H</fnm></au>
+    <au><snm>Shiba</snm><fnm>S</fnm></au>
+    <au><snm>Nakajima</snm><fnm>T</fnm></au>
+    <au><snm>Sakamoto</snm><fnm>T</fnm></au>
+    <au><snm>Watanabe</snm><fnm>H</fnm></au>
+    <au><snm>Masuda</snm><fnm>K</fnm></au>
+    <au><snm>Nishimoto</snm><fnm>Y</fnm></au>
+    <au><snm>Kubo</snm><fnm>M</fnm></au>
+    <au><snm>Hosoda</snm><fnm>F</fnm></au>
+    <au><snm>Rokutan</snm><fnm>H</fnm></au>
+    <au><snm>Matsumoto</snm><fnm>M</fnm></au>
+    <au><snm>Takamaru</snm><fnm>H</fnm></au>
+    <au><snm>Yamada</snm><fnm>M</fnm></au>
+    <au><snm>Matsuda</snm><fnm>T</fnm></au>
+    <au><snm>Iwasaki</snm><fnm>M</fnm></au>
+    <au><snm>Yamaji</snm><fnm>T</fnm></au>
+    <au><snm>Yachida</snm><fnm>T</fnm></au>
+    <au><snm>Soga</snm><fnm>T</fnm></au>
+    <au><snm>Kurokawa</snm><fnm>K</fnm></au>
+    <au><snm>Toyoda</snm><fnm>A</fnm></au>
+    <au><snm>Ogura</snm><fnm>Y</fnm></au>
+    <au><snm>Hayashi</snm><fnm>T</fnm></au>
+    <au><snm>Hatakeyama</snm><fnm>M</fnm></au>
+    <au><snm>Nakagama</snm><fnm>H</fnm></au>
+    <au><snm>Saito</snm><fnm>Y</fnm></au>
+    <au><snm>Fukuda</snm><fnm>S</fnm></au>
+    <au><snm>Shibata</snm><fnm>T</fnm></au>
+    <au><snm>Yamada</snm><fnm>T</fnm></au>
+  </aug>
+  <source>Nat Med</source>
+  <pubdate>2019</pubdate>
+  <volume>25</volume>
+  <issue>6</issue>
+  <fpage>968</fpage>
+  <lpage>-976</lpage>
+</bibl>
+
+<bibl id="B47">
+  <title><p>Metagenomic Analysis of Faecal Microbiome as a Tool towards
+  Targeted Non-Invasive Biomarkers for Colorectal Cancer</p></title>
+  <aug>
+    <au><snm>Yu</snm><fnm>J</fnm></au>
+    <au><snm>Feng</snm><fnm>Q</fnm></au>
+    <au><snm>Wong</snm><fnm>SH</fnm></au>
+    <au><snm>Zhang</snm><fnm>D</fnm></au>
+    <au><snm>Liang</snm><fnm>QY</fnm></au>
+    <au><snm>Qin</snm><fnm>Y</fnm></au>
+    <au><snm>Tang</snm><fnm>L</fnm></au>
+    <au><snm>Zhao</snm><fnm>H</fnm></au>
+    <au><snm>Stenvang</snm><fnm>J</fnm></au>
+    <au><snm>Li</snm><fnm>Y</fnm></au>
+    <au><snm>Wang</snm><fnm>X</fnm></au>
+    <au><snm>Xu</snm><fnm>X</fnm></au>
+    <au><snm>Chen</snm><fnm>N</fnm></au>
+    <au><snm>Wu</snm><fnm>WKK</fnm></au>
+    <au><snm>{Al-Aama}</snm><fnm>J</fnm></au>
+    <au><snm>Nielsen</snm><fnm>HJ</fnm></au>
+    <au><snm>Kiilerich</snm><fnm>P</fnm></au>
+    <au><snm>Jensen</snm><fnm>BAH</fnm></au>
+    <au><snm>Yau</snm><fnm>TO</fnm></au>
+    <au><snm>Lan</snm><fnm>Z</fnm></au>
+    <au><snm>Jia</snm><fnm>H</fnm></au>
+    <au><snm>Li</snm><fnm>J</fnm></au>
+    <au><snm>Xiao</snm><fnm>L</fnm></au>
+    <au><snm>Lam</snm><fnm>TYT</fnm></au>
+    <au><snm>Ng</snm><fnm>SC</fnm></au>
+    <au><snm>Cheng</snm><fnm>ASL</fnm></au>
+    <au><snm>Wong</snm><fnm>VWS</fnm></au>
+    <au><snm>Chan</snm><fnm>FKL</fnm></au>
+    <au><snm>Xu</snm><fnm>X</fnm></au>
+    <au><snm>Yang</snm><fnm>H</fnm></au>
+    <au><snm>Madsen</snm><fnm>L</fnm></au>
+    <au><snm>Datz</snm><fnm>C</fnm></au>
+    <au><snm>Tilg</snm><fnm>H</fnm></au>
+    <au><snm>Wang</snm><fnm>J</fnm></au>
+    <au><snm>Br{\"u}nner</snm><fnm>N</fnm></au>
+    <au><snm>Kristiansen</snm><fnm>K</fnm></au>
+    <au><snm>Arumugam</snm><fnm>M</fnm></au>
+    <au><snm>Sung</snm><fnm>JJY</fnm></au>
+    <au><snm>Wang</snm><fnm>J</fnm></au>
+  </aug>
+  <source>Gut</source>
+  <pubdate>2017</pubdate>
+  <volume>66</volume>
+  <issue>1</issue>
+  <fpage>70</fpage>
+  <lpage>-78</lpage>
+</bibl>
+
+<bibl id="B48">
+  <title><p>The {{Integrative Human Microbiome Project}}</p></title>
+  <aug>
+    <au><snm>Proctor</snm><fnm>LM</fnm></au>
+    <au><snm>Creasy</snm><fnm>HH</fnm></au>
+    <au><snm>Fettweis</snm><fnm>JM</fnm></au>
+    <au><snm>{Lloyd-Price}</snm><fnm>J</fnm></au>
+    <au><snm>Mahurkar</snm><fnm>A</fnm></au>
+    <au><snm>Zhou</snm><fnm>W</fnm></au>
+    <au><snm>Buck</snm><fnm>GA</fnm></au>
+    <au><snm>Snyder</snm><fnm>MP</fnm></au>
+    <au><snm>Strauss</snm><fnm>JF</fnm></au>
+    <au><snm>Weinstock</snm><fnm>GM</fnm></au>
+    <au><snm>White</snm><fnm>O</fnm></au>
+    <au><snm>Huttenhower</snm><fnm>C</fnm></au>
+    <au><cnm>{The Integrative HMP (iHMP) Research Network
+  Consortium}</cnm></au>
+  </aug>
+  <source>Nature</source>
+  <publisher>{Nature Publishing Group}</publisher>
+  <pubdate>2019</pubdate>
+  <volume>569</volume>
+  <issue>7758</issue>
+  <fpage>641</fpage>
+  <lpage>-648</lpage>
+</bibl>
+
+<bibl id="B49">
+  <title><p>A Novel {{Ruminococcus}} Gnavus Clade Enriched in Inflammatory
+  Bowel Disease Patients</p></title>
+  <aug>
+    <au><snm>Hall</snm><fnm>AB</fnm></au>
+    <au><snm>Yassour</snm><fnm>M</fnm></au>
+    <au><snm>Sauk</snm><fnm>J</fnm></au>
+    <au><snm>Garner</snm><fnm>A</fnm></au>
+    <au><snm>Jiang</snm><fnm>X</fnm></au>
+    <au><snm>Arthur</snm><fnm>T</fnm></au>
+    <au><snm>Lagoudas</snm><fnm>GK</fnm></au>
+    <au><snm>Vatanen</snm><fnm>T</fnm></au>
+    <au><snm>Fornelos</snm><fnm>N</fnm></au>
+    <au><snm>Wilson</snm><fnm>R</fnm></au>
+    <au><snm>Bertha</snm><fnm>M</fnm></au>
+    <au><snm>Cohen</snm><fnm>M</fnm></au>
+    <au><snm>Garber</snm><fnm>J</fnm></au>
+    <au><snm>Khalili</snm><fnm>H</fnm></au>
+    <au><snm>Gevers</snm><fnm>D</fnm></au>
+    <au><snm>Ananthakrishnan</snm><fnm>AN</fnm></au>
+    <au><snm>Kugathasan</snm><fnm>S</fnm></au>
+    <au><snm>Lander</snm><fnm>ES</fnm></au>
+    <au><snm>Blainey</snm><fnm>P</fnm></au>
+    <au><snm>Vlamakis</snm><fnm>H</fnm></au>
+    <au><snm>Xavier</snm><fnm>RJ</fnm></au>
+    <au><snm>Huttenhower</snm><fnm>C</fnm></au>
+  </aug>
+  <source>Genome Med</source>
+  <pubdate>2017</pubdate>
+  <volume>9</volume>
+  <issue>1</issue>
+  <fpage>103</fpage>
+</bibl>
+
+<bibl id="B50">
+  <title><p>The Distinct Features of Microbial 'dysbiosis' of {{Crohn}}'s
+  Disease Do Not Occur to the Same Extent in Their Unaffected,
+  Genetically-Linked Kindred</p></title>
+  <aug>
+    <au><snm>Ijaz</snm><fnm>UZ</fnm></au>
+    <au><snm>Quince</snm><fnm>C</fnm></au>
+    <au><snm>Hanske</snm><fnm>L</fnm></au>
+    <au><snm>Loman</snm><fnm>N</fnm></au>
+    <au><snm>Calus</snm><fnm>ST</fnm></au>
+    <au><snm>Bertz</snm><fnm>M</fnm></au>
+    <au><snm>Edwards</snm><fnm>CA</fnm></au>
+    <au><snm>Gaya</snm><fnm>DR</fnm></au>
+    <au><snm>Hansen</snm><fnm>R</fnm></au>
+    <au><snm>McGrogan</snm><fnm>P</fnm></au>
+    <au><snm>Russell</snm><fnm>RK</fnm></au>
+    <au><snm>Gerasimidis</snm><fnm>K</fnm></au>
+  </aug>
+  <source>PLoS One</source>
+  <pubdate>2017</pubdate>
+  <volume>12</volume>
+  <issue>2</issue>
+  <fpage>e0172605</fpage>
+</bibl>
+
+<bibl id="B51">
+  <title><p>An Integrated Catalog of Reference Genes in the Human Gut
+  Microbiome</p></title>
+  <aug>
+    <au><snm>Li</snm><fnm>J</fnm></au>
+    <au><snm>Jia</snm><fnm>H</fnm></au>
+    <au><snm>Cai</snm><fnm>X</fnm></au>
+    <au><snm>Zhong</snm><fnm>H</fnm></au>
+    <au><snm>Feng</snm><fnm>Q</fnm></au>
+    <au><snm>Sunagawa</snm><fnm>S</fnm></au>
+    <au><snm>Arumugam</snm><fnm>M</fnm></au>
+    <au><snm>Kultima</snm><fnm>JR</fnm></au>
+    <au><snm>Prifti</snm><fnm>E</fnm></au>
+    <au><snm>Nielsen</snm><fnm>T</fnm></au>
+    <au><snm>Juncker</snm><fnm>AS</fnm></au>
+    <au><snm>Manichanh</snm><fnm>C</fnm></au>
+    <au><snm>Chen</snm><fnm>B</fnm></au>
+    <au><snm>Zhang</snm><fnm>W</fnm></au>
+    <au><snm>Levenez</snm><fnm>F</fnm></au>
+    <au><snm>Wang</snm><fnm>J</fnm></au>
+    <au><snm>Xu</snm><fnm>X</fnm></au>
+    <au><snm>Xiao</snm><fnm>L</fnm></au>
+    <au><snm>Liang</snm><fnm>S</fnm></au>
+    <au><snm>Zhang</snm><fnm>D</fnm></au>
+    <au><snm>Zhang</snm><fnm>Z</fnm></au>
+    <au><snm>Chen</snm><fnm>W</fnm></au>
+    <au><snm>Zhao</snm><fnm>H</fnm></au>
+    <au><snm>{Al-Aama}</snm><fnm>JY</fnm></au>
+    <au><snm>Edris</snm><fnm>S</fnm></au>
+    <au><snm>Yang</snm><fnm>H</fnm></au>
+    <au><snm>Wang</snm><fnm>J</fnm></au>
+    <au><snm>Hansen</snm><fnm>T</fnm></au>
+    <au><snm>Nielsen</snm><fnm>HB</fnm></au>
+    <au><snm>Brunak</snm><fnm>S</fnm></au>
+    <au><snm>Kristiansen</snm><fnm>K</fnm></au>
+    <au><snm>Guarner</snm><fnm>F</fnm></au>
+    <au><snm>Pedersen</snm><fnm>O</fnm></au>
+    <au><snm>Dor{\'e}</snm><fnm>J</fnm></au>
+    <au><snm>Ehrlich</snm><fnm>SD</fnm></au>
+    <au><cnm>{MetaHIT Consortium}</cnm></au>
+    <au><snm>Bork</snm><fnm>P</fnm></au>
+    <au><snm>Wang</snm><fnm>J</fnm></au>
+    <au><cnm>{MetaHIT Consortium}</cnm></au>
+  </aug>
+  <source>Nat Biotechnol</source>
+  <pubdate>2014</pubdate>
+  <volume>32</volume>
+  <issue>8</issue>
+  <fpage>834</fpage>
+  <lpage>-841</lpage>
+</bibl>
+
+<bibl id="B52">
+  <title><p>Identification and Assembly of Genomes and Genetic Elements in
+  Complex Metagenomic Samples without Using Reference Genomes</p></title>
+  <aug>
+    <au><snm>Nielsen</snm><fnm>HB</fnm></au>
+    <au><snm>Almeida</snm><fnm>M</fnm></au>
+    <au><snm>Juncker</snm><fnm>AS</fnm></au>
+    <au><snm>Rasmussen</snm><fnm>S</fnm></au>
+    <au><snm>Li</snm><fnm>J</fnm></au>
+    <au><snm>Sunagawa</snm><fnm>S</fnm></au>
+    <au><snm>Plichta</snm><fnm>DR</fnm></au>
+    <au><snm>Gautier</snm><fnm>L</fnm></au>
+    <au><snm>Pedersen</snm><fnm>AG</fnm></au>
+    <au><snm>Le Chatelier</snm><fnm>E</fnm></au>
+    <au><snm>Pelletier</snm><fnm>E</fnm></au>
+    <au><snm>Bonde</snm><fnm>I</fnm></au>
+    <au><snm>Nielsen</snm><fnm>T</fnm></au>
+    <au><snm>Manichanh</snm><fnm>C</fnm></au>
+    <au><snm>Arumugam</snm><fnm>M</fnm></au>
+    <au><snm>Batto</snm><fnm>JM</fnm></au>
+    <au><snm>Quintanilha Dos Santos</snm><fnm>MB</fnm></au>
+    <au><snm>Blom</snm><fnm>N</fnm></au>
+    <au><snm>Borruel</snm><fnm>N</fnm></au>
+    <au><snm>Burgdorf</snm><fnm>KS</fnm></au>
+    <au><snm>Boumezbeur</snm><fnm>F</fnm></au>
+    <au><snm>Casellas</snm><fnm>F</fnm></au>
+    <au><snm>Dor{\'e}</snm><fnm>J</fnm></au>
+    <au><snm>Dworzynski</snm><fnm>P</fnm></au>
+    <au><snm>Guarner</snm><fnm>F</fnm></au>
+    <au><snm>Hansen</snm><fnm>T</fnm></au>
+    <au><snm>Hildebrand</snm><fnm>F</fnm></au>
+    <au><snm>Kaas</snm><fnm>RS</fnm></au>
+    <au><snm>Kennedy</snm><fnm>S</fnm></au>
+    <au><snm>Kristiansen</snm><fnm>K</fnm></au>
+    <au><snm>Kultima</snm><fnm>JR</fnm></au>
+    <au><snm>L{\'e}onard</snm><fnm>P</fnm></au>
+    <au><snm>Levenez</snm><fnm>F</fnm></au>
+    <au><snm>Lund</snm><fnm>O</fnm></au>
+    <au><snm>Moumen</snm><fnm>B</fnm></au>
+    <au><snm>Le Paslier</snm><fnm>D</fnm></au>
+    <au><snm>Pons</snm><fnm>N</fnm></au>
+    <au><snm>Pedersen</snm><fnm>O</fnm></au>
+    <au><snm>Prifti</snm><fnm>E</fnm></au>
+    <au><snm>Qin</snm><fnm>J</fnm></au>
+    <au><snm>Raes</snm><fnm>J</fnm></au>
+    <au><snm>S{\o}rensen</snm><fnm>S</fnm></au>
+    <au><snm>Tap</snm><fnm>J</fnm></au>
+    <au><snm>Tims</snm><fnm>S</fnm></au>
+    <au><snm>Ussery</snm><fnm>DW</fnm></au>
+    <au><snm>Yamada</snm><fnm>T</fnm></au>
+    <au><cnm>{MetaHIT Consortium}</cnm></au>
+    <au><snm>Renault</snm><fnm>P</fnm></au>
+    <au><snm>{Sicheritz-Ponten}</snm><fnm>T</fnm></au>
+    <au><snm>Bork</snm><fnm>P</fnm></au>
+    <au><snm>Wang</snm><fnm>J</fnm></au>
+    <au><snm>Brunak</snm><fnm>S</fnm></au>
+    <au><snm>Ehrlich</snm><fnm>SD</fnm></au>
+    <au><cnm>{MetaHIT Consortium}</cnm></au>
+  </aug>
+  <source>Nat Biotechnol</source>
+  <pubdate>2014</pubdate>
+  <volume>32</volume>
+  <issue>8</issue>
+  <fpage>822</fpage>
+  <lpage>-828</lpage>
+</bibl>
+
+<bibl id="B53">
+  <title><p>Gut Microbiota Composition and Functional Changes in Inflammatory
+  Bowel Disease and Irritable Bowel Syndrome</p></title>
+  <aug>
+    <au><snm>Vich Vila</snm><fnm>A</fnm></au>
+    <au><snm>Imhann</snm><fnm>F</fnm></au>
+    <au><snm>Collij</snm><fnm>V</fnm></au>
+    <au><snm>Jankipersadsing</snm><fnm>SA</fnm></au>
+    <au><snm>Gurry</snm><fnm>T</fnm></au>
+    <au><snm>Mujagic</snm><fnm>Z</fnm></au>
+    <au><snm>Kurilshikov</snm><fnm>A</fnm></au>
+    <au><snm>Bonder</snm><fnm>MJ</fnm></au>
+    <au><snm>Jiang</snm><fnm>X</fnm></au>
+    <au><snm>Tigchelaar</snm><fnm>EF</fnm></au>
+    <au><snm>Dekens</snm><fnm>J</fnm></au>
+    <au><snm>Peters</snm><fnm>V</fnm></au>
+    <au><snm>Voskuil</snm><fnm>MD</fnm></au>
+    <au><snm>Visschedijk</snm><fnm>MC</fnm></au>
+    <au><snm>{van Dullemen}</snm><fnm>HM</fnm></au>
+    <au><snm>Keszthelyi</snm><fnm>D</fnm></au>
+    <au><snm>Swertz</snm><fnm>MA</fnm></au>
+    <au><snm>Franke</snm><fnm>L</fnm></au>
+    <au><snm>Alberts</snm><fnm>R</fnm></au>
+    <au><snm>Festen</snm><fnm>EAM</fnm></au>
+    <au><snm>Dijkstra</snm><fnm>G</fnm></au>
+    <au><snm>Masclee</snm><fnm>AAM</fnm></au>
+    <au><snm>Hofker</snm><fnm>MH</fnm></au>
+    <au><snm>Xavier</snm><fnm>RJ</fnm></au>
+    <au><snm>Alm</snm><fnm>EJ</fnm></au>
+    <au><snm>Fu</snm><fnm>J</fnm></au>
+    <au><snm>Wijmenga</snm><fnm>C</fnm></au>
+    <au><snm>Jonkers</snm><fnm>DMAE</fnm></au>
+    <au><snm>Zhernakova</snm><fnm>A</fnm></au>
+    <au><snm>Weersma</snm><fnm>RK</fnm></au>
+  </aug>
+  <source>Sci Transl Med</source>
+  <pubdate>2018</pubdate>
+  <volume>10</volume>
+  <issue>472</issue>
+  <fpage>eaap8914</fpage>
+</bibl>
+
+<bibl id="B54">
+  <title><p>Random {{Forests}}</p></title>
+  <aug>
+    <au><snm>Breiman</snm><fnm>L</fnm></au>
+  </aug>
+  <source>Machine Learning</source>
+  <pubdate>2001</pubdate>
+  <volume>45</volume>
+  <issue>1</issue>
+  <fpage>5</fpage>
+  <lpage>-32</lpage>
+</bibl>
+
+<bibl id="B55">
+  <title><p>Scikit-Learn: {{Machine}} Learning in {{Python}}</p></title>
+  <aug>
+    <au><snm>Pedregosa</snm><fnm>F.</fnm></au>
+    <au><snm>Varoquaux</snm><fnm>G.</fnm></au>
+    <au><snm>Gramfort</snm><fnm>A.</fnm></au>
+    <au><snm>Michel</snm><fnm>V.</fnm></au>
+    <au><snm>Thirion</snm><fnm>B.</fnm></au>
+    <au><snm>Grisel</snm><fnm>O.</fnm></au>
+    <au><snm>Blondel</snm><fnm>M.</fnm></au>
+    <au><snm>Prettenhofer</snm><fnm>P.</fnm></au>
+    <au><snm>Weiss</snm><fnm>R.</fnm></au>
+    <au><snm>Dubourg</snm><fnm>V.</fnm></au>
+    <au><snm>Vanderplas</snm><fnm>J.</fnm></au>
+    <au><snm>Passos</snm><fnm>A.</fnm></au>
+    <au><snm>Cournapeau</snm><fnm>D.</fnm></au>
+    <au><snm>Brucher</snm><fnm>M.</fnm></au>
+    <au><snm>Perrot</snm><fnm>M.</fnm></au>
+    <au><snm>Duchesnay</snm><fnm>E.</fnm></au>
+  </aug>
+  <source>Journal of Machine Learning Research</source>
+  <pubdate>2011</pubdate>
+  <volume>12</volume>
+  <fpage>2825</fpage>
+  <lpage>-2830</lpage>
+</bibl>
+
+<bibl id="B56">
+  <title><p>{{VERIFICATION OF FORECASTS EXPRESSED IN TERMS OF
+  PROBABILITY}}</p></title>
+  <aug>
+    <au><snm>Brier</snm><fnm>GW</fnm></au>
+  </aug>
+  <source>Mon. Wea. Rev.</source>
+  <pubdate>1950</pubdate>
+  <volume>78</volume>
+  <issue>1</issue>
+  <fpage>1</fpage>
+  <lpage>-3</lpage>
+</bibl>
+
+<bibl id="B57">
+  <title><p>Probabilistic Outputs for Support Vector Machines and Comparisons
+  to Regularized Likelihood Methods</p></title>
+  <aug>
+    <au><snm>Platt</snm><fnm>JC</fnm></au>
+  </aug>
+  <source>{{ADVANCES IN LARGE MARGIN CLASSIFIERS}}</source>
+  <publisher>{MIT Press}</publisher>
+  <pubdate>1999</pubdate>
+  <fpage>61</fpage>
+  <lpage>-74</lpage>
+</bibl>
+
+<bibl id="B58">
+  <title><p>Vaginal Microbiome of Reproductive-Age Women</p></title>
+  <aug>
+    <au><snm>Ravel</snm><fnm>J</fnm></au>
+    <au><snm>Gajer</snm><fnm>P</fnm></au>
+    <au><snm>Abdo</snm><fnm>Z</fnm></au>
+    <au><snm>Schneider</snm><fnm>GM</fnm></au>
+    <au><snm>Koenig</snm><fnm>SSK</fnm></au>
+    <au><snm>McCulle</snm><fnm>SL</fnm></au>
+    <au><snm>Karlebach</snm><fnm>S</fnm></au>
+    <au><snm>Gorle</snm><fnm>R</fnm></au>
+    <au><snm>Russell</snm><fnm>J</fnm></au>
+    <au><snm>Tacket</snm><fnm>CO</fnm></au>
+    <au><snm>Brotman</snm><fnm>RM</fnm></au>
+    <au><snm>Davis</snm><fnm>CC</fnm></au>
+    <au><snm>Ault</snm><fnm>K</fnm></au>
+    <au><snm>Peralta</snm><fnm>L</fnm></au>
+    <au><snm>Forney</snm><fnm>LJ</fnm></au>
+  </aug>
+  <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+  <pubdate>2011</pubdate>
+  <volume>108</volume>
+  <issue>supplement\_1</issue>
+  <fpage>4680</fpage>
+  <lpage>-4687</lpage>
+</bibl>
+
+<bibl id="B59">
+  <title><p>Endogenous {{Enterobacteriaceae}} Underlie Variation in
+  Susceptibility to {{Salmonella}} Infection</p></title>
+  <aug>
+    <au><snm>Velazquez</snm><fnm>EM</fnm></au>
+    <au><snm>Nguyen</snm><fnm>H</fnm></au>
+    <au><snm>Heasley</snm><fnm>KT</fnm></au>
+    <au><snm>Saechao</snm><fnm>CH</fnm></au>
+    <au><snm>Gil</snm><fnm>LM</fnm></au>
+    <au><snm>Rogers</snm><fnm>AWL</fnm></au>
+    <au><snm>Miller</snm><fnm>BM</fnm></au>
+    <au><snm>Rolston</snm><fnm>MR</fnm></au>
+    <au><snm>Lopez</snm><fnm>CA</fnm></au>
+    <au><snm>Litvak</snm><fnm>Y</fnm></au>
+    <au><snm>Liou</snm><fnm>MJ</fnm></au>
+    <au><snm>Faber</snm><fnm>F</fnm></au>
+    <au><snm>Bronner</snm><fnm>DN</fnm></au>
+    <au><snm>Tiffany</snm><fnm>CR</fnm></au>
+    <au><snm>Byndloss</snm><fnm>MX</fnm></au>
+    <au><snm>Byndloss</snm><fnm>AJ</fnm></au>
+    <au><snm>B{\"a}umler</snm><fnm>AJ</fnm></au>
+  </aug>
+  <source>Nat Microbiol</source>
+  <pubdate>2019</pubdate>
+  <volume>4</volume>
+  <issue>6</issue>
+  <fpage>1057</fpage>
+  <lpage>-1064</lpage>
+</bibl>
+
+<bibl id="B60">
+  <title><p>Strain Diversity in the Microbiome: {{Lessons}} from
+  {{Bacteroides}} Fragilis</p></title>
+  <aug>
+    <au><snm>Carrow</snm><fnm>HC</fnm></au>
+    <au><snm>Batachari</snm><fnm>LE</fnm></au>
+    <au><snm>Chu</snm><fnm>H</fnm></au>
+  </aug>
+  <source>PLoS Pathog</source>
+  <editor>Leong, John M</editor>
+  <pubdate>2020</pubdate>
+  <volume>16</volume>
+  <issue>12</issue>
+  <fpage>e1009056</fpage>
+</bibl>
+
+<bibl id="B61">
+  <title><p>Ribosomal {{Database Project}}: Data and Tools for High Throughput
+  {{rRNA}} Analysis</p></title>
+  <aug>
+    <au><snm>Cole</snm><fnm>JR</fnm></au>
+    <au><snm>Wang</snm><fnm>Q</fnm></au>
+    <au><snm>Fish</snm><fnm>JA</fnm></au>
+    <au><snm>Chai</snm><fnm>B</fnm></au>
+    <au><snm>McGarrell</snm><fnm>DM</fnm></au>
+    <au><snm>Sun</snm><fnm>Y</fnm></au>
+    <au><snm>Brown</snm><fnm>CT</fnm></au>
+    <au><snm>{Porras-Alfaro}</snm><fnm>A</fnm></au>
+    <au><snm>Kuske</snm><fnm>CR</fnm></au>
+    <au><snm>Tiedje</snm><fnm>JM</fnm></au>
+  </aug>
+  <source>Nucl. Acids Res.</source>
+  <pubdate>2014</pubdate>
+  <volume>42</volume>
+  <issue>D1</issue>
+  <fpage>D633</fpage>
+  <lpage>D642</lpage>
+</bibl>
+
+<bibl id="B62">
+  <title><p>{{SILVA}}, {{RDP}}, {{Greengenes}}, {{NCBI}} and {{OTT}}
+  \textemdash{} How Do These Taxonomies Compare?</p></title>
+  <aug>
+    <au><snm>Balvo{\v c}i{\=u}t{\.e}</snm><fnm>M</fnm></au>
+    <au><snm>Huson</snm><fnm>DH</fnm></au>
+  </aug>
+  <source>BMC Genomics</source>
+  <pubdate>2017</pubdate>
+  <volume>18</volume>
+  <issue>S2</issue>
+  <fpage>114</fpage>
+</bibl>
+
+<bibl id="B63">
+  <title><p>The Elements of Statistical Learning: Data Mining, Inference, and
+  Prediction</p></title>
+  <aug>
+    <au><snm>Hastie</snm><fnm>T</fnm></au>
+    <au><snm>Tibshirani</snm><fnm>R</fnm></au>
+    <au><snm>Friedman</snm><fnm>J. H.</fnm></au>
+  </aug>
+  <publisher>{New York, NY}: {Springer}</publisher>
+  <edition>2</edition>
+  <series><title><p>Springer Series in Statistics</p></title></series>
+  <pubdate>2009</pubdate>
+</bibl>
+
+<bibl id="B64">
+  <title><p>Do Little Interactions Get Lost in Dark Random Forests?</p></title>
+  <aug>
+    <au><snm>Wright</snm><fnm>MN</fnm></au>
+    <au><snm>Ziegler</snm><fnm>A</fnm></au>
+    <au><snm>K{\"o}nig</snm><fnm>IR</fnm></au>
+  </aug>
+  <source>BMC Bioinformatics</source>
+  <pubdate>2016</pubdate>
+  <volume>17</volume>
+  <issue>1</issue>
+  <fpage>145</fpage>
+</bibl>
+
+<bibl id="B65">
+  <title><p>The {{Intestinal Microbiota}} and {{Colorectal Cancer}}</p></title>
+  <aug>
+    <au><snm>Cheng</snm><fnm>Y</fnm></au>
+    <au><snm>Ling</snm><fnm>Z</fnm></au>
+    <au><snm>Li</snm><fnm>L</fnm></au>
+  </aug>
+  <source>Front. Immunol.</source>
+  <publisher>{Frontiers}</publisher>
+  <pubdate>2020</pubdate>
+  <volume>11</volume>
+</bibl>
+
+<bibl id="B66">
+  <title><p>Lactate Has the Potential to Promote Hydrogen Sulphide Formation in
+  the Human Colon</p></title>
+  <aug>
+    <au><snm>Marquet</snm><fnm>P</fnm></au>
+    <au><snm>Duncan</snm><fnm>SH</fnm></au>
+    <au><snm>Chassard</snm><fnm>C</fnm></au>
+    <au><snm>{Bernalier-Donadille}</snm><fnm>A</fnm></au>
+    <au><snm>Flint</snm><fnm>HJ</fnm></au>
+  </aug>
+  <source>FEMS Microbiology Letters</source>
+  <pubdate>2009</pubdate>
+  <volume>299</volume>
+  <issue>2</issue>
+  <fpage>128</fpage>
+  <lpage>-134</lpage>
+</bibl>
+
+<bibl id="B67">
+  <title><p>Effects of Amino Acid-Derived Luminal Metabolites on the Colonic
+  Epithelium and Physiopathological Consequences</p></title>
+  <aug>
+    <au><snm>Blachier</snm><fnm>F.</fnm></au>
+    <au><snm>Mariotti</snm><fnm>F.</fnm></au>
+    <au><snm>Huneau</snm><fnm>J. F.</fnm></au>
+    <au><snm>Tom{\'e}</snm><fnm>D.</fnm></au>
+  </aug>
+  <source>Amino Acids</source>
+  <pubdate>2007</pubdate>
+  <volume>33</volume>
+  <issue>4</issue>
+  <fpage>547</fpage>
+  <lpage>-562</lpage>
+</bibl>
+
+<bibl id="B68">
+  <title><p>Fecal Ammonia in Patients with Adenomatous Polyps and Cancer of the
+  Colon</p></title>
+  <aug>
+    <au><snm>Clausen</snm><fnm>MR</fnm></au>
+    <au><snm>Mortensen</snm><fnm>PB</fnm></au>
+  </aug>
+  <source>Nutrition and Cancer</source>
+  <pubdate>1992</pubdate>
+  <volume>18</volume>
+  <issue>2</issue>
+  <fpage>175</fpage>
+  <lpage>-180</lpage>
+</bibl>
+
+<bibl id="B69">
+  <title><p>Colon {{Mucosal Cell Damage}} by {{Ammonia}} in
+  {{Rats}}</p></title>
+  <aug>
+    <au><snm>Lin</snm><fnm>HC</fnm></au>
+    <au><snm>Visek</snm><fnm>WJ</fnm></au>
+  </aug>
+  <source>The Journal of Nutrition</source>
+  <pubdate>1991</pubdate>
+  <volume>121</volume>
+  <issue>6</issue>
+  <fpage>887</fpage>
+  <lpage>-893</lpage>
+</bibl>
+
+<bibl id="B70">
+  <title><p>Which Is More Important for Classifying Microbial Communities:
+  Who's There or What They Can Do?</p></title>
+  <aug>
+    <au><snm>Xu</snm><fnm>Z</fnm></au>
+    <au><snm>Malmer</snm><fnm>D</fnm></au>
+    <au><snm>Langille</snm><fnm>MGI</fnm></au>
+    <au><snm>Way</snm><fnm>SF</fnm></au>
+    <au><snm>Knight</snm><fnm>R</fnm></au>
+  </aug>
+  <source>ISME J</source>
+  <pubdate>2014</pubdate>
+  <volume>8</volume>
+  <issue>12</issue>
+  <fpage>2357</fpage>
+  <lpage>-2359</lpage>
+</bibl>
+
+<bibl id="B71">
+  <title><p>From {{Genomes}} to {{Phenotypes}}: {{Traitar}}, the {{Microbial
+  Trait Analyzer}}</p></title>
+  <aug>
+    <au><snm>Weimann</snm><fnm>A</fnm></au>
+    <au><snm>Mooren</snm><fnm>K</fnm></au>
+    <au><snm>Frank</snm><fnm>J</fnm></au>
+    <au><snm>Pope</snm><fnm>PB</fnm></au>
+    <au><snm>Bremges</snm><fnm>A</fnm></au>
+    <au><snm>McHardy</snm><fnm>AC</fnm></au>
+  </aug>
+  <source>mSystems</source>
+  <editor>Segata, Nicola</editor>
+  <pubdate>2016</pubdate>
+  <volume>1</volume>
+  <issue>6</issue>
+  <fpage>e00101</fpage>
+  <lpage>16</lpage>
+</bibl>
+
+</refgrp>
+} % end of \BMCxmlcomment
