@@ -109,18 +109,20 @@
 %%                                          %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\author[noteref = {n1},
-  addressref={aff1,aff2}, 
+\author[
+  addressref={aff1,aff2},
+  noteref={n1},
   corref={aff1},                 
   email={quangpmnguyen@gmail.com}   % email address
 ]{\inits{Q.P.N.}\fnm{Quang P.} \snm{Nguyen}}
-\author[noteref = {n1},
+\author[
   addressref={aff1, aff2},
+  noteref={n1, n2},
   email={anne.g.hoen@dartmouth.edu}
 ]{\inits{A.G.H.}\fnm{Anne G.} \snm{Hoen}}
 \author[
   addressref={aff1},
-  noteref={n1},
+  noteref={n1, n2},
   email={hildreth.r.frost@dartmouth.edu}
 ]{\inits{H.R.F.}\fnm{H. Robert} \snm{Frost}}
 
@@ -159,7 +161,8 @@
 
 \begin{artnotes}
 %%\note{Sample of title note}     % note to the article
-\note[id=aut1]{Co-corresponding authors}
+\note[id=n1]{Co-corresponding authors}
+\note[id=n2]{These authors jointly supervised this work}
 \end{artnotes}
 
 \end{fmbox}% comment this for two column layout
@@ -178,11 +181,11 @@
 \begin{abstractbox}
 
 \begin{abstract} % abstract
-\parttitle{Background} Set-based pathway analysis is a powerful tool that allows researchers to summarize complex genomic variables in the form of biologically interpretable sets. Since the microbiome is characterized by a high degree of inter-individual variability in taxonomic compositions, applying enrichment methods using on functionally driven taxon sets can increase both the reproducibility and interpretability of microbiome association studies. However, there is still an open question of which knowledge base to utilize for set construction. Here, we evaluate microbial trait databases, which aggregates experimentally determined microbial phenotypes, as a potential avenue for meaningful construction of taxon sets.  
+\parttitle{Background} In traditional genomic studies, pathway analysis is a powerful tool that allows researchers to summarize complex genomic variables in the form of biologically informative sets. Since the taxonomic composition of the human microbiome is highly variable between individuals, applying enrichment methods using functionally driven taxon sets can increase both the reproducibility and interpretability of microbiome association studies. However, there is still an open question of how to construct such sets. Here, we evaluate microbial trait databases, which aggregates experimentally determined microbial phenotypes, as a potential avenue for meaningful construction of taxon sets.  
 
-\parttitle{Methods} Using publicly available microbiome sequencing data sets (both 16S rRNA gene metabarcoding and whole-genome metagenomics), we assessed these trait-based sets on three aspects: first, do they cover the diversity of microbes obtained from a typical data set, and second, do they confer additional predictive power on disease prediction tasks when assessed against measured pathway abundances and PICRUSt2 prediction.   
+\parttitle{Methods} Using publicly available microbiome sequencing data sets (both metabarcoding - using the 16S rRNA gene - and whole-genome metagenomics), we assessed these trait-based sets on two aspects: first, do they cover the diversity of microbes obtained from a typical data set, and second, do they confer additional predictive power on disease prediction tasks when assessed against measured pathway abundances and PICRUSt2 prediction.   
 
-\parttitle{Results} Trait annotations are well annotated to a small number but most abundant taxa within the community, concordant with the concept of the core-peripheral microbiome. This pattern is consistent across all categories of traits and body-sites for whole genome sequencing data, but much more heterogenous and inconsistent in 16S rRNA metabarcoding data due to difficulties in assigning species-level traits to genus. However, trait-set features are well predictive of disease outcomes compared against predicted and measured pathway abundances. Most important trait-set features are more interpreable and reveal interesting insights on the relationship between microbiome, its function, and health outcomes. 
+\parttitle{Results} Trait annotations are well annotated to a small number but most abundant taxa within the community, concordant with the concept of the core-peripheral microbiome. This pattern is consistent across all categories of traits and body-sites for whole genome sequencing data, but much more heterogenous and inconsistent in metabarcoding data due to difficulties in assigning species-level traits to genus. However, trait-set features are well predictive of disease outcomes compared against predicted and measured pathway abundances. Most important trait-set features are more interpreable and reveal interesting insights on the relationship between microbiome, its function, and health outcomes. 
 
 \parttitle{Conclusion} We demonstrated that trait-based taxonomic sets are useful resources to explore mechanistically driven hypotheses in microbiome data analysis.  
 
@@ -272,7 +275,7 @@ We then defined trait-based sets using the aforementioned assignments. Each trai
 We evaluated trait-based sets on publicly available 16S rRNA gene metabarcoding and whole-genome metagenomic data sets. For study-specific metabarcoding data sets, we obtained data directly from associated European Nucleotide Archive (ENA) repositories and re-processed raw sequence files into ASV tables using the \texttt{dada2} QIIME 2 (version 2022.2) plugin \cite{callahan2016dada2, bolyen2019reproducible}. Taxonomic classification was performed using a pre-trained weighted naive bayes model \cite{bokulich2018optimizing, kaehler2019species} using the SILVA NR 99 database version 138 \cite{quast2013silva} available via QIIME 2. For all our metagenomic data sets, we downloaded taxonomic and pathway abundance tables directly from the \texttt{curatedMetagenomicData} R package \cite{pasolli2017accessible} (2021-10-19 snapshot), which processed the data via the \texttt{bioBakery} \cite{beghini2021integrating} metagenomic data processing pipeline by the package authors. Data from the Human Microbiome Project (HMP) was obtained using the \texttt{HMP16SData} \cite{schiffer2019hmp16sdata} (for metabarcoding data) and \texttt{curatedMetagenomicData} \cite{pasolli2017accessible} (for metagenomic data) R packages.   
  
 To assess trait annotation coverage, we utilized data from both Phase I and II of the HMP \cite{consortium2012structure} as it contains surveys for multiple human-associated environments from healthy subjects. For predictive and concordance analyses, we focused on colorectal cancer (CRC) and inflammatory bowel disease (IBD) as study conditions. Both CRC and IBD are well represented across both metabarcoding and metagenomic data sets, allowing comparisons across sequencing methodology. Furthermore, these conditions are also under active study within the microbiome literature, which improves the ability to interpret the biological significance of the results. For CRC, we utilized data from Zeller et al. \cite{zeller2014potential}, Feng et al. \cite{feng2015gut}, Gupta et al. \cite{gupta2019association}, Hannigan et al. \cite{hannigan2018diagnostic}, Thomas et al. \cite{thomas2019metagenomic}, Vogtmann et al. \cite{vogtmann2016colorectal}, Wirbel et al. \cite{wirbel2019metaanalysis}, Yachida et al. \cite{yachida2019metagenomic}, and Yu et al. \cite{yu2017metagenomica}. 
-For IBD, we utilized data from the integrative HMP \cite{proctor2019integrative}, Gevers et al. \cite{gevers2014treatmentnaive}, Hall et al. \cite{hall2017novel}, Ijaz et al. \cite{ijaz2017distinct}, Li et al. \cite{li2014integrated}, Nielsen et al. \cite{nielsen2014identificationa}, and Vich Vila et al. \cite{vichvila2018gut}. A detailed description of each data set and data-processing procedures is available in the Supplementary Materials. 
+For IBD, we utilized data from the integrative HMP \cite{proctor2019integrative}, Gevers et al. \cite{gevers2014treatmentnaive}, Hall et al. \cite{hall2017novel}, Ijaz et al. \cite{ijaz2017distinct}, Li et al. \cite{li2014integrated}, Nielsen et al. \cite{nielsen2014identificationa}, and Vich Vila et al. \cite{vichvila2018gut}.   
 
 \subsection*{Coverage analysis}  
 
@@ -395,14 +398,6 @@ Finally, there are also hurdles in being able to properly validate traits that a
 
 Set-based enrichment analysis is a useful approach for analyzing microbiome data sets since it not only reflects underlying biology but can also provide more unique perspectives of function that is linked to ecosystem services. Microbial trait databases are a promising resource to construct taxon-sets as traits represent physiological phenotypes. We demonstrated that trait-based sets have high coverage across body sites, especially for samples profiled using whole genome metagenomics. Furthermore, enrichment scores computed on such sets are also competitive in predicting case/control status compared to pathway abundances. As such, trait features found to be important in model fitting can be used to define interesting mechanistic hypotheses. 
 
-\section*{Appendix}
-\paragraph*{S1 Fig.}
-\label{S1_Fig}
-{\bf Trait coverage statistics for samples profiled with 16S rRNA gene metabarcoding.} Panel \textbf{(A)} illustrates the proportion of present taxa per sample annotated to at least one trait. Panel \textbf{(B)} illustrates the proportion of reads assigned to taxa annotated to at least one trait which accounts for taxa relative abundances. Each plot facet represents different trait categories that were evaluated. Error bar represents the standard error of the evaluation statistic of interest across the the total number of samples evaluated per body site.
-
-\paragraph*{S2 Fig.}
-\label{S2_Fig}
-{\bf Top 10 important features based on random forest model fitted different inputs from data sets profiled with 16S rRNA gene sequencing}. Features were selected from mean decrease in Gini impurity averaged across 500 decision trees and 10-fold cross-validation (nested with the training set) as implemented in \texttt{scikit-learn}. AUROC scored on a held-out test set is also presented for each input type and disease condition.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%                                          %%
@@ -425,8 +420,14 @@ IBD: Inflammatory Bowel Disease \\
 CBEA: Competitive Balances for Taxonomic Enrichment Analysis \\
 ENA: European Nucleotide Archive \\
 
+\section*{Ethics approval and consent to participate}
+Not applicable \\
+
+\section*{Consent for publication}
+Not applicable \\
+
 \section*{Availability of data and materials}%% if any
-All data for this manuscript is publicly available either via ENA projects () or the \texttt{curatedMetagenomicData} and \texttt{HMP16SData} R packages. Reproducible scripts are also available on GitHub at \texttt{https://www.github.com/qpmnguyen/microbe\_set\_trait}
+All data for this manuscript is already publicly available. Metagenomic data are available via the R package \texttt{curatedMetagenomicData}. A list of studies and associated PMIDs are available on the package website (https://waldronlab.io/curatedMetagenomicData/articles/available-studies.html). Processed 16S rRNA gene sequencing data from the Human Microbiome Project was obtained from \texttt{HMP16SData}, raw data an be found at (https://www.hmpdacc.org/hmp/HMQCP/). Other raw data sets are available from the European Nucleotide Archive at accession numbers PRJEB13679 and PRJEB6070. Reproducible scripts are publicly archived on Zenodo at (https://doi.org/10.5281/zenodo.7805921).  
 
 \section*{Competing interests}
 The authors declare that they have no competing interests.
@@ -514,9 +515,6 @@ QPN, AGH, and HRF conceived of the manuscript and planned the experiments. QPN p
 %%                               %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section*{Additional Files}
-  \subsection*{Fig S1 --- Trait coverage statistics for samples profiled with 16S rRNA gene metabarcoding}
-  \subsection*{Fig S2 --- Top 10 important features based on random forest model fitted on different inputs from data sets profiled with 16S rRNA gene sequencing}
 
 \end{backmatter}
 \end{document}
